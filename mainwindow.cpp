@@ -22,7 +22,7 @@
 
 MainWindow::MainWindow(QWidget *parent)
     :MainWindowInterface(parent),
-     ui(new Ui::DarknetInstaller)
+     ui(new Ui::mainWindow)
 {
     ui->setupUi(this);
     QObject::connect(ui->start_button,SIGNAL(clicked(bool)),this,

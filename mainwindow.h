@@ -15,7 +15,7 @@ class workerThread;
 #include "main_window_interface.h"
 
 namespace Ui {
-class DarknetInstaller;
+class mainWindow;
 }
 
 class TorOptionsDialogInterface;
@@ -33,7 +33,7 @@ public slots:
     void on_start_button(bool);
     void on_open_tor_config_button(bool);
 private:
-    Ui::DarknetInstaller *ui;
+    Ui::mainWindow *ui;
     QString filename;
 };
 

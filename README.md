@@ -1,5 +1,7 @@
 # torrc_utility
-Qt GUI for some torrc options. Torrc options supported are:
+Qt GUI for some torrc options. This application was tested with simple torrc config files (i.e., torrc included with tor-browser bundle), use at your own risk.
+
+Torrc options supported are:
 
 -ExcludeNodes (list of identity fingerprints, country codes, and address patterns of nodes to avoid when building a circuit)
 

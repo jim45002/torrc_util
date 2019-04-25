@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/buttonImages">
+        <file>i2p.jpeg</file>
+        <file>tor.jpeg</file>
+        <file>freenet.jpeg</file>
+        <file>i2p_project.jpeg</file>
+        <file>torproject.jpeg</file>
+        <file>tor_win_icon.jpeg</file>
+        <file>darknet.png</file>
+    </qresource>
+    <qresource prefix="/data/geo">
+        <file>countryAbbrv.txt</file>
+    </qresource>
+</RCC>

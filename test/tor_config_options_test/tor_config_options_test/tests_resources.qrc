@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/data/geo">
+        <file>countryAbbrv.txt</file>
+    </qresource>
+</RCC>

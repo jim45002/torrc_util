@@ -284,7 +284,7 @@ void TorOptionsDialog::on_pushbutton_ok_clicked(bool)
      if(ui->exit_nodes->count())
      {
         ListWidgetStrings2QStringsList(
-                    ui->entry_nodes,list_items);
+                    ui->exit_nodes,list_items);
         emit update_exitnodes(list_items);
         list_items.clear();
      }

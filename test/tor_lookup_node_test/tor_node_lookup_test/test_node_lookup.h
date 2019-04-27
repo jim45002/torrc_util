@@ -13,7 +13,7 @@ public:
     QStringList getNodes() { return nodes; }
 
 signals:
-    void request_node_list(QString);
+    void request_node_list(QString,bool);
 
 public slots:
     void recv_node_list(QString, QStringList);

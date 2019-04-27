@@ -14,7 +14,8 @@ node_lookup::node_lookup(QObject *parent)
 
 }
 
-void node_lookup::get_node_list(QString country)
+void node_lookup::get_node_list(QString country_abbrv,
+                                bool make_country_file)
 {
     QString program = "curl";
     QStringList arguments;
@@ -33,8 +34,8 @@ void node_lookup::get_node_list(QString country)
     f.open(QIODevice::ReadOnly);
     b = f.readAll();
     QStringList nodes;
-    parseNodeList(b,nodes);
-    emit send_node_list(country,nodes);
+    parseNodeList(b,nodes,country_abbrv,make_country_file);
+    emit send_node_list(country_abbrv,nodes);
 }
 
 void node_lookup::onReadyRead()
@@ -43,28 +44,10 @@ void node_lookup::onReadyRead()
 }
 
 
-void node_lookup::remove_nodelist_files()
-{
-    QFile geoipfile(QString("/tmp/geoip.txt"));
-    geoipfile.open(QIODevice::ReadOnly);
-
-    QByteArray bytes;
-    while(!geoipfile.atEnd())
-    {
-        bytes=geoipfile.readLine();
-        QString geoipline(bytes);
-        QStringList ipRanges = geoipline.split(",");
-        if(!ipRanges[2].trimmed().length())
-            continue;
-        QFile country_node_file(QString("/tmp/")+ipRanges[2].trimmed()+".txt");
-        if(country_node_file.exists())
-        {
-            country_node_file.remove();
-        }
-    }
-}
-
-QStringList node_lookup::parseNodeList(QByteArray& b, QStringList& strl)
+QStringList node_lookup::parseNodeList(QByteArray& b,
+                                       QStringList& strl,
+                                       QString country_abbrv,
+                                       bool make_country_file)
 {
    QString dataStr(b);
    QString begin("<!-- __BEGIN_TOR_NODE_LIST__ //-->");
@@ -102,13 +85,11 @@ QStringList node_lookup::parseNodeList(QByteArray& b, QStringList& strl)
 
        QStringList node_record_str = nodeStrList[i].split("|");
 
-       if(!node_record_str[0].trimmed().length())
+       if(!node_record_str[0].trimmed().length() ||
+           node_record_str[0].trimmed().indexOf(":") > -1)
            continue;
 
        QStringList node_record_ip_fields = node_record_str[0].split(".");
-
-       if(!node_record_ip_fields.count())
-           continue;
 
        qDebug() << " node_record_str[0] " << node_record_str[0];
 
@@ -128,11 +109,18 @@ QStringList node_lookup::parseNodeList(QByteArray& b, QStringList& strl)
            if(intip >= ipRanges[0].toLongLong() && intip <= ipRanges[1].toLongLong() &&
                    ipRanges[2].trimmed().length())
            {
-               QFile country_node_file(QString("/tmp/")+ipRanges[2].trimmed()+".txt");
-               country_node_file.open(QIODevice::Append);
                nodeStrList[i] += "\n";
-               country_node_file.write(nodeStrList[i].toStdString().c_str());
-               country_node_file.close();
+               if(make_country_file)
+               {
+                   QFile country_node_file(QString("/tmp/")+
+                                           ipRanges[2].trimmed()+".txt");
+                   country_node_file.open(QIODevice::Append);
+                   country_node_file.write(nodeStrList[i].toStdString().c_str());
+                   country_node_file.close();
+               }
+               if(ipRanges[2].trimmed() == country_abbrv.trimmed())
+                    strl += nodeStrList[i];
+
                qDebug() <<"found " << ipRanges[2].trimmed()
                         << " node : " << node_record_str[0];
                break;
@@ -141,4 +129,26 @@ QStringList node_lookup::parseNodeList(QByteArray& b, QStringList& strl)
        geoipfile.seek(0);
     }
    return strl;
+}
+
+
+void node_lookup::remove_nodelist_files()
+{
+    QFile geoipfile(QString("/tmp/geoip.txt"));
+    geoipfile.open(QIODevice::ReadOnly);
+
+    QByteArray bytes;
+    while(!geoipfile.atEnd())
+    {
+        bytes=geoipfile.readLine();
+        QString geoipline(bytes);
+        QStringList ipRanges = geoipline.split(",");
+        if(!ipRanges[2].trimmed().length())
+            continue;
+        QFile country_node_file(QString("/tmp/")+ipRanges[2].trimmed()+".txt");
+        if(country_node_file.exists())
+        {
+            country_node_file.remove();
+        }
+    }
 }

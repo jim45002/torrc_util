@@ -14,10 +14,13 @@ public:
     explicit node_lookup(QObject *parent = nullptr);
     virtual ~node_lookup() { }
 
-    QStringList parseNodeList(QByteArray& b, QStringList& strl);
+    QStringList parseNodeList(QByteArray& b,
+                              QStringList& strl,
+                              QString country_abbrv,
+                              bool make_country_file);
     void remove_nodelist_files();
 public slots:
-    virtual void get_node_list(QString);
+    virtual void get_node_list(QString country_abbrv, bool make_country_file);
     void onReadyRead();
 
 private:

@@ -16,7 +16,7 @@ signals:
     void send_node_list(QString,QStringList);
 
 public slots:
-    virtual void get_node_list(QString) = 0;
+    virtual void get_node_list(QString,bool) = 0;
 };
 
 #endif // NODE_LOOKUP_INTERFACE_H

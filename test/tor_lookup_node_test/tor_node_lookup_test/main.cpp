@@ -41,16 +41,16 @@ TEST_F(tor_node_lookup_test, GetTorNodeListTest)
             std::make_shared<test_node_lookup>();
 
     QObject::connect(tnlup_ptr.get(),
-                    SIGNAL(request_node_list(QString)),
+                    SIGNAL(request_node_list(QString,bool)),
                     nlup_ptr.get(),
-                    SLOT(get_node_list(QString)));
+                    SLOT(get_node_list(QString,bool)));
 
     QObject::connect(nlup_ptr.get(),
                     SIGNAL(send_node_list(QString,QStringList)),
                     tnlup_ptr.get(),
                     SLOT(recv_node_list(QString,QStringList)));
 
-    tnlup_ptr->get_node_list(QString("United States"));
+    tnlup_ptr->get_node_list("US");
 
     EXPECT_FALSE(tnlup_ptr->getNodes().isEmpty());
 

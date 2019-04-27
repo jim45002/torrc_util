@@ -15,6 +15,7 @@ public:
     virtual ~node_lookup() { }
 
     QStringList parseNodeList(QByteArray& b, QStringList& strl);
+    void remove_nodelist_files();
 public slots:
     virtual void get_node_list(QString);
     void onReadyRead();

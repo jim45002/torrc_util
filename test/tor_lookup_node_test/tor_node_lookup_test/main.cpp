@@ -63,7 +63,7 @@ TEST_F(tor_node_lookup_test, DownloadLatestTorNodeListTest)
 
     tnlup_ptr->download_node_list();
 
-    EXPECT_FALSE(tnlup_ptr->get_latest_nodelist_download());
+    EXPECT_TRUE(tnlup_ptr->get_latest_nodelist_download());
 }
 
 

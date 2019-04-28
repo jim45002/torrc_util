@@ -14,6 +14,7 @@ public:
 
 signals:
     void send_node_list(QString,QStringList);
+    void send_download_result(bool);
 
 public slots:
     virtual void get_node_list(QString,bool) = 0;

@@ -26,7 +26,7 @@ void node_lookup::download_nodelist()
     qprocess_ptr->waitForReadyRead();
 
     QByteArray b = qprocess_ptr->readAllStandardOutput();
-
+    bool r = false;
     if(b.indexOf(QString("Umm... You can only fetch the data every"
                          " 30 minutes - sorry.")) < 0)
     {
@@ -36,32 +36,46 @@ void node_lookup::download_nodelist()
         if(f.size()>1024)
         {
             f.copy(QString("./TOR Node List.html"));
+            r=true;
         }
     }
+    emit send_download_result(r);
 }
 
 void node_lookup::get_node_list(QString country_abbrv,
                                 bool make_country_file)
 {
-    QByteArray b;
-    QFile f(QString("./TOR Node List.html"));
-    bool opened = f.open(QIODevice::ReadOnly);
-    if(!opened)
-        qDebug() << "unable to open " << f.fileName();
-    b = f.readAll();
     QStringList nodes;
     QFile nodelistfile(QString("./")+country_abbrv+".txt");
     if(nodelistfile.exists())
     {
-        nodelistfile.open(QIODevice::ReadOnly);
-        while (!nodelistfile.atEnd())
+        bool opened = nodelistfile.open(QIODevice::ReadOnly);
+        if(!opened)
         {
-          nodes += nodelistfile.readLine();
+            qDebug() << "unable to open " << nodelistfile.fileName();
+        }
+        else
+        {
+            while (!nodelistfile.atEnd())
+            {
+                nodes += nodelistfile.readLine();
+            }
         }
     }
     else
     {
-        parseNodeList(b,nodes,country_abbrv,make_country_file);
+        QByteArray b;
+        QFile f(QString("./TOR Node List.html"));
+        bool opened = f.open(QIODevice::ReadOnly);
+        if(!opened)
+        {
+            qDebug() << "unable to open " << f.fileName();
+        }
+        else
+        {
+            b = f.readAll();
+            parseNodeList(b,nodes,country_abbrv,make_country_file);
+        }
     }
     emit send_node_list(country_abbrv,nodes);
 }

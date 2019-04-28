@@ -33,6 +33,10 @@ void node_lookup::download_nodelist()
         QFile f(QString("/tmp/TOR Node List.html"));
         f.open(QIODevice::WriteOnly);
         f.write(b);
+        if(f.size()>1024)
+        {
+            f.copy(QString("./TOR Node List.html"));
+        }
     }
 }
 
@@ -40,13 +44,16 @@ void node_lookup::get_node_list(QString country_abbrv,
                                 bool make_country_file)
 {
     QByteArray b;
-    QFile f(QString("/tmp/TOR Node List.html"));
-    f.open(QIODevice::ReadOnly);
+    QFile f(QString("./TOR Node List.html"));
+    bool opened = f.open(QIODevice::ReadOnly);
+    if(!opened)
+        qDebug() << "unable to open " << f.fileName();
     b = f.readAll();
     QStringList nodes;
-    QFile nodelistfile(QString("/tmp/")+country_abbrv+".txt");
+    QFile nodelistfile(QString("./")+country_abbrv+".txt");
     if(nodelistfile.exists())
     {
+        nodelistfile.open(QIODevice::ReadOnly);
         while (!nodelistfile.atEnd())
         {
           nodes += nodelistfile.readLine();
@@ -96,8 +103,10 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
 
    remove_nodelist_files();
 
-   QFile geoipfile(QString("/tmp/geoip.txt"));
-   geoipfile.open(QIODevice::ReadOnly);
+   QFile geoipfile(QString("./geoip.txt"));
+   bool opened = geoipfile.open(QIODevice::ReadOnly);
+   if(!opened)
+       qDebug() << "unable to open " << geoipfile.fileName();
 
    for(int i=0; i<nodeStrList.count(); ++i)
    {
@@ -133,7 +142,7 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
                nodeStrList[i] += "\n";
                if(make_country_file)
                {
-                   QFile country_node_file(QString("/tmp/")+
+                   QFile country_node_file(QString("./")+
                                            ipRanges[2].trimmed()+".txt");
                    country_node_file.open(QIODevice::Append);
                    country_node_file.write(nodeStrList[i].toStdString().c_str());
@@ -155,7 +164,7 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
 
 void node_lookup::remove_nodelist_files()
 {
-    QFile geoipfile(QString("/tmp/geoip.txt"));
+    QFile geoipfile(QString("./geoip.txt"));
     geoipfile.open(QIODevice::ReadOnly);
 
     QByteArray bytes;
@@ -166,7 +175,7 @@ void node_lookup::remove_nodelist_files()
         QStringList ipRanges = geoipline.split(",");
         if(!ipRanges[2].trimmed().length())
             continue;
-        QFile country_node_file(QString("/tmp/")+ipRanges[2].trimmed()+".txt");
+        QFile country_node_file(QString("./")+ipRanges[2].trimmed()+".txt");
         if(country_node_file.exists())
         {
             country_node_file.remove();

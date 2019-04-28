@@ -20,10 +20,9 @@ public:
                               bool make_country_file);
     void remove_nodelist_files();
 public slots:
-    virtual void get_node_list(QString country_abbrv, bool make_country_file);
     void onReadyRead();
-
-    void download_nodelist();
+    virtual void get_node_list(QString country_abbrv, bool make_country_file);
+    virtual void download_nodelist();
 private:
     std::shared_ptr<QProcess> qprocess_ptr;
 

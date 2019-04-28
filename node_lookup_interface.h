@@ -17,6 +17,7 @@ signals:
 
 public slots:
     virtual void get_node_list(QString,bool) = 0;
+    virtual void download_nodelist() = 0;
 };
 
 #endif // NODE_LOOKUP_INTERFACE_H

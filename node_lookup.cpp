@@ -14,27 +14,48 @@ node_lookup::node_lookup(QObject *parent)
 
 }
 
-void node_lookup::get_node_list(QString country_abbrv,
-                                bool make_country_file)
+void node_lookup::download_nodelist()
 {
     QString program = "curl";
     QStringList arguments;
-    arguments << "https://doc.qt.io/qt-5/qprocess.html";
+    arguments << "https://www.dan.me.uk/tornodes";
 
     qprocess_ptr = std::make_shared<QProcess>();
-
     qprocess_ptr->start(program, arguments);
-
     qprocess_ptr->waitForFinished();
     qprocess_ptr->waitForReadyRead();
 
     QByteArray b = qprocess_ptr->readAllStandardOutput();
 
+    if(b.indexOf(QString("Umm... You can only fetch the data every"
+                         " 30 minutes - sorry.")) < 0)
+    {
+        QFile f(QString("/tmp/TOR Node List.html"));
+        f.open(QIODevice::WriteOnly);
+        f.write(b);
+    }
+}
+
+void node_lookup::get_node_list(QString country_abbrv,
+                                bool make_country_file)
+{
+    QByteArray b;
     QFile f(QString("/tmp/TOR Node List.html"));
     f.open(QIODevice::ReadOnly);
     b = f.readAll();
     QStringList nodes;
-    parseNodeList(b,nodes,country_abbrv,make_country_file);
+    QFile nodelistfile(QString("/tmp/")+country_abbrv+".txt");
+    if(nodelistfile.exists())
+    {
+        while (!nodelistfile.atEnd())
+        {
+          nodes += nodelistfile.readLine();
+        }
+    }
+    else
+    {
+        parseNodeList(b,nodes,country_abbrv,make_country_file);
+    }
     emit send_node_list(country_abbrv,nodes);
 }
 

@@ -15,7 +15,7 @@ void test_node_lookup::get_node_list(QString s)
 
 void test_node_lookup::recv_node_list(QString s , QStringList s1)
 {
-   qDebug() << "recv " << s << "  " << s1;
+   //qDebug() << "recv " << s << "  " << s1;
    nodes = s1;
 }
 

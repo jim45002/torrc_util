@@ -42,6 +42,8 @@ void node_lookup::download_nodelist()
     emit send_download_result(r);
 }
 
+
+/////////////////////////////////////////
 void node_lookup::get_node_list(QString country_abbrv,
                                 bool make_country_file)
 {
@@ -150,7 +152,8 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
            QStringList ipRanges = geoipline.split(",");
 
            //qDebug() <<"comparing region : " <<ipRanges;
-           if(intip >= ipRanges[0].toLongLong() && intip <= ipRanges[1].toLongLong() &&
+           if(intip >= ipRanges[0].toLongLong() &&
+                   intip <= ipRanges[1].toLongLong() &&
                    ipRanges[2].trimmed().length())
            {
                nodeStrList[i] += "\n";

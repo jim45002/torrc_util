@@ -38,8 +38,8 @@ void node_lookup::download_nodelist()
         }
         else
         {
-            f.write(b);
-            if(f.size()>1024)
+            bool ioresult = f.write(b);
+            if(f.size()>1024 && ioresult)
             {
                 f.copy(QString("./TOR Node List.html"));
                 r=true;

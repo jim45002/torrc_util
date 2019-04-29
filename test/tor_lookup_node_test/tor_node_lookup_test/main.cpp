@@ -28,7 +28,6 @@ class tor_node_lookup_test : public ::testing::Test {
   void TearDown() override {
 
   }
-
 };
 
 

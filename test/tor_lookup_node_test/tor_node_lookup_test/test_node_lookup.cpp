@@ -18,7 +18,7 @@ void test_node_lookup::download_node_list()
     emit request_download_latest_node_list();
 }
 
-void test_node_lookup::recv_node_list(QString s , QStringList s1)
+void test_node_lookup::recv_node_list(QString , QStringList s1)
 {
    //qDebug() << "recv " << s << "  " << s1;
     nodes = s1;

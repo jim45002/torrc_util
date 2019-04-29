@@ -30,13 +30,20 @@ void node_lookup::download_nodelist()
     if(b.indexOf(QString("Umm... You can only fetch the data every"
                          " 30 minutes - sorry.")) < 0)
     {
-        QFile f(QString("/tmp/TOR Node List.html"));
-        f.open(QIODevice::WriteOnly);
-        f.write(b);
-        if(f.size()>1024)
+        QFile f(QString("./TOR Node List.tmp"));
+        bool opened = f.open(QIODevice::WriteOnly);
+        if(!opened)
         {
-            f.copy(QString("./TOR Node List.html"));
-            r=true;
+            qDebug() << "unable to open " << f.fileName();
+        }
+        else
+        {
+            f.write(b);
+            if(f.size()>1024)
+            {
+                f.copy(QString("./TOR Node List.html"));
+                r=true;
+            }
         }
     }
     emit send_download_result(r);

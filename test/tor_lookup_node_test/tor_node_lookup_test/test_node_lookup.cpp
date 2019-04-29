@@ -26,6 +26,7 @@ void test_node_lookup::recv_node_list(QString s , QStringList s1)
 
 void test_node_lookup::recv_download_result(bool b)
 {
+   download_result = b;
    qDebug() << "download result is " << b;
 }
 

@@ -120,7 +120,8 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
 
    QStringList nodeStrList = temp.split("\n");
 
-   auto iptoint = [](qint64  first, qint64 second, qint64 third, qint64 fourth) -> qint64 {
+   auto iptoint = [](qint64  first, qint64 second, qint64 third, qint64 fourth)
+           -> qint64 {
        return ((first << 24) | (second << 16) | (third << 8) | (fourth));
    };
 

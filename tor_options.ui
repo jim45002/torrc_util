@@ -42,6 +42,26 @@
        </widget>
       </item>
       <item>
+       <widget class="QWidget" name="widget_11" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>Nodes</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="countrylistWidget_2">
+           <property name="selectionMode">
+            <enum>QAbstractItemView::MultiSelection</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
        <widget class="QWidget" name="widget_4" native="true">
         <layout class="QVBoxLayout" name="verticalLayout_4">
          <item>
@@ -153,6 +173,29 @@
           </widget>
          </item>
         </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_12" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_9">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Geo Location</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_13" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>129</height>
+         </size>
+        </property>
        </widget>
       </item>
      </layout>

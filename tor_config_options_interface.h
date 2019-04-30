@@ -20,6 +20,9 @@ public:
     virtual ~tor_config_options_interface() { }
 
 signals:
+    void ui_send_nodelist(QString,QStringList);
+    void req_node_list(QString,bool);
+    void req_download_nodelist();
     void send_completed_save_to_configfile(bool);
     void send_config_settings(QString config_option, QByteArray);
     void send_countries_map(QMap<QString, QString>);
@@ -30,6 +33,9 @@ signals:
     void send_syned_use_gaurds_with_torrc(bool);
 
 public slots:
+    virtual void ui_request_nodelist(QString,QStringList) = 0;
+    virtual void recv_nodelist(QString,QStringList) = 0;
+    virtual void recv_node_download_result(bool) = 0;
     virtual void save_to_configfile() = 0;
     virtual void read_tor_config()  = 0;
     virtual void load_list(QString filename) = 0;
@@ -40,8 +46,8 @@ public slots:
     virtual void update_excludenodes(QStringList) = 0;
     virtual void update_strictnodes(QString)  = 0;
     virtual void update_EnforceDistinctSubnets(QString) = 0;
-    virtual void populate_country_list(QString,
-        QStringList, QStringList ) = 0;
+    virtual void populate_country_list(QString,                                     
+                                       QStringList, QStringList ) = 0;
     virtual void update_entrynodes(QStringList) = 0;
     virtual void sync_enforce_distinct_subnets_with_torrc() = 0;
     virtual void sync_num_gaurds_with_torrc() = 0;

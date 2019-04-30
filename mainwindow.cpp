@@ -13,6 +13,8 @@
 #include "tor_options_dialog_factory.h"
 #include "tor_options_dialog_interface.h"
 #include "tor_config_options_interface.h"
+#include "node_lookup_interface.h"
+#include "node_lookup.h"
 
 #include "ui_tor_options.h"
 
@@ -87,7 +89,13 @@ void MainWindow::on_open_tor_config_button(bool)
                                           filename,
                                           nullptr);
 
+        std::shared_ptr<node_lookup_interface> nli =
+                std::make_shared<node_lookup>();
+
         Coordinator c;
+        c.make_connections(nli.get(),
+                           tor_config_options_interface_ptr.get());
+
         c.make_connections(tor_options_dialog_interface.get(),
                            tor_config_options_interface_ptr.get());
 

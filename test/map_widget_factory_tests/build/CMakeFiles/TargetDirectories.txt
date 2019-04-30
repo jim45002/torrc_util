@@ -1,0 +1,4 @@
+/home/developer/github/torrc_utility/torrc_utility/torrc_utility/test/map_widget_factory_tests/build/CMakeFiles/edit_cache.dir
+/home/developer/github/torrc_utility/torrc_utility/torrc_utility/test/map_widget_factory_tests/build/CMakeFiles/rebuild_cache.dir
+/home/developer/github/torrc_utility/torrc_utility/torrc_utility/test/map_widget_factory_tests/build/CMakeFiles/map_widget.dir
+/home/developer/github/torrc_utility/torrc_utility/torrc_utility/test/map_widget_factory_tests/build/CMakeFiles/map_widget_automoc.dir

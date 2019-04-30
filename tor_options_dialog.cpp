@@ -7,8 +7,12 @@
 #include <QFileDialog>
 #include <QListWidget>
 #include <QList>
+#include <QLayout>
 
 #include "coordinator.h"
+
+#include "map_widget_interface.h"
+#include "map_widget_factory.h"
 
 #include "tor_options_dialog.h"
 #include "ui_tor_options.h"
@@ -20,6 +24,11 @@ TorOptionsDialog::TorOptionsDialog(QWidget* parent)
       ui(new Ui::Dialog_tor_options)
 {
    ui->setupUi(this);
+
+   mwfi = map_widget_factory::create(this);
+   auto l = new QHBoxLayout;
+   ui->map_widget->setLayout(l);
+   l->addWidget(mwfi->map_dispaly_widget());
 }
 
 
@@ -49,6 +58,11 @@ void TorOptionsDialog::setup_options_dialog()
 }
 
 TorOptionsDialog::~TorOptionsDialog()
+{
+
+}
+
+void TorOptionsDialog::recv_node_list(QString,QStringList)
 {
 
 }

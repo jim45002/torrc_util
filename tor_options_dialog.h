@@ -14,7 +14,7 @@ namespace Ui {
 
 class QFile;
 class QListWidget;
-
+class map_widget_interface;
 class tor_config_options_interface;
 
 class TorOptionsDialog : public TorOptionsDialogInterface
@@ -29,6 +29,7 @@ public:
     void ListWidgetStrings2QStringsList(QListWidget *l, QStringList &s);
     void add_strings_to_listwidget(QListWidget* l, const QStringList &strlist);
 public slots:
+    virtual void recv_node_list(QString,QStringList);
     virtual void completed_save_to_configfile(bool);
     virtual void received_config_settings(QString config_option, QByteArray);
     virtual void received_countries_map(QMap<QString, QString>);
@@ -55,6 +56,8 @@ private:
     QByteArray exclude_nodes_options;
     QByteArray exit_nodes_options;
     QByteArray entry_nodes_options;
+    std::shared_ptr<map_widget_interface> mwfi;
+
 };
 
 #endif // TOR_OPTIONS_DIALOG_H

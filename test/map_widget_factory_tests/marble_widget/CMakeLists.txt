@@ -16,7 +16,7 @@ set ( RESOURCES
 
 find_package(Qt5Widgets CONFIG REQUIRED)
 
-include_directories(${QT_INCLUDES} /usr/include /home/developer/Downloads/map_widget_factory)
+include_directories(${QT_INCLUDES} /usr/include ../../../map_widget_factory)
 
 QT5_ADD_RESOURCES( RES_SOURCES ${RESOURCES} )
 

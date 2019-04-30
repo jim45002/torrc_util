@@ -326,6 +326,21 @@ void tor_config_options::read_config_settings(QString config_option, QString& s)
     s = setting;
 }
 
+void tor_config_options::ui_request_nodelist(QString, QStringList)
+{
+
+}
+
+void tor_config_options::recv_nodelist(QString, QStringList)
+{
+
+}
+
+void tor_config_options::recv_node_download_result(bool)
+{
+
+}
+
 //////////////////////////////////////
 //
 //

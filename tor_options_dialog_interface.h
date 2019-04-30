@@ -19,7 +19,8 @@ public:
     virtual ~TorOptionsDialogInterface() { }
     virtual void setup_options_dialog() = 0;
 
-signals:
+signals: 
+    void request_node_list(QString,QStringList);
     void save_to_configfile();
     void read_config_settings(QString config_option);
     void get_countries_map();
@@ -36,8 +37,10 @@ signals:
     void sync_use_gaurds_with_torrc();
 
 public slots:
+    virtual void recv_node_list(QString,QStringList) = 0;
     virtual void completed_save_to_configfile(bool) = 0;
-    virtual void received_config_settings(QString config_option, QByteArray) = 0;
+    virtual void received_config_settings(QString config_option,
+                                          QByteArray) = 0;
     virtual void received_countries_map(QMap<QString, QString>) = 0;
     virtual void received_populated_country_list(QString, QStringList, QStringList) = 0;
     virtual void received_synced_enforce_distinct_subnets_with_torrc(bool) = 0;

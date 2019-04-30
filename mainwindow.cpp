@@ -104,6 +104,7 @@ void MainWindow::on_open_tor_config_button(bool)
         QThread* ui_work_thread = new QThread(this);
 
         tor_config_options_interface_ptr->moveToThread(ui_work_thread);
+        nli->moveToThread(ui_work_thread);
 
         ui_work_thread->start();
 
@@ -111,6 +112,7 @@ void MainWindow::on_open_tor_config_button(bool)
 
         ui_work_thread->quit();
         ui_work_thread->wait(30000);
+        ui_work_thread->terminate();
         delete ui_work_thread;
         filename.clear();
     }

@@ -25,6 +25,8 @@ TorOptionsDialog::TorOptionsDialog(QWidget* parent)
 {
    ui->setupUi(this);
 
+   ui->progressBar->hide();
+
    mwfi = map_widget_factory::create(this);
    auto l = new QHBoxLayout;
    ui->map_widget->setLayout(l);
@@ -35,6 +37,9 @@ TorOptionsDialog::TorOptionsDialog(QWidget* parent)
 void TorOptionsDialog::setup_options_dialog()
 {
    emit get_countries_map();
+
+   connect(ui->countrylistWidget, SIGNAL(itemDoubleClicked(QListWidgetItem*)),
+          this, SLOT(country_list_widget_double_click(QListWidgetItem*)));
 
    connect(ui->pushButton_ok,SIGNAL(clicked(bool)),
            this,SLOT(on_pushbutton_ok_clicked(bool)));
@@ -62,9 +67,37 @@ TorOptionsDialog::~TorOptionsDialog()
 
 }
 
-void TorOptionsDialog::recv_node_list(QString,QStringList)
+void TorOptionsDialog::country_list_widget_double_click(QListWidgetItem* l)
 {
+  QString abbrv = countries_map[l->text().trimmed()];
+  qDebug() << "country map has " << abbrv;
+  emit request_node_list(abbrv,QStringList());
+  ui->progressBar->show();
 
+}
+
+void TorOptionsDialog::recv_node_list(QString c,QStringList nodes)
+{
+  // qDebug() << "node list is " << c << " : " << nodes;
+  node_records_map.clear();
+  ui->nodelistWidget->clear();
+  for(int dex=0; dex<nodes.count();++dex)
+  {
+      QStringList fields = nodes[dex].split("|");
+      node_records_map[fields[0]] = nodes[dex];
+      ui->nodelistWidget->insertItem(dex,fields[0]);
+      auto item = ui->nodelistWidget->item(dex);
+      QString tool_tip;
+      tool_tip += c + "\n";
+      for(auto f : fields)
+      {
+          tool_tip += f + "\n";
+      }
+      item->setToolTip(tool_tip);
+
+      qDebug() << "added " << fields[0];
+  }
+  ui->progressBar->hide();
 }
 
 void TorOptionsDialog::completed_save_to_configfile(bool)
@@ -79,6 +112,12 @@ void TorOptionsDialog::add_strings_to_listwidget(QListWidget* l, const QStringLi
     {
         l->addItem(str);
     }
+}
+
+void TorOptionsDialog::recv_progress(float p)
+{
+    qDebug() << "progress value : " << p;
+    ui->progressBar->setValue(p);
 }
 
 void TorOptionsDialog::received_config_settings(QString config_option, QByteArray b)

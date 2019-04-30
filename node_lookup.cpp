@@ -54,9 +54,11 @@ void node_lookup::download_nodelist()
 void node_lookup::get_node_list(QString country_abbrv,
                                 bool make_country_file)
 {
+    qDebug() << "get node list" ;
+
     QStringList nodes;
     QFile nodelistfile(QString("./")+country_abbrv+".txt");
-    if(nodelistfile.exists())
+    if(nodelistfile.exists() && !make_country_file)
     {
         bool opened = nodelistfile.open(QIODevice::ReadOnly);
         if(!opened)
@@ -86,6 +88,7 @@ void node_lookup::get_node_list(QString country_abbrv,
             parseNodeList(b,nodes,country_abbrv,make_country_file);
         }
     }
+    emit send_progress(100);
     emit send_node_list(country_abbrv,nodes);
 }
 
@@ -125,13 +128,19 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
        return ((first << 24) | (second << 16) | (third << 8) | (fourth));
    };
 
-   remove_nodelist_files();
+   if(make_country_file)
+   {
+      remove_nodelist_files();
+   }
 
    QFile geoipfile(QString("./geoip.txt"));
    bool opened = geoipfile.open(QIODevice::ReadOnly);
    if(!opened)
        qDebug() << "unable to open " << geoipfile.fileName();
 
+   float node_count = nodeStrList.count();
+   float progress;
+   int percent_to_int;
    for(int i=0; i<nodeStrList.count(); ++i)
    {
        if(!nodeStrList[i].trimmed().length())
@@ -182,7 +191,13 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
            }
        }
        geoipfile.seek(0);
+       progress = float(i)/node_count;
+       progress *= 100;
+       qDebug() << " progress == " << progress;
+       percent_to_int = progress;
+       emit send_progress(percent_to_int);
     }
+
    return strl;
 }
 
@@ -190,7 +205,11 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
 void node_lookup::remove_nodelist_files()
 {
     QFile geoipfile(QString("./geoip.txt"));
-    geoipfile.open(QIODevice::ReadOnly);
+    if(!geoipfile.open(QIODevice::ReadOnly))
+    {
+        qDebug() << "unable to open " << geoipfile.fileName();
+        return;
+    }
 
     QByteArray bytes;
     while(!geoipfile.atEnd())

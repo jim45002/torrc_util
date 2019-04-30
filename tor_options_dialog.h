@@ -29,6 +29,7 @@ public:
     void ListWidgetStrings2QStringsList(QListWidget *l, QStringList &s);
     void add_strings_to_listwidget(QListWidget* l, const QStringList &strlist);
 public slots:
+    virtual void recv_progress(float);
     virtual void recv_node_list(QString,QStringList);
     virtual void completed_save_to_configfile(bool);
     virtual void received_config_settings(QString config_option, QByteArray);
@@ -47,10 +48,12 @@ public slots:
     virtual void on_button_movefrom_exits_clicked(bool);
     virtual void on_button_moveto_entry_clicked(bool);
     virtual void on_button_movefrom_entry_clicked(bool);
+    void country_list_widget_double_click(QListWidgetItem *);
 private:
     Ui::Dialog_tor_options *ui;
     QList <QString> configfile_lines;
     QMap<QString,QString> countries_map;
+    QMap<QString,QString> node_records_map;
     QString filename;
     QStringList country_str_list;
     QByteArray exclude_nodes_options;

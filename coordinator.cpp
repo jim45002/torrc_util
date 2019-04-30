@@ -88,6 +88,9 @@ make_connections(TorOptionsDialogInterface* tod,
    connect(tco,SIGNAL(ui_send_nodelist(QString,QStringList)),
            tod,SLOT(recv_node_list(QString,QStringList)));
 
+   connect(tco,SIGNAL(send_progress(float)),
+           tod,SLOT(recv_progress(float)));
+
 
 //   connect(tco,SIGNAL( ),
 //           tod,SLOT( ));
@@ -122,6 +125,11 @@ make_connections(node_lookup_interface* nli,
             SIGNAL(send_download_result(bool)),
             tcoi,
             SLOT(recv_node_download_result(bool)));
+
+    connect(nli,
+            SIGNAL(send_progress(float)),
+            tcoi,
+            SLOT(recv_progress(float)));
 
     return true;
 }

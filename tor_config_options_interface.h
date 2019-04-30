@@ -20,6 +20,7 @@ public:
     virtual ~tor_config_options_interface() { }
 
 signals:
+    void send_progress(float);
     void ui_send_nodelist(QString,QStringList);
     void req_node_list(QString,bool);
     void req_download_nodelist();
@@ -33,6 +34,7 @@ signals:
     void send_syned_use_gaurds_with_torrc(bool);
 
 public slots:
+    virtual void recv_progress(float) = 0;
     virtual void ui_request_nodelist(QString,QStringList) = 0;
     virtual void recv_nodelist(QString,QStringList) = 0;
     virtual void recv_node_download_result(bool) = 0;

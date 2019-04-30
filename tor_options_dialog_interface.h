@@ -37,6 +37,7 @@ signals:
     void sync_use_gaurds_with_torrc();
 
 public slots:
+    virtual void recv_progress(float) = 0;
     virtual void recv_node_list(QString,QStringList) = 0;
     virtual void completed_save_to_configfile(bool) = 0;
     virtual void received_config_settings(QString config_option,

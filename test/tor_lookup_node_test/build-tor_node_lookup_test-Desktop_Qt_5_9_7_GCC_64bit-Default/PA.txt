@@ -1,4 +1,0 @@
-190.97.165.141|matuschek|443|80|RSDV|712939|Tor 0.3.5.8|
-198.50.200.129|TorTeitelNet|9001|9030|EFGRSDV|61|Tor 0.3.5.8|Jeff Teitel ;jeff@teitel.net;
-198.50.200.131|PulseboxExit|8443|8080|EFGRSDV|194581|Tor 0.3.4.9|kernelcorn at torproject.org, PGP 0xAD97364FC20BEC80
-198.50.211.194|t0adwarri0r|443|80|FGHRSDV|3168740|Tor 0.3.5.8|t0ad-warri0r ;t0ad-warri0r AT protonmail dot com;

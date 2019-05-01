@@ -1,4 +1,0 @@
-198.167.223.111|Hugin|9001|9030|EFGRSDV|1038792|Tor 0.3.5.8|abuse@yggdrasil.ws
-198.167.223.133|DeepWebUnderground2|9001|9030|EFGRSDV|5263469|Tor 0.3.5.7|admin@packet-broker.org https://twitter.com/d_w_underground
-198.167.223.38|yuicat2|8081|0|EFRDV|917716|Tor 0.3.5.8|Jordan ;jordan@yui.cat;
-198.167.223.44|DeepWebUnderground3|9839|9135|EFGRSDV|1041730|Tor 0.2.9.16|admin@packet-broker.org https://twitter.com/d_w_underground

@@ -1,7 +1,0 @@
-138.117.148.45|irons|443|80|FHRSDV|396065|Tor 0.3.5.8|
-164.77.133.220|gabriela|9001|9030|ERDV|5505958|Tor 0.2.9.16|dd tech team ;tor-exit AT derechosdigitales dot org;
-181.43.63.9|nuruve|9019|0|FRDV|144286|Tor 0.2.9.16|CG ;cg AT initsoluciones dot com;
-190.47.167.95|snap269|39947|0|FRDV|125|Tor 0.3.4.10|
-191.114.117.254|Unnamed|9001|0|ERDV|5|Tor 0.2.9.16|
-191.115.60.142|snap269|43305|0|RDV|94|Tor 0.3.4.10|
-200.86.90.194|MacarenaValdes|9001|9030|EFRSDV|247146|Tor 0.2.9.16|dd tech team ;tor-exit AT derechosdigitales dot org;

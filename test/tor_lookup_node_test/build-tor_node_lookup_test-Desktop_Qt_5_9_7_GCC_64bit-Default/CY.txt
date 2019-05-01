@@ -1,2 +1,0 @@
-213.169.148.151|poussin|443|80|FGHRSDV|971289|Tor 0.3.5.8|
-91.92.136.81|BaaBaaBlackSheep|443|0|FGHRSDV|3585709|Tor 0.2.9.14|lambchop@barn.com

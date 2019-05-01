@@ -1,5 +1,0 @@
-/home/developer/github/torrc_utility/torrc_utility/torrc_utility/test/tor_lookup_node_test/build-tor_node_lookup_test-Desktop_Qt_5_9_7_GCC_64bit-Default/CMakeFiles/test.dir
-/home/developer/github/torrc_utility/torrc_utility/torrc_utility/test/tor_lookup_node_test/build-tor_node_lookup_test-Desktop_Qt_5_9_7_GCC_64bit-Default/CMakeFiles/edit_cache.dir
-/home/developer/github/torrc_utility/torrc_utility/torrc_utility/test/tor_lookup_node_test/build-tor_node_lookup_test-Desktop_Qt_5_9_7_GCC_64bit-Default/CMakeFiles/rebuild_cache.dir
-/home/developer/github/torrc_utility/torrc_utility/torrc_utility/test/tor_lookup_node_test/build-tor_node_lookup_test-Desktop_Qt_5_9_7_GCC_64bit-Default/CMakeFiles/tor_node_lookup_test.dir
-/home/developer/github/torrc_utility/torrc_utility/torrc_utility/test/tor_lookup_node_test/build-tor_node_lookup_test-Desktop_Qt_5_9_7_GCC_64bit-Default/CMakeFiles/tor_node_lookup_test_automoc.dir

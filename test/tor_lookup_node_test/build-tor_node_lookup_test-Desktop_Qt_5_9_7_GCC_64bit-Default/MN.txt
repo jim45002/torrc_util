@@ -1,2 +1,0 @@
-180.149.125.138|Songino1|443|80|EFHRSDV|907320|Tor 0.3.5.8|songinuud(at)protonmail(dot)com
-43.231.114.52|schimkus|443|80|RSDV|5194822|Tor 0.3.4.11|torfun1251918616 AT unseen.is

@@ -75,17 +75,20 @@ void node_lookup::get_node_list(QString country_abbrv,
     }
     else
     {
-        QByteArray b;
-        QFile f(QString("./TOR Node List.html"));
-        bool opened = f.open(QIODevice::ReadOnly);
-        if(!opened)
+        if(make_country_file)
         {
-            qDebug() << "unable to open " << f.fileName();
-        }
-        else
-        {
-            b = f.readAll();
-            parseNodeList(b,nodes,country_abbrv,make_country_file);
+            QByteArray b;
+            QFile f(QString("./TOR Node List.html"));
+            bool opened = f.open(QIODevice::ReadOnly);
+            if(!opened)
+            {
+                qDebug() << "unable to open " << f.fileName();
+            }
+            else
+            {
+                b = f.readAll();
+                parseNodeList(b,nodes,country_abbrv,make_country_file);
+            }
         }
     }
     emit send_progress(100);
@@ -133,10 +136,23 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
       remove_nodelist_files();
    }
 
-   QFile geoipfile(QString("./geoip.txt"));
-   bool opened = geoipfile.open(QIODevice::ReadOnly);
-   if(!opened)
-       qDebug() << "unable to open " << geoipfile.fileName();
+
+   QStringList geo_records;
+
+   {
+       QFile geoipfile(QString("./geoip.txt"));
+       bool opened = geoipfile.open(QIODevice::ReadOnly);
+       if(!opened)
+       {
+           qDebug() << "unable to open " << geoipfile.fileName();
+           return QStringList();
+       }
+       QByteArray bytes;
+       bytes=geoipfile.readAll();
+       geoipfile.close();
+       QString buff(bytes);
+       geo_records = buff.split('\n');
+   }
 
    float node_count = nodeStrList.count();
    float progress;
@@ -161,14 +177,14 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
                           node_record_ip_fields[2].toInt(),
                           node_record_ip_fields[3].toInt());
 
-       QByteArray bytes;
-       while(!geoipfile.atEnd())
+       for(int record_index=0; record_index<geo_records.count();++record_index)
        {
-           bytes=geoipfile.readLine();
-           QString geoipline(bytes);
-           QStringList ipRanges = geoipline.split(",");
+           QStringList ipRanges = geo_records[record_index].split(",");
 
-           //qDebug() <<"comparing region : " <<ipRanges;
+          // qDebug() <<"comparing region : " <<ipRanges;
+           if(ipRanges.count() != 3)
+               continue;
+
            if(intip >= ipRanges[0].toLongLong() &&
                    intip <= ipRanges[1].toLongLong() &&
                    ipRanges[2].trimmed().length())
@@ -179,8 +195,13 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
                    QFile country_node_file(QString("./")+
                                            ipRanges[2].trimmed()+".txt");
                    country_node_file.open(QIODevice::Append);
-                   country_node_file.write(nodeStrList[i].toStdString().c_str());
+                   country_node_file.write(nodeStrList[i].
+                                           toStdString().c_str());
                    country_node_file.close();
+               }
+               else
+               {
+                   qDebug() << "not creating country node file";
                }
                if(ipRanges[2].trimmed() == country_abbrv.trimmed())
                     strl += nodeStrList[i];
@@ -190,13 +211,12 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
                break;
            }
        }
-       geoipfile.seek(0);
        progress = float(i)/node_count;
        progress *= 100;
        qDebug() << " progress == " << progress;
        percent_to_int = progress;
        emit send_progress(percent_to_int);
-    }
+    }  
 
    return strl;
 }

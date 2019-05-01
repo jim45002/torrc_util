@@ -1,19 +1,25 @@
-# torrc_utility
-Qt GUI for some torrc options. This application was tested with simple torrc config files (i.e., torrc included with tor-browser bundle), use at your own risk.
+# Torrc Utility
+Torrc Utility is a simple Qt GUI for managing some options in the Tor's configuration file. This application was tested with default torrc config files that are included with tor-browser bundle. Torrc Utility is also used for graphically viewing Tor node locations on a map.
+
+
+
+![Alt text](torrc_utility_gui.png?raw=true "Torrc Utility")
+
+
 
 Torrc options supported are:
 
--ExcludeNodes (list of identity fingerprints, country codes, and address patterns of nodes to avoid when building a circuit)
+	ExcludeNodes (list of identity fingerprints, country codes, and address patterns of nodes to avoid when building a circuit)
 
--ExitNodes (list of identity fingerprints, country codes, and address patterns of nodes to use as exits) 
+	ExitNodes (list of identity fingerprints, country codes, and address patterns of nodes to use as exits) 
 
--EntryNodes (list of  identity fingerprints, country codes, and address patterns of nodes to use for the first hop) 
+	EntryNodes (list of  identity fingerprints, country codes, and address patterns of nodes to use for the first hop) 
 
--EnforceDistinctSubnets (If 1, Tor will not put two servers whose IP addresses are "too close" on the same circuit)
+	EnforceDistinctSubnets (If 1, Tor will not put two servers whose IP addresses are "too close" on the same circuit)
 
--UseEntryGuards (If this option is set to 1, we pick a few long-term entry servers, and try to stick with them)
+	UseEntryGuards (If this option is set to 1, we pick a few long-term entry servers, and try to stick with them)
 
--NumEntryGuards (If UseEntryGuards is set to 1, we will try to pick a total of NUM routers as long-term entries for our circuits)
+	NumEntryGuards (If UseEntryGuards is set to 1, we will try to pick a total of NUM routers as long-term entries for our circuits)
 
 
 Only 2-letter country abbreviations are supported for ExcludeNodes, ExitNodes, and EntryNodes. See https://2019.www.torproject.org/docs/tor-manual.html.en for complete descritpion of these options.

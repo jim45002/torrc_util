@@ -24,7 +24,6 @@ private:
     map_widget_factory(const map_widget_factory&) = delete;
     map_widget_factory& operator=(const map_widget_factory&) = delete;
 
-    static std::shared_ptr<std::mutex> multiple_create_call_mutex;
 };
 
 #endif // MAP_WIDGET_FACTORY_H

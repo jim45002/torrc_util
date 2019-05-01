@@ -8,6 +8,7 @@
 #include <QListWidget>
 #include <QList>
 #include <QLayout>
+#include <QString>
 
 #include "coordinator.h"
 
@@ -67,21 +68,53 @@ TorOptionsDialog::~TorOptionsDialog()
 
 }
 
+QStringList TorOptionsDialog::get_country_lat_lon(QString country_abbrv)
+{
+  QByteArray bytes;
+  QStringList location_records;
+  QStringList result;
+  QFile country_location_file(QString("./countries_gps_data.txt"));
+  if(country_location_file.open((QIODevice::ReadOnly)))
+  {
+      bytes = country_location_file.readAll();
+      location_records = QString(bytes).split('\n');
+  }
+  else
+  {
+      qDebug() << "cold not open file "
+               << country_location_file.fileName();
+  }
+
+  for(auto rec : location_records)
+  {
+      QStringList fields = rec.split('\t');
+      if( fields[0].trimmed() == country_abbrv.trimmed())
+      {
+        result = fields;
+      }
+  }
+  return result;
+}
+
+
 void TorOptionsDialog::country_list_widget_double_click(QListWidgetItem* l)
 {
   ui->table_widget_title_label->setText(QString("Nodes: ") + l->text());
-
+  ui->node_list_table_widget->clear();
   QString abbrv = countries_map[l->text().trimmed()];
-  qDebug() << "country map has " << abbrv;
+  QStringList latlon_rec = get_country_lat_lon(abbrv);
+  if(latlon_rec.count()==4)
+  {
+     mwfi->centerOn(latlon_rec[2].toDouble(),latlon_rec[1].toDouble());
+  }
   emit request_node_list(abbrv,QStringList(),
                          ui->build_country_files_checkBox->isChecked());
   ui->progressBar->show();
 
 }
 
-void TorOptionsDialog::recv_node_list(QString c,QStringList nodes)
+void TorOptionsDialog::recv_node_list(QString, QStringList nodes)
 {
-    // qDebug() << "node list is " << c << " : " << nodes;
     node_records_map.clear();
     ui->node_list_table_widget->clear();
     ui->node_list_table_widget->setRowCount(nodes.count());

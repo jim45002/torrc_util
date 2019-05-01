@@ -19,6 +19,9 @@ public:
     virtual ~map_widget();
 
     void drawPoint(const QPoint point);
+    virtual void centerOn( const qreal lon, const qreal lat,
+                           bool animated = false );
+
     virtual void mouseMoveEvent(QMouseEvent *event);
     virtual void mousePressEvent(QMouseEvent *event);
     virtual void mouseReleaseEvent(QMouseEvent *event);

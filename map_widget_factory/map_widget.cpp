@@ -30,21 +30,21 @@ map_widget::map_widget(QWidget* parent)
     QObject::connect(this,SIGNAL(mouseMoveGeoPosition(const QString)),this,
                      SLOT(on_mouseMoveGeoPosition (const QString)));
     QObject::connect(this,SIGNAL(mouseClickGeoPosition(qreal,qreal,GeoDataCoordinates::Unit)),this,
-            SLOT(on_mouseClickGeoPosition(qreal,qreal,GeoDataCoordinates::Unit)));
+                     SLOT(on_mouseClickGeoPosition(qreal,qreal,GeoDataCoordinates::Unit)));
     QObject::connect(this,SIGNAL(framesPerSecond(qreal)),this,SLOT(on_framesPerSecond(qreal)));
     QObject::connect(this,SIGNAL(regionSelected(QList<double>)),this,
                      SLOT(on_regionSelected(QList<double>)));
     QObject::connect(this,SIGNAL(pluginSettingsChanged ()),this,SLOT(on_pluginSettingsChanged ()));
     QObject::connect(this,SIGNAL(renderPluginInitialized(RenderPlugin*)),this,
-            SLOT(on_renderPluginInitialized(RenderPlugin*)));
+                     SLOT(on_renderPluginInitialized(RenderPlugin*)));
     QObject::connect(this,SIGNAL(visibleLatLonAltBoxChanged(GeoDataLatLonAltBox)),this,
-            SLOT(on_visibleLatLonAltBoxChanged(GeoDataLatLonAltBox)));
+                     SLOT(on_visibleLatLonAltBoxChanged(GeoDataLatLonAltBox)));
     QObject::connect(this,SIGNAL(renderStatusChanged(RenderStatus)),this,
-            SLOT(on_renderStatusChanged(RenderStatus)));
+                     SLOT(on_renderStatusChanged(RenderStatus)));
     QObject::connect(this,SIGNAL(renderStateChanged(RenderState)),this,
                      SLOT(on_renderStateChanged(RenderState)));
     QObject::connect(this,SIGNAL(highlightedPlacemarksChanged(qreal,qreal,GeoDataCoordinates::Unit)),this,
-            SLOT(on_highlightedPlacemarksChanged(qreal,qreal,GeoDataCoordinates::Unit)));
+                     SLOT(on_highlightedPlacemarksChanged(qreal,qreal,GeoDataCoordinates::Unit)));
 }
 
 map_widget::~map_widget()
@@ -52,9 +52,16 @@ map_widget::~map_widget()
 
 }
 
+void map_widget::centerOn( const qreal lon, const qreal lat,
+                           bool animated)
+{
+   Marble::MarbleWidget::centerOn(lon,lat,animated);
+}
+
+
 void map_widget::on_zoomChanged(int zoom)
 {
-  current_zoom = zoom;
+   current_zoom = zoom;
 }
 
 void map_widget::on_distanceChanged(const QString &distanceString)

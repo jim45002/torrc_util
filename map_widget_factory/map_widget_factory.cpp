@@ -17,7 +17,7 @@ map_widget_factory::map_widget_factory()
 
 std::shared_ptr<map_widget_interface> map_widget_factory::create(QWidget* parent)
 {
-    std::lock_guard<std::mutex> lock(*multiple_create_call_mutex);
+  //  std::lock_guard<std::mutex> lock(*multiple_create_call_mutex);
     return std::make_shared<map_widget>(parent);
 }
 

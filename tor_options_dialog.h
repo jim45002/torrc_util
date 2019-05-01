@@ -28,6 +28,7 @@ public:
 
     void ListWidgetStrings2QStringsList(QListWidget *l, QStringList &s);
     void add_strings_to_listwidget(QListWidget* l, const QStringList &strlist);
+    QStringList get_country_lat_lon(QString country_abbrv);
 public slots:
     virtual void recv_progress(float);
     virtual void recv_node_list(QString,QStringList);

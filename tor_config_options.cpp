@@ -326,6 +326,26 @@ void tor_config_options::read_config_settings(QString config_option, QString& s)
     s = setting;
 }
 
+void tor_config_options::recv_progress(float p)
+{
+   emit send_progress(p);
+}
+
+void tor_config_options::ui_request_nodelist(QString c, QStringList, bool b)
+{
+   emit req_node_list(c,b);
+}
+
+void tor_config_options::recv_nodelist(QString c, QStringList nl)
+{
+  emit ui_send_nodelist(c,nl);
+}
+
+void tor_config_options::recv_node_download_result(bool)
+{
+
+}
+
 //////////////////////////////////////
 //
 //

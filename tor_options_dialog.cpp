@@ -7,8 +7,13 @@
 #include <QFileDialog>
 #include <QListWidget>
 #include <QList>
+#include <QLayout>
+#include <QString>
 
 #include "coordinator.h"
+
+#include "map_widget_interface.h"
+#include "map_widget_factory.h"
 
 #include "tor_options_dialog.h"
 #include "ui_tor_options.h"
@@ -20,12 +25,22 @@ TorOptionsDialog::TorOptionsDialog(QWidget* parent)
       ui(new Ui::Dialog_tor_options)
 {
    ui->setupUi(this);
+
+   ui->progressBar->hide();
+
+   mwfi = map_widget_factory::create(this);
+   auto l = new QHBoxLayout;
+   ui->map_widget->setLayout(l);
+   l->addWidget(mwfi->map_dispaly_widget());
 }
 
 
 void TorOptionsDialog::setup_options_dialog()
 {
    emit get_countries_map();
+
+   connect(ui->countrylistWidget, SIGNAL(itemDoubleClicked(QListWidgetItem*)),
+          this, SLOT(country_list_widget_double_click(QListWidgetItem*)));
 
    connect(ui->pushButton_ok,SIGNAL(clicked(bool)),
            this,SLOT(on_pushbutton_ok_clicked(bool)));
@@ -53,6 +68,89 @@ TorOptionsDialog::~TorOptionsDialog()
 
 }
 
+QStringList TorOptionsDialog::get_country_lat_lon(QString country_abbrv)
+{
+  QByteArray bytes;
+  QStringList location_records;
+  QStringList result;
+  QFile country_location_file(QString("./countries_gps_data.txt"));
+  if(country_location_file.open((QIODevice::ReadOnly)))
+  {
+      bytes = country_location_file.readAll();
+      location_records = QString(bytes).split('\n');
+  }
+  else
+  {
+      qDebug() << "cold not open file "
+               << country_location_file.fileName();
+  }
+
+  for(auto rec : location_records)
+  {
+      QStringList fields = rec.split('\t');
+      if( fields[0].trimmed() == country_abbrv.trimmed())
+      {
+        result = fields;
+      }
+  }
+  return result;
+}
+
+
+void TorOptionsDialog::country_list_widget_double_click(QListWidgetItem* l)
+{
+  ui->table_widget_title_label->setText(QString("Nodes: ") + l->text());
+  ui->node_list_table_widget->clear();
+  QString abbrv = countries_map[l->text().trimmed()];
+  QStringList latlon_rec = get_country_lat_lon(abbrv);
+  if(latlon_rec.count()==4)
+  {
+     mwfi->centerOn(latlon_rec[2].toDouble(),latlon_rec[1].toDouble());
+  }
+  emit request_node_list(abbrv,QStringList(),
+                         ui->build_country_files_checkBox->isChecked());
+  ui->progressBar->show();
+
+}
+
+void TorOptionsDialog::recv_node_list(QString, QStringList nodes)
+{
+    if(nodes.count())
+    {
+        node_records_map.clear();
+        ui->node_list_table_widget->clear();
+        ui->node_list_table_widget->setRowCount(nodes.count());
+        ui->node_list_table_widget->
+                setColumnCount(nodes[0].split("|").count());
+        QStringList hlabels;
+        // 132.167.123.136|JoeBy|443|21|FGRSDVX|59|Tor 0.2.9.16|
+        //anon@simply-setup.script.by.Hello
+        hlabels << "IP Address" << "Node" << "Port" << " ? " << "Flags" << " ? "
+                << "Version" << "E-Mail";
+        ui->node_list_table_widget->setHorizontalHeaderLabels(hlabels);
+        for(int dex=0; dex<nodes.count();++dex)
+        {
+            QStringList fields = nodes[dex].split("|");
+            node_records_map[fields[0]] = nodes[dex];
+            for(int col=0;col<fields.count();++col)
+            {
+                auto w = new QTableWidgetItem(fields[col]);
+                ui->node_list_table_widget->setItem(dex,col,w);
+                //            auto item = ui->node_list_table_widget->item(dex,col);
+                //            QString tool_tip;
+                //            tool_tip += c + "\n";
+                //            for(auto f : fields)
+                //            {
+                //                tool_tip += f + "\n";
+                //            }
+                //            item->setToolTip(tool_tip);
+            }
+            qDebug() << "added " << fields[0];
+        }
+    }
+    ui->progressBar->hide();
+}
+
 void TorOptionsDialog::completed_save_to_configfile(bool)
 {
 
@@ -65,6 +163,12 @@ void TorOptionsDialog::add_strings_to_listwidget(QListWidget* l, const QStringLi
     {
         l->addItem(str);
     }
+}
+
+void TorOptionsDialog::recv_progress(float p)
+{
+    qDebug() << "progress value : " << p;
+    ui->progressBar->setValue(p);
 }
 
 void TorOptionsDialog::received_config_settings(QString config_option, QByteArray b)

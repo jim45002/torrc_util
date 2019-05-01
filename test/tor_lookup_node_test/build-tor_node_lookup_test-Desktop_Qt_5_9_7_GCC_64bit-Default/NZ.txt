@@ -1,0 +1,9 @@
+101.100.144.174|Octogon|9001|9030|FHRSDV|345662|Tor 0.2.9.16|
+103.250.233.199|NLFree|9001|9030|FHRSDV|5886071|Tor 0.3.5.7|
+111.69.49.124|LongburnRelay|443|80|RSDVX|10411224|Tor 0.2.9.16|Random Person outofluck at gmail dot com
+111.69.87.6|Damnation|9001|9030|FRDV|304|Tor 0.3.5.8|
+114.23.146.87|sadhover|9001|9030|RSDV|2267906|Tor 0.2.9.16|
+114.23.207.85|Kabo|443|0|RSDV|733212|Tor 0.3.5.8|1024D/B99C492C Calle Kabo ;calle dot kabo at gmail dot com;
+121.99.219.228|byronical|9001|0|FRSDV|21|Tor 0.3.5.7|byronical ;byronical AT gmail dot com;
+185.121.168.254|ZAPPIE01|9001|9030|EFHRSDV|7102833|Tor 0.3.4.9|exit-node-tor(at)zappiehost(dot)com
+223.165.66.57|MokshaMedicine|9001|0|RSV|2138550|Tor 0.3.3.9|

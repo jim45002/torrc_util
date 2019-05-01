@@ -1,0 +1,43 @@
+141.98.248.203|default|443|9030|FRSDV|204356|Tor 0.2.4.23|
+185.112.157.135|blackpearl|9001|9030|FGHRSDV|583336|Tor 0.3.5.8|BlackPearl ;tor-op(at)wach-it-solutions.de;
+185.199.31.153|Oor3mooRelay|9001|0|FGHRSDV|4104746|Tor 0.3.5.8|part17k@gmail.com
+185.225.68.15|Rikard|9001|9030|FGHRSDV|1583596|Tor 0.3.5.8|
+185.225.69.59|MarysSister|443|80|FGHRSDV|824469|Tor 0.3.5.7|
+185.225.69.8|labyrinth04|9001|0|FGHRSDV|1490655|Tor 0.3.5.8|zahiir at protonmail dot ch
+185.225.69.90|davy|443|80|FGHRSDV|2721763|Tor 0.3.5.7|
+185.225.69.91|evudalhessempos|443|80|FGRSDV|64920|Tor 0.3.5.7|
+185.33.53.130|bkwurds|443|80|FGHRSDV|648080|Tor 0.3.5.7|
+193.224.163.43|traktor|9001|9030|FHRSDV|2819224|Tor 0.3.5.8|0x3b4a0efbbd368329 Gabor Kiss ;kissg@ssg.ki.iif.hu;
+195.228.45.176|dexter|9001|0|EFRSV|5443198|Tor 0.2.9.16|DexterAdmin ;dexter@prj.hu;
+195.228.75.149|Bab0|9001|9030|FGHRSDV|16962577|Tor 0.2.9.16|Boldi ;boldi@mail2014.etl.hu;
+212.40.84.206|bitcoingang|8443|0|FRDV|389288|Tor 0.3.5.8|torforwarding@yandex.ru
+217.112.131.24|licinius|443|80|FGHRSDV|9003693|Tor 0.3.4.10|
+217.112.131.98|oromis|9001|80|FGHRSDV|6311581|Tor 0.3.5.7|
+217.20.130.72|ratatata|9001|9030|FGHRSDV|24891103|Tor 0.3.3.8|
+31.46.177.182|RumWithMilk|61113|61501|FHRSDVX|391631|Tor 0.3.5.8|
+31.46.191.155|kishaver|9001|9030|FRDV|324067|Tor 0.3.5.8|
+79.172.193.32|mentor|9001|80|FGHRSDVX|9507658|Tor 0.3.4.9|helmut(dot)vonrichter(at)tuta(dot)io [tor-relay.co]
+79.172.204.36|walltor|4480|4481|FGHRSDV|6501799|Tor 0.2.9.14|0xDFCD0A39 Random Person ;attila.lendvai ATT google's mail service;
+80.98.96.182|snap269|37075|0|FRDV|0|Tor 0.3.4.10|
+80.99.194.93|zshjumper|443|80|FHRSDV|835256|Tor 0.3.5.8|0x0BB5F77A89A07B71 Herczeg Zsolt ;herczegzsolt@herczegzsolt.hu;
+84.236.106.23|TORoid|9001|9030|FRDV|129620|Tor 0.3.4.11|
+89.132.108.46|snap269|44751|0|RDV|5|Tor 0.3.4.10|
+89.133.16.197|km6p31yo|443|0|FHRSDV|1447335|Tor 0.3.5.7|0xB2D839CE km6p31yo ;km6p31yo AT danwin1210 dot me; Donations:bc1q6m454062nnsjv29wxvjntlswewgfdny7n9cd68
+91.104.216.151|snap270|35639|0|FRDV|64860|Tor 0.3.4.10|
+91.219.236.127|dingerchedo|51201|51230|RDV|5459|Tor 0.2.9.16|nobody@nonexistent.invalid
+91.219.236.176|Unnamed|17931|7217|FHRSDV|15078056|Tor 0.2.9.17|
+91.219.236.193|Unnamed|13097|26572|FHRSDV|15023100|Tor 0.2.9.17|
+91.219.236.223|PAPRIKA|9001|9030|FGHRSDV|1555828|Tor 0.3.5.8|
+91.219.236.250|CountlessScarecrows|443|0|FGHRSDV|19404107|Tor 0.3.2.10|0x309F635DAD1B5517
+91.219.237.154|Unnamed|443|80|FHRSDV|5032910|Tor 0.3.5.7|
+91.219.237.244|lewwerDuarUesSlaav|443|80|EFRSDV|129661|Tor 0.3.4.8|Administrator admin@tor-hu.neuromorph.de
+91.219.238.120|Tiny|443|80|FGHRSDV|2228961|Tor 0.3.5.8|Xavier Bettel
+91.219.238.141|ezp189|9001|9030|EFHRSDV|390068|Tor 0.3.5.8|0x61ca6392d376cbe5 ;tyb (at) riseup.net; tybaldwin.com
+91.219.238.221|janitormentor|443|80|FHRSDV|4424868|Tor 0.3.3.9|PGK ;tor at the-goober.net;
+91.219.238.95|el1teindustries|443|0|EFRSV|3124894|Tor 0.3.5.7|el1teindustries@protonmail.com
+91.219.239.121|avrb|27880|14512|FRDV|30002311|Tor 0.2.7.6|
+91.219.239.226|Unnamed|8640|5586|FRDV|3824385|Tor 0.2.9.17|
+91.219.239.79|ADEL|9001|9030|FRSDV|5|Tor 0.3.5.8|
+91.219.239.92|cimmeria|443|80|FGHRSDV|11019830|Tor 0.3.4.9|;tor AT skeps dot ch; Bitcoin:1HHffS7mV3sCgGVn6RH3j5X1fCeJbzPnJ9 Litecoin:LdLnpnTWo4S2Y33p1czZzavd9kVZ5tgjQn
+92.249.143.119|John0072381236Smith|9001|9030|FGHRSDV|4972238|Tor 0.3.5.8|gutbesserwasser ;gutbesserwasser at gmail dot com;
+92.249.143.119|StrictlyUselessPi|9005|0|RSDV|259269|Tor 0.3.5.8|gutbesserwasser ;gutbesserwasser at gmail dot com;

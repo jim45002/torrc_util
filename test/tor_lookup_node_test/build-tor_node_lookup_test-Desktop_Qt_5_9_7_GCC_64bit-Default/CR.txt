@@ -1,0 +1,17 @@
+138.59.18.105|TheMind|88|999|FHRSDV|1454655|Tor 0.3.5.7|
+138.59.18.106|Albis|443|80|FRSDV|124381|Tor 0.3.5.8|
+143.202.161.75|toritico02|443|80|EFHRSDV|3729958|Tor 0.2.9.16|;nodo .AT. sulabatsu .DOT. com;
+179.48.248.17|barwin|443|80|EFHRSDV|321126|Tor 0.3.5.8|
+179.48.251.188|toritico01|443|80|EFGHRSDV|6306826|Tor 0.2.9.16|Accessnow.org ;abuse .AT. accessnow .DOT. org;
+181.194.169.206|snap269|32787|0|RDV|1447|Tor 0.3.4.10|
+186.177.149.78|TheLastQuestion|443|0|RSDV|453789|Tor 0.3.3.9|elestudiante@protonmail.com
+186.32.45.42|DobbsTownCR|9001|9030|RSDV|518484|Tor 0.3.5.8|
+190.10.58.45|jaquerespeisNode|9001|0|RSDV|346563|Tor 0.2.9.16|nodo-tor@riseup.net
+190.10.8.152|peterpam|443|80|FHRSDV|907293|Tor 0.3.5.8|
+190.10.8.166|Donatello|443|80|FGHRSDV|1555237|Tor 0.3.5.7|ninja.turtle5@aol.com
+190.10.8.50|cragg|443|80|EFHRSDV|2592239|Tor 0.3.4.10|
+190.10.8.68|cressington|443|80|FGHRSDV|5281481|Tor 0.3.4.11|
+200.122.181.101|Karai|443|80|FGHRSDV|518646|Tor 0.3.5.7|ninja.turtle5@aol.com
+200.122.181.2|Michelangelo|443|80|FRSDV|194523|Tor 0.3.5.7|ninja.turtle5@aol.com
+200.122.181.78|Splinter|443|80|FGHRSDV|5249149|Tor 0.3.3.12|ninja.turtle5@aol.com
+201.200.0.240|Unnamed|9001|9030|FRSDV|194522|Tor 0.2.9.15|

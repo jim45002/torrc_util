@@ -1,0 +1,27 @@
+109.134.143.64|Tortule|9001|9030|RDV|1805|Tor 0.3.5.8|Random Person guillaumebob52@hotmail.com
+109.88.9.36|snap269|37865|0|FRDV|5|Tor 0.3.4.10|
+178.32.47.140|borderline|443|0|FGHRSDV|12477870|Tor 0.3.4.9|
+193.105.73.80|akira|9001|443|FGHRSDV|6326151|Tor 0.3.5.7|
+193.190.168.49|kulcosictor3tag|9001|0|FRV|340549|Tor 0.2.7.6-dev|Fan Yang ;fan.yang2 AT student.kuleuven.be;
+193.190.168.51|kulcosictor2|9001|9030|FHRSDV|28541038|Tor 0.3.3.6|marc.juarez@kuleuven.be
+193.190.168.53|kulcosictor|9001|9030|FHRSDV|0|Tor 0.3.0.10|
+193.9.114.139|Mewse|443|80|EFGHRSDV|777654|Tor 0.3.5.8|
+213.219.149.83|roTor|9001|9030|FRDV|259264|Tor 0.3.5.7|abuse ;abuse_at_ndub_dot_net;
+54.37.200.155|Dash|443|0|FGHRSDV|8838725|Tor 0.3.4.8|
+54.37.200.157|Digger|443|0|FGHRSDV|8838673|Tor 0.3.4.8|
+62.235.80.16|COMPUthings|443|0|FRV|65533|Tor 0.3.5.8|tor@computhings.be
+77.109.116.36|BelgianFries|9001|0|FGRSDV|131669|Tor 0.3.3.7|
+77.243.191.102|Belgium|443|80|FGHRSDV|4816986|Tor 0.3.5.8|
+80.66.135.123|TheGreatKing|9001|9030|FGHRSDV|7701370|Tor 0.3.5.7|0xABCDEF Jeff Backly
+80.66.135.13|OatMeal99|9001|9030|FGHRSDV|9267089|Tor 0.3.5.7|
+81.242.65.98|snap269|44479|0|FRDV|94|Tor 0.3.4.10|
+83.134.111.200|jo|110|0|RV|11338|Tor 0.2.9.16|
+84.194.130.155|pombero|9091|9092|FGHRSDV|3175351|Tor 0.3.5.8|Random Person ;nubeadmin AT telenet dot be;
+84.196.175.113|andrethemac|9001|0|FRSV|2440654|Tor 0.3.5.8|tor admin ;andrethemac AT gmail dot com;
+84.198.103.245|amaterasu|9001|0|RSV|648072|Tor 0.3.5.8|mr.chojin@gmail.com
+85.201.66.147|TotorBEx|9001|9030|FRSDV|210845|Tor 0.3.5.7|TotorBE AT gmail DOT com
+87.66.34.72|snap269|33195|0|FRDV|133|Tor 0.3.4.10|
+91.121.218.189|PLATYPUS|9001|0|FHRSDV|8654310|Tor 0.3.0.9|
+91.178.125.143|MoletrixRelayVM|9031|9032|FGHRSDV|752129|Tor 0.2.9.16|me(at)moletrix(point)be
+91.182.225.19|snap269|39020|0|RDV|236|Tor 0.3.4.10|
+95.182.142.28|Unnamed|9001|0|RSV|1387837|Tor 0.2.9.16|

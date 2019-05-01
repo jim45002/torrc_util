@@ -1,0 +1,27 @@
+104.244.72.155|Fulla|443|80|FGRSDV|1|Tor 0.3.5.8|abuse [AT] torworld.org - BTC 34yFiqwbcUA5MYSvUcpjqARvhoTwMFjmPs
+104.244.72.232|nodvrelay06|9001|9000|FGHRSDV|2834064|Tor 0.3.5.8|emerson tor@nodevine.net bitcoin:126gyYcBjirRmDh2GgHEvgHrvHvuY4knJA
+104.244.73.118|LuLuTor|9001|9030|FGHRSDV|2937942|Tor 0.3.5.8|
+104.244.73.126|SanitaryLandslide|443|80|EFGHRSDV|5215577|Tor 0.3.5.8|alkyl-tor@riseup.net
+104.244.74.165|TORNET3|443|80|EFGRSDV|129841|Tor 0.3.5.8|;realdaysun123 AT gmail dot com;
+104.244.74.34|TORNET2|443|80|EFGRSDV|259441|Tor 0.3.5.8|;realdaysun123 AT gmail dot com;
+104.244.74.78|torseedslu|9001|0|EFGHRSDV|2307954|Tor 0.3.1.9|;torseedslu _AT_ protonmail _DOT_ ch;
+104.244.75.105|Bragi|443|80|FGRSDV|33|Tor 0.3.5.8|abuse [AT] torworld.org - BTC 34yFiqwbcUA5MYSvUcpjqARvhoTwMFjmPs
+104.244.75.194|Loki|443|80|FGRSDV|61|Tor 0.3.5.8|abuse [AT] torworld.org - BTC 34yFiqwbcUA5MYSvUcpjqARvhoTwMFjmPs
+104.244.76.13|MrKrabs|443|80|EFGHRSDV|3027657|Tor 0.3.5.8|admin;AT;tor4us.net
+104.244.76.24|vlado|443|80|FGHRSDV|8953212|Tor 0.3.4.10|MarkN.Hebb@gmail.com
+104.244.76.34|FlashStork|9001|9030|FGHRSDV|6689529|Tor 0.3.5.7|FlashTor {at( mail DOT de
+104.244.76.50|nodvrelay05|9001|9000|FGHRSDV|2815270|Tor 0.3.5.8|emerson tor@nodevine.net bitcoin:126gyYcBjirRmDh2GgHEvgHrvHvuY4knJA
+104.244.77.111|2livebrew|443|80|FGHRSDV|388889|Tor 0.3.5.8|
+104.244.77.49|Luxembourg|443|80|EFGHRSDV|2674939|Tor 0.3.5.8|tor-relay-host@protonmail.ch
+104.244.78.124|VegasOnion|443|80|EFGHRSDV|712873|Tor 0.3.5.8|;vegasonion AT gmail dot com;
+104.244.78.147|VeilsOfTheOnion|443|80|FGHRSDV|2187300|Tor 0.3.5.7|Tor Admin ;toradmin AT veilsoftheonion DOT eu;
+104.244.78.233|Luxembourger|443|80|EFRSDV|259382|Tor 0.3.5.8|;mainst.anytown AT yahoo dot com;
+104.244.79.53|AlanWatts|443|80|EFGHRSDV|1927060|Tor 0.3.5.8|;Jenflowers1999 AT gmail dot com;
+104.244.79.68|JohnSmithSrv|9001|0|RSDV|2412162|Tor 0.3.5.8|https://keybase.io/futursolo
+185.26.127.24|eita|443|80|FHRSDV|15147929|Tor 0.2.9.16|
+185.26.127.31|Unnamed|17960|0|RSDV|13678049|Tor 0.3.4.9|
+46.226.109.16|Malazan|443|80|FHRSDV|2754393|Tor 0.3.5.8|tor@coltaine.com
+80.90.39.25|dizzy|443|80|FRSDV|92463|Tor 0.3.5.8|
+83.222.49.201|Unnamed|9001|9030|RSDV|1173790|Tor 0.2.9.16|
+88.207.135.95|0x3d003|19001|19030|FGHRSDV|2542636|Tor 0.3.4.8|tor at 0x3d dot lu - 1x3dG3utS7FDrTtJutnR3zuCo4Z8fUUAL
+92.38.163.21|angeltest9|443|9030|FGHRSDV|5459372|Tor 0.3.5.8|torrpi1405@gmail.com

@@ -1,0 +1,2 @@
+161.53.160.104|DieYouRebelScum1|9090|9091|FGHRSDV|9503609|Tor 0.2.9.15|;tor@carnet.hr;
+31.147.107.218|FreedomFirst|9001|9030|FRDV|66901|Tor 0.3.5.8|

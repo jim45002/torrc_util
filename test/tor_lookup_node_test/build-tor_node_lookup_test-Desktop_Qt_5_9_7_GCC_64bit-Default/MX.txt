@@ -1,0 +1,13 @@
+132.248.241.5|toritounam|9001|9030|FGHRSDV|5700528|Tor 0.2.9.16|0x673A03E4C1DB921F gwolf+torrelay AT gwolf dot org
+132.248.241.5|toritounam2|9101|9130|FGHRSDV|5672877|Tor 0.2.9.16|0x673A03E4C1DB921F gwolf+torrelay AT gwolf dot org
+132.248.59.72|LIDSOL|9001|0|FHRSDV|1188013|Tor 0.3.5.8|;mruano AT acm dot org;
+177.225.184.253|snap269|34303|0|FRDV|5|Tor 0.3.4.10|
+177.247.241.143|default|443|9030|RDV|28938|Tor 0.2.4.23|
+187.178.75.109|Alexandra|9001|9030|EFGHRSDV|11105656|Tor 0.2.9.16|contacto(at)r3d(dot)mx
+187.179.136.94|DDMexico1|9001|0|FRSDV|1|Tor 0.2.9.16|mruano@acm.org
+189.144.253.239|snap269|40047|0|RDV|9|Tor 0.3.4.10|
+189.208.209.151|galileo|9001|9030|FHRSDV|1810726|Tor 0.3.5.8|satch AT null DOT net
+200.194.51.50|C11|9001|0|FHRSDV|1609232|Tor 0.3.5.8|c11.tor@protonmail.com
+200.52.55.54|Faraday|9001|9030|EFGHRSDV|2602363|Tor 0.2.9.16|seguridad-digital.org ;segudigital(at)tuta(dot)io;
+200.94.194.224|miztonrelay|9001|0|FRSDV|0|Tor 0.2.9.16|tepoztlacatl@achichincle.net
+201.164.251.119|Motoringo|9001|0|RSDV|2871227|Tor 0.2.9.16|co@0x001.cf

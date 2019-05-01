@@ -1,0 +1,731 @@
+104.238.188.98|modupe|443|80|FGRSDV|185416|Tor 0.3.5.8|freeasinbeer@techie.com
+107.191.46.4|abcd|22222|0|FRSV|453666|Tor 0.3.5.7|
+108.61.208.98|Reaction|9001|9030|FHRSDV|746348|Tor 0.2.9.16|
+109.0.216.203|Jupiter|9001|9030|FHRSDV|1121058|Tor 0.2.9.16|
+109.10.72.10|snap269|34771|0|FRDV|3902|Tor 0.3.4.10|
+109.15.43.86|CocoBridge|20|0|FHRSDV|4053788|Tor 0.3.5.8|;cocosushi6 AT gmail dot com;
+109.210.45.13|lesGJvaincront|9001|9030|FGHRSDV|1536261|Tor 0.2.9.16|
+109.218.156.79|Unnamed|9001|0|RDV|259502|Tor 0.2.9.16|
+109.238.11.6|DanaScully|443|8080|FGHRSDV|5722331|Tor 0.3.5.7|
+109.238.2.40|Casper03|995|110|FHRSDV|1292403|Tor 0.3.5.7|0x83288189 Casper ;fantom AT fedoraproject dot org;
+109.24.157.46|mesrouilles|9001|9030|FGHRSDV|1593142|Tor 0.2.9.16|
+109.9.189.81|micheletor|9001|0|RSV|192906|Tor 0.3.5.8|Michele Tor(r) ;micheletorATcanarduck.com;
+137.74.112.46|Relay751|9001|9030|FGHRSDV|1102147|Tor 0.3.3.9|Donate : 1BcGs8GAJwVQ6BpTN9BtRcKvGWzLnmcXwK
+137.74.116.214|sauronkingofmortor|9001|9030|FHRSDV|691326|Tor 0.3.5.8|luciole ;luciolesauronkingofmortor@yopmail.com;
+137.74.117.52|heartbleed|9001|0|FGHRSDV|7154991|Tor 0.2.8.12|
+137.74.167.96|freeBogatovJib|9001|9030|EFGHRSDV|13327832|Tor 0.3.4.9|abuse-dot-tor riseup-dot-net
+137.74.169.241|Karadoc|443|80|EFGHRSDV|2056158|Tor 0.3.5.8|florentin aatt rochet ddoott be; LTC: LhRqJZu6U87BJNSUbkACHzVQsK39hJ3sMB
+137.74.19.201|niftyflorescaverat|21001|11001|FGHRSDV|950401|Tor 0.3.5.7|abuse@to-surf-and-protect.net
+137.74.19.201|niftyphoberomys|21002|11002|FGHRSDV|950400|Tor 0.3.5.7|abuse@to-surf-and-protect.net
+137.74.19.202|niftyleastgerbil|20000|10000|FGHRSDV|990305|Tor 0.3.5.7|abuse@to-surf-and-protect.net
+137.74.19.202|niftywatersgerbil|20001|10001|FGHRSDV|972725|Tor 0.3.5.7|abuse@to-surf-and-protect.net
+137.74.193.226|guenthergraubein|9001|0|FGHRSDV|4363714|Tor 0.3.5.8|tor-operator@dafabhoid.de
+137.74.198.250|myrelay|9001|9030|FGHRSDV|38836850|Tor 0.2.9.10|
+137.74.25.175|Hank|443|80|FGRSDV|324183|Tor 0.3.3.9|Random Person ;489f0b2d at opayq dot com;
+137.74.40.76|servbr9|443|80|FGHRSDV|13813633|Tor 0.3.3.7|Servbr Admin ;servbr [AT] mail [DOT] md;
+137.74.40.77|turingrelay|444|0|RSDV|7045410|Tor 0.3.2.10|
+145.239.158.234|Unnamed|9001|9030|FHRSDV|343564|Tor 0.3.5.8|
+145.239.225.199|unyun|443|0|EFRV|1|Tor 0.3.5.8|vo1dwalker(at)protonmail(dot)com
+145.239.66.236|Unnamed|9001|9030|FGHRSDV|5891178|Tor 0.3.5.7|
+145.239.72.73|aerona|9001|9030|FGHRSDV|2067305|Tor 0.3.5.8|0x0483E5F4 cyllos ;contact AT cyllos dot me;
+145.239.76.11|ServbrRome|443|80|FGHRSDV|9011010|Tor 0.3.4.9|
+147.135.136.72|severalwdadwajunior|17353|11289|FHRSDV|3154771|Tor 0.2.9.15|
+147.135.245.68|utumooo|1200|0|FGHRSDV|561601|Tor 0.3.5.8|admin2@utum.ooo
+149.202.170.60|BadAx0r|9001|9030|EFGHRSDV|6135151|Tor 0.3.2.9|tor@meriot.fr
+149.202.190.14|Unnamed|9001|9030|FGHRSDV|5773436|Tor 0.2.9.14|
+149.202.238.204|alsaceonion|443|80|EFGRSDV|194522|Tor 0.4.0.1-alpha|;zwiebeln at online de; please donate BTC 1K38x9xqK3YDzjehYFAEPzsESEC4ScH5wJ
+149.202.238.204|alsaceonionb|444|81|EFGRSDV|194510|Tor 0.4.0.1-alpha|;zwiebeln at online de; please donate BTC 1K38x9xqK3YDzjehYFAEPzsESEC4ScH5wJ
+151.127.52.79|c|9001|9030|FGHRSDV|2736249|Tor 0.3.5.8|0x0D3130F5 Clément Février ;clement AT forumanalogue DOT fr;
+151.80.115.180|anonkaisx|443|80|FGHRSDV|648250|Tor 0.3.4.8|Kai ;anon AT kai dot sx;
+151.80.147.153|DarkOVH|8888|0|FGHRSDV|583311|Tor 0.3.4.8|julles.reneau@post.com
+151.80.56.141|LinuxLanNetFR|443|9030|FHRSDV|8388402|Tor 0.3.5.7|Marcel Straub ;marcel AT straub-nv.de;
+163.172.104.221|anonymoose|9001|9030|FGHRSDV|9576892|Tor 0.3.4.9|
+163.172.11.137|digitalResistance|9001|9002|FGHRSDV|5223774|Tor 0.3.4.9|why@example.com
+163.172.11.141|drazisil|9000|9001|FGHRSDV|581593|Tor 0.3.4.9|jwbecher@drazisil.com
+163.172.11.141|drazisil|9100|9101|FGHRSDV|583273|Tor 0.3.4.9|jwbecher@drazisil.com
+163.172.12.160|watchme|443|80|EFGHRSDV|3033095|Tor 0.3.5.8|watchme ;mydisco .AT. s y s t e m l i DOT o r g;
+163.172.132.167|Unnamed|444|0|FGHRSDV|586394|Tor 0.2.9.16|
+163.172.132.167|Unnamed|445|0|FGHRSDV|586393|Tor 0.2.9.16|
+163.172.133.54|Cayambe|443|8080|FGHRSDV|6980493|Tor 0.3.5.7|aTorRelay@gmail.com
+163.172.139.104|Pichincha|443|8080|FGHRSDV|6987755|Tor 0.3.5.7|aTorRelay@gmail.com
+163.172.14.221|Totonicapanp5|9001|0|FGHRSDV|6567788|Tor 0.2.9.16|EF201A39 ;nat@makarevitch.org;
+163.172.142.92|znxpar01|443|80|FGHRSDV|842545|Tor 0.3.2.10|4096R/5819E33F Zhongfu Li ;tor at zhongfu dot li;
+163.172.146.92|Unnamed|9001|0|FGHRSDV|3564083|Tor 0.4.0.1-alpha|
+163.172.147.53|VSIFweb|9001|9030|FGHRSDV|5450544|Tor 0.3.5.8|VSIF Support ;support AT vsif dot ca;
+163.172.149.122|niij03|443|80|FGHRSDV|2239323|Tor 0.3.5.8|tor@niij.io
+163.172.149.155|niij02|443|80|FGHRSDV|2253690|Tor 0.3.5.8|tor@niij.io
+163.172.149.243|JohnNiang|9001|9030|FGRSDV|64918|Tor 0.2.9.14|JohnNiang ;nobody AT johnniang dot me;
+163.172.151.47|ByteIndian|9001|9030|EFRDV|34087|Tor 0.3.4.8|[admin] ;at; [bin] ;dot; [ovh] bitcoin donations to 1JLqxShorKdrQYDZ3sPSN1CtKiGf2XknED
+163.172.151.47|ByteIndian1|9002|9031|EFRDV|86096|Tor 0.3.4.8|[admin] ;at; [bin] ;dot; [ovh] bitcoin donations to 1JLqxShorKdrQYDZ3sPSN1CtKiGf2XknED
+163.172.152.231|tor02k|443|80|FGHRSDV|4996825|Tor 0.3.5.8|0xDD7831FC Matthias Kretschmann ;m AT kretschmann dot io; - 171qDmKEXm9YBgBLXyGjjPvopP5o9htQ1V
+163.172.152.237|Tumulus|9001|9030|FGHRSDV|5785283|Tor 0.3.5.7|Tumulus
+163.172.154.162|rofltor06|9001|9030|FGRSDV|259271|Tor 0.3.5.8|tor[a]rofl.cat - 17bD7EWsSXrqrqk2ibbprPxhegMqecsaCy
+163.172.157.213|Cotopaxi|443|8080|FGHRSDV|6987684|Tor 0.3.5.7|aTorRelay@gmail.com
+163.172.159.135|MyHeroEdSnowden|9001|9030|FGHRSDV|1274419|Tor 0.2.9.16|Scott Maxwell tor-contact-2017-beratna (at) scottmaxwell (dot) org
+163.172.160.182|balthaasar|9001|0|EFRSDV|0|Tor 0.2.9.14|George Shuklin ;george.shuklin@gmail.com;
+163.172.165.196|tds0|443|80|FHRSDV|2700277|Tor 0.3.3.7|tor operator ;tor-4897694df77b AT dust dot stream;
+163.172.167.241|toXelVPS|9001|9030|FGRSDV|0|Tor 0.3.5.8|;tor AT toxeldev dot de;
+163.172.169.253|darknebula|9001|9030|FGHRSDV|1234931|Tor 0.3.4.11|twink0r @ twitter
+163.172.176.167|niij01|443|80|FGHRSDV|2242862|Tor 0.3.5.8|tor@niij.io
+163.172.176.21|Unnamed|9001|9030|FHRSDV|10447306|Tor 0.3.3.7|
+163.172.179.31|Frodon22|9001|9030|FHRSDV|429526|Tor 0.2.9.16|donald9574@sigaint.org
+163.172.182.147|tOr|443|0|FGHRSDV|874839|Tor 0.3.5.8|0xFFFFFFFF Random Person ;nobody AT example dot com;
+163.172.183.116|k2so|443|80|FRSDV|324077|Tor 0.3.5.8|ddo_at_openmailbox_dot_org
+163.172.191.108|TrypticNode5|9001|9030|FGHRSDV|7279690|Tor 0.3.5.7|tor@tryptic.co
+163.172.194.53|GrmmlLitavis|9001|9030|FRDV|2162117|Tor 0.3.5.8|Nurtic-Vibe ;nurtic-vibe AT grmml DOT eu;
+163.172.21.117|tiflin|443|80|FGHRSDV|5130765|Tor 0.3.5.8|rememberremember at gmx dot com
+163.172.231.182|Metoo|9001|9030|FRSDV|64921|Tor 0.3.4.9|
+163.172.25.118|torpidsFRonline4|22|80|FGHRSDV|23086865|Tor 0.3.4.5-rc|torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF
+163.172.27.62|kouettng|9001|9030|FGHRSDV|7223815|Tor 0.2.9.14|
+163.172.4.100|HeySiri|443|80|FGHRSDV|9331267|Tor 0.3.4.9|
+163.172.41.228|askatasuna64|9001|9030|EFGHRSDV|3492045|Tor 0.3.5.8|Tor Admin ;toradmin A@T esponde D0T net;
+163.172.42.239|UseMoaBandwidth|9001|9030|FGRSDV|111600|Tor 0.3.5.8|Ask Sysadmins @kbu.freifunk.net
+163.172.42.239|UseMoaBandwidth2|9002|9031|FGRSDV|64921|Tor 0.3.5.8|Ask Sysadmins @kbu.freifunk.net
+163.172.43.81|Bilbon|9001|9030|FRSDV|130561|Tor 0.2.9.16|donald9574@sigaint.org
+163.172.47.34|anontaxi|9001|0|FGHRSDV|5728136|Tor 0.3.5.7|tor@taxinachtegel.de C279FB32
+163.172.53.201|despacitor|443|80|FGHRSDV|10519564|Tor 0.3.4.9|
+163.172.53.84|Multivac|21|143|FGHRSDV|324242|Tor 0.4.0.4-rc|;root+tor00@multivac.io; - 1LLnvMu2s4BaF2LmsqV8RuwMDCy619Fkwu
+163.172.53.84|Multivac0|443|80|FGHRSDV|324361|Tor 0.4.0.4-rc|;root+tor00@multivac.io; - 1LLnvMu2s4BaF2LmsqV8RuwMDCy619Fkwu
+163.172.56.248|voidray|8443|8080|FGHRSDV|25441310|Tor 0.3.2.10|tor(at)0day.rocks
+163.172.61.78|drazisil|9000|9001|FGHRSDV|580760|Tor 0.3.4.9|jwbecher@drazisil.com
+163.172.61.78|drazisil|9100|9101|FGHRSDV|580759|Tor 0.3.4.9|jwbecher@drazisil.com
+163.172.68.222|2HG|9001|9030|FRSDV|259383|Tor 0.3.5.7|tor@2hg.org
+163.172.69.166|OoliidaiNgah|59001|59030|FHRSDV|1314131|Tor 0.3.5.8|A43AED4A53F50B846EB7509549DC6A732912A5F3 ;tor A_T dmesg.site;
+163.172.82.3|FastR42|443|80|FGHRSDV|30673158|Tor 0.2.5.16|
+163.172.85.155|Edouardine|9001|9030|FGHRSDV|583510|Tor 0.3.5.8|0xD2070CB6 admin;at;ajanvier;dot;fr
+163.172.90.128|dune|9001|0|FRDV|946929|Tor 0.3.5.7|0xE360782B Ludovic ;Ludovic@hirlimann.net;
+163.172.94.119|AsiaArgento|9001|9030|FRDV|1052603|Tor 0.2.9.16|Decio ;decio@decio.eu;
+164.132.169.156|Unnamed|16294|7553|FHRSDV|15028303|Tor 0.2.9.17|
+164.132.226.30|PieroV|22|9030|FGHRSDV|12928523|Tor 0.2.9.16|PieroV ;vogliadifarniente AT gmail DOT com;
+164.132.228.61|RavelSalmerange|443|9030|FGHRSDV|17302343|Tor 0.3.3.6|PhilibertAspert(at)obfuscated(dot)com [tor-relay.co]
+164.132.51.91|tor03k|443|80|EFGRSDV|288003|Tor 0.3.5.8|0xDD7831FC Matthias Kretschmann ;m AT kretschmann dot io; - 171qDmKEXm9YBgBLXyGjjPvopP5o9htQ1V
+164.132.9.199|moxon|443|80|EFRDV|1555464|Tor 0.3.5.8|
+167.114.244.112|bbkamy|9001|0|FGHRSDV|3928531|Tor 0.3.5.8|fabian AT hufenreuter dot info
+176.152.45.213|KhaosArmyRelay|9001|9030|ERDV|194464|Tor 0.3.5.8|kontakt@khaos.army
+176.158.155.120|Unnamed|9001|0|RSDV|194466|Tor 0.3.5.8|
+176.158.218.130|hacktheplanet|9001|0|FRDV|8739996|Tor 0.3.1.9|${CONTACT_GPG_FINGERPRINT} ${CONTACT_NAME} ${CONTACT_EMAIL}
+176.158.236.102|Underworld|9001|9030|FGHRSDV|453844|Tor 0.3.5.8|admin@underworld.fr
+176.165.28.165|hopertor|9001|9030|FGHRSDV|1342876|Tor 0.3.5.8|hoper ;hoper AT free dot fr;
+176.165.95.163|snap269|41297|0|RSDV|129662|Tor 0.3.4.10|
+176.166.235.214|CoeurEnOr|9001|0|FGHRSDV|5418053|Tor 0.3.5.8|Tor sysadmin ;tor AT photonshuttle dot space;
+176.168.148.52|snap269|43637|0|RDV|7920|Tor 0.3.4.10|
+176.187.196.171|snap269|41391|0|RDV|241|Tor 0.3.4.10|
+176.31.103.150|UV74S7mjxRcYVrGsAMw|9001|9030|FGHRSDV|518704|Tor 0.3.5.8|koen@ns395839.ip-176-31-103.eu
+176.31.117.6|Unnamed|9666|0|FRSV|960595|Tor 0.2.5.16|
+176.31.163.89|fr0akatala|9001|9030|FGHRSDV|3622102|Tor 0.3.5.8|0xFFFFFFFF Alexey ;alexey AT katalevich dot cz;
+176.31.181.189|Bl0tz4|9001|9030|FRSDV|3|Tor 0.2.9.16|
+176.31.229.76|Unnamed|9001|9030|FGHRSDV|1902254|Tor 0.3.5.8|
+176.31.248.123|Unnamed|9178|15381|FHRSDV|14991679|Tor 0.2.9.17|
+176.31.35.149|elc4|443|0|FGHRSDV|6420757|Tor 0.3.4.8|tor-admin-vgazvhye0sl7@xutrox.com
+176.31.43.51|Dunkelzahn|9001|9030|FGRSDV|259309|Tor 0.3.5.8|
+176.31.45.3|nostromo|443|9030|EFGHRSDV|1361413|Tor 0.3.5.8|;robinkjeld AT pm DOT me;
+176.67.168.210|bansagi|443|80|FGHRSDVX|518485|Tor 0.3.5.8|
+178.20.55.16|marcuse1|443|80|EFGHRSDV|5508043|Tor 0.3.5.8|0x9F29C15D42A8B6F3 Nos oignons ;adminsys@nos-oignons.net; - 17WLwtW63FrHeMAEVkALnwhfmizBxGXDW1
+178.20.55.18|marcuse2|443|80|EFHRSDV|5508035|Tor 0.3.5.8|0x9F29C15D42A8B6F3 Nos oignons ;adminsys@nos-oignons.net; - 17WLwtW63FrHeMAEVkALnwhfmizBxGXDW1
+178.32.147.150|servicePublic3|443|80|EFGHRSDV|4590142|Tor 0.3.5.8|tor-mngr(AT) scalaire{DOT} fr
+178.32.181.96|PrivacyRepublic0001|443|80|EFGHRSDV|13745739|Tor 0.3.4.9|Privacy Republic ;abuse-team _at_ PrivacyRepublic _dot_ org;
+178.32.181.97|PrivacyRepublic0002|443|80|EFGHRSDV|13745944|Tor 0.3.4.9|Privacy Republic ;abuse-team _at_ PrivacyRepublic _dot_ org;
+178.32.181.98|PrivacyRepublic0003|443|80|EFGHRSDV|13751406|Tor 0.3.4.9|Privacy Republic ;abuse-team _at_ PrivacyRepublic _dot_ org;
+178.32.181.99|PrivacyRepublic0004|443|80|EFGHRSDV|13745946|Tor 0.3.4.9|Privacy Republic ;abuse-team _at_ PrivacyRepublic _dot_ org;
+178.32.189.88|wilfong|443|80|FGHRSDV|3175238|Tor 0.3.5.8|freeasinbeer@techie.com
+178.32.218.54|atorcy3|9001|0|FHRSDV|23420210|Tor 0.2.9.16|
+178.32.220.61|grocock|9001|9030|FGRSDV|194472|Tor 0.3.5.8|0xCECED044 Mark Grocock ;mark AT grocock dot me dot uk; - 1MarkAppgfaUXprB4MwidAvYN4DZx1G9RK
+178.32.221.207|christianbro|6069|6070|FGHRSDV|2746062|Tor 0.2.9.14|christianbro ;at; yandex ;dot; ru - 1D1EjYEGHFPmc8RYXe5MmCqaZwqrXYaHgz
+178.32.222.185|HiddenNix|444|8080|FGHRSDV|324126|Tor 0.3.5.8|4096R/BFC68C8708713A88 ;hiddennix[]protonmail.com;
+178.32.223.22|ovh2|443|80|FGHRSDV|4135109|Tor 0.4.0.2-alpha|
+178.32.223.87|Unnamed|9001|9030|FHRSDV|1492934|Tor 0.2.9.16|
+178.33.183.251|grenouille|443|80|FGHRSDV|3016901|Tor 0.3.5.7|Arthur Fabre ;https://arthurfabre.com/contact;
+185.104.185.170|Unnamed|23098|27893|FHRSDV|14966863|Tor 0.2.9.17|
+185.13.37.252|Rishi|9001|9030|FGHRSDV|4878128|Tor 0.3.5.8|fightmaxime(at)protonmail(dot)com
+185.13.39.197|Neldoreth|443|80|FGHRSDV|5479247|Tor 0.3.5.8|webmeister ;tor4.20.webmeisterATspamgourmet.com;
+185.156.173.148|vaseduva|443|80|FGHRSDV|1101872|Tor 0.3.5.8|
+185.233.100.23|Elenagb|443|80|EFGHRSDV|5454061|Tor 0.3.5.8|0x9F29C15D42A8B6F3 Nos oignons ;adminsys@nos-oignons.net; - 17WLwtW63FrHeMAEVkALnwhfmizBxGXDW1
+185.41.154.130|ADKP|9001|9030|RSDV|4244423|Tor 0.3.2.10|
+185.41.154.232|Guitch4042|9001|9030|FGHRSDV|3978354|Tor 0.3.5.8|guitch404 [AT] yopmail(dot)com
+188.165.164.72|VPSFranceTor|9001|9030|FRSDV|64862|Tor 0.3.5.8|Sergey ;return76 AT mail dot ee;
+188.165.212.152|MrDetonia|9001|9030|FGHRSDV|24073090|Tor 0.2.9.16|MrDetonia ;mrdetonia AT protonmail DOT com;
+188.165.213.156|Unnamed|52743|52345|FGHRSDV|12179189|Tor 0.2.9.16|
+188.165.216.204|openUReyes|9001|0|FGHRSDV|1749728|Tor 0.3.4.11|
+188.165.220.34|0x3d009|8001|8030|FGRSDV|194581|Tor 0.3.4.8|tor at 0x3d dot lu - 1x3dG3utS7FDrTtJutnR3zuCo4Z8fUUAL
+188.165.220.34|0x3d008|9001|9030|FGRSDV|194581|Tor 0.3.4.8|tor at 0x3d dot lu - 1x3dG3utS7FDrTtJutnR3zuCo4Z8fUUAL
+188.165.236.18|kogis|9001|0|FRSV|43833990|Tor 0.2.5.16|
+188.165.246.179|Unnamed|17881|29108|FHRSDV|15017602|Tor 0.2.9.17|
+188.165.251.6|Unnamed|9977|0|FRSDV|259207|Tor 0.3.5.8|
+188.165.59.43|MagicRelay|9001|0|FRSVX|40109869|Tor 0.2.4.27|Random Person adminHexx@prohexx.tk
+188.213.28.132|Equinox|9001|9030|FHRSDV|4896078|Tor 0.3.5.8|fightmaxime(at)protonmail(dot)com
+188.213.31.125|ViceRoy|9001|9030|FGHRSDV|4453030|Tor 0.3.5.8|fightmaxime(at)protonmail(dot)com
+193.70.112.165|ParkBenchInd001|443|80|FGHRSDV|1710676|Tor 0.3.5.8|TorNode ;tornode AT parkbenchindustries dot com; - 1PjwyggxcsmWJDqsq6G7hqgiLC2iaYvymn
+193.70.40.121|jaimalator|9001|0|FGHRSDV|5342444|Tor 0.3.5.8|https://nino.link/gpg Nino TREYSSAT-VINCENT ;nino+torrelay (at) treyssatvincent (dot) fr;
+193.70.43.102|servbr7|443|80|FGHRSDV|13806253|Tor 0.3.3.7|Servbr Admin ;servbr [AT] mail [DOT] md;
+193.70.43.20|servbr10|443|80|FGHRSDV|13835108|Tor 0.3.3.7|Servbr Admin ;servbr [AT] mail [DOT] md;
+193.70.43.76|Aerodynamik03|9001|9030|FGHRSDV|1880174|Tor 0.3.5.8|Anders Burmeister ;anders.burmeister AT protonmail dot ch;
+193.70.73.242|FR1sevpsNET|50101|50102|FGHRSDV|4349605|Tor 0.2.9.14|Abuse ;abuse [AT] sevps [dot] net; - No SPAM!
+194.187.249.116|guidelli|443|80|FGHRSDV|4942988|Tor 0.3.4.11|
+195.154.118.198|isupporttorAy3RDw|9001|9030|FHRSDV|304082|Tor 0.2.9.16|iSupport Tor ;isupporttor AT protonmail DOT com;
+195.154.119.203|nix|9001|9030|FGHRSDV|1552585|Tor 0.2.9.16|
+195.154.133.113|SicceggeOrion|9001|0|FRSV|1238590|Tor 0.2.9.16|tor-relay@christoph-egger.org
+195.154.161.5|lapin|9999|0|FGHRSDV|12542551|Tor 0.3.4.9|ruhtra.mar@gmail.com
+195.154.162.172|pook0oow|21|0|FGHRSDV|10987234|Tor 0.3.4.9|Manuel Giraud ;manuel+tor AT ledu-giraud DOT fr;
+195.154.163.119|BensTorRelay|9001|0|FGHRSDV|3240107|Tor 0.3.5.8|[ben] ;at; [benatherton] ;dot; [com]
+195.154.164.243|torpidsFRonline3|443|80|FRDV|1309556|Tor 0.4.0.3-alpha|torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF
+195.154.165.64|tjwtechsvr1|8443|8080|FGHRSDV|17849578|Tor 0.3.4.8|0xECDFEA8B27994D63 Timothy Werner ;timothy (@T) tjw (D0T) moe;
+195.154.181.146|hers|443|80|FGHRSDV|2228784|Tor 0.3.5.8|
+195.154.200.129|falared|110|0|FGHRSDV|5540466|Tor 0.3.5.8|832A5C79 Faustin ;faustin AT fala dot red;
+195.154.209.91|joszef|443|80|FGHRSDV|5115763|Tor 0.3.5.8|0xFFFFFFFF Random Person ;nobody AT example dot com;
+195.154.235.190|Eyjafjallajoekull|80|443|FGHRSDV|3678135|Tor 0.2.9.16|
+195.154.237.147|unnamed|443|80|FGHRSDV|4935707|Tor 0.3.5.8|
+195.154.237.179|Laborkatze|443|80|FGHRSDV|3678926|Tor 0.2.9.16|
+195.154.240.145|bl1nk|443|80|FGHRSDV|4431699|Tor 0.3.5.8|
+195.154.241.125|toris|443|80|FGHRSDV|4507566|Tor 0.3.5.8|
+195.154.250.239|Unnamed|443|80|FGHRSDV|4406892|Tor 0.3.5.8|
+195.154.252.88|torshark|443|80|FGHRSDV|4673500|Tor 0.3.5.8|
+195.154.253.226|tornado|443|80|FGHRSDV|4554186|Tor 0.3.5.8|
+195.154.255.174|TORminion|443|80|FGHRSDV|4676850|Tor 0.3.5.8|
+195.154.28.200|DefinitelyNotTheFBI|9001|9030|FGHRSDV|9008714|Tor 0.3.4.9|
+195.154.50.18|stannaz|9020|0|FRV|0|Tor 0.3.5.8|stannaz ;0c47b@airmail.cc;
+212.129.19.196|jinx|9001|0|FHRSDV|17817530|Tor 0.2.9.16|hanxhx ;hanx_hx@hotmail.fr;
+212.129.4.84|Unnamed|9999|9998|FGRSDV|64261|Tor 0.3.5.8|
+212.129.49.59|0xPC|9001|9030|FGHRSDV|1037230|Tor 0.3.5.8|Philippe Couturier philippe(dot)couturier(at)offtherecordmail(dot)com
+212.129.5.219|Scrubs|9001|9030|FGHRSDV|5205701|Tor 0.3.5.8|Random Person ;spam AT rugani dot de;
+212.129.57.254|ENC0c210f748b604128|9001|9030|FGHRSDV|21143330|Tor 0.3.1.10|Itzhak Daniel ;itzhak+tor@itk98.net;
+212.129.62.232|wardsback|443|80|FGRSDV|60|Tor 0.3.5.7|Fred CORNU ;tor-admin AT wardsback DOT org; - 16DwspUW6bvwYjw89bDaHHnSb5b1f1qG3s
+212.47.226.52|Wardenclyffe|9001|9030|FGHRSDV|868266|Tor 0.2.9.16|CCBB768F3CDECB13BD4AD4AF6FDFD302EF0CDCC8 Evan ;ejs91 AT mailbox dot org;
+212.47.227.71|bistrv1|9001|9030|FGHRSDV|1555697|Tor 0.3.5.8|torbob ; torbob anAT riseup aDOT net ;
+212.47.227.75|WeepingAngels|9001|9030|FGHRSDV|10047944|Tor 0.3.2.10|Torchwood ;contact [at] pakitow [dot] eu;
+212.47.229.2|scaletor|9001|9030|FGHRSDV|5392860|Tor 0.3.5.8|tor terjan net
+212.47.229.60|moridin|9001|0|FGHRSDV|1119226|Tor 0.3.2.10|Josef Gajdusek ;atx.tor ZAVINAC atx BODKA name;
+212.47.230.49|InnovateTor|9001|9030|FGHRSDV|9630045|Tor 0.3.4.9|Maarten Eyskens ;maarten AT innovatete dot ch;
+212.47.231.164|tOr|443|0|FGHRSDV|4259229|Tor 0.3.5.8|0xFFFFFFFF Random Person ;nobody AT example dot com;
+212.47.232.236|singularity|443|9030|FGHRSDV|11908975|Tor 0.3.4.9|
+212.47.233.250|FreewaySca|9001|9030|FGHRSDV|853201|Tor 0.4.0.4-rc|alienpup@gmail.com
+212.47.233.86|netimanmu|9001|9030|FGHRSDV|7801286|Tor 0.3.5.7|giannoug|__AT-|gmail{ DOt-}com
+212.47.236.86|fr1xtracodews|9001|9030|FGHRSDV|5526094|Tor 0.3.5.8|tor(at)xtracode(dot)ws
+212.47.236.95|Gu1nn3zzRelay|443|80|FGHRSDV|795654|Tor 0.4.0.4-rc|Guinness ;guinness AT crans dot org;
+212.47.237.191|Unnamed|9001|0|FGRSDV|2|Tor 0.2.9.16|;tor t-8ch de;
+212.47.238.203|Dutch03|9001|80|FGHRSDV|5483021|Tor 0.3.5.8|i=e: DutchTorRilay -AT- posteo -DOT- nl
+212.47.239.151|WomTor|8080|80|FGHRSDV|23407773|Tor 0.2.9.16|
+212.47.239.151|LapTor|9001|9030|FGHRSDV|23372108|Tor 0.2.9.16|
+212.47.239.187|mangojam|443|80|FGHRSDV|38037975|Tor 0.3.2.9|
+212.47.239.83|PonTor|8080|80|FGHRSDV|23389852|Tor 0.2.9.16|
+212.47.240.189|Tungurahua|443|8080|FGHRSDV|6984088|Tor 0.3.5.7|aTorRelay@gmail.com
+212.47.243.166|ididntstartthefire|9001|0|FGHRSDV|10033448|Tor 0.2.9.16|D9FE 4119 F082 6F15 93BD BD36 6162 DBA5 635E A16A Robin Raymond ;FIRSTNAME AT robinraymond dot de;
+212.47.244.38|Chimborazo|443|8080|FGHRSDV|6955372|Tor 0.3.5.7|aTorRelay@gmail.com
+212.47.246.211|armAtor|9001|9030|FRDV|26|Tor 0.3.5.8|Andrea Lusuardi ;uovobw@gmail.com;
+212.47.247.109|Dutch04|9001|80|FGHRSDV|5501399|Tor 0.3.5.8|i=e: DutchTorRilay -AT- posteo -DOT- nl
+212.47.248.113|sway|9001|9030|FGHRSDV|7419731|Tor 0.3.1.8|0xB9A02A3D Pavol Rusnak ;stick+tor@gk2.sk;
+212.47.248.66|Urania|9001|9030|EFGHRSDV|5191285|Tor 0.3.5.8|abuse [AT] torworld.org - BTC 34yFiqwbcUA5MYSvUcpjqARvhoTwMFjmPs
+212.47.248.93|vikoj|9001|0|FGRSDV|194403|Tor 0.3.5.8|onion(a)irkki(.)win - BTC 1M3NJb5BaUTNuxTFYvs3Fhtc4mkKE5BTXJ
+212.47.249.63|packetwrapup|9001|9030|FGHRSDV|9871355|Tor 0.2.4.27|g ;g @ eryd DOT net;
+212.47.254.236|torpidsFRonline1|443|80|FGHRSDV|2491315|Tor 0.4.0.3-alpha|torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF
+212.83.154.33|bauruine203|443|8888|FGHRSDV|1491368|Tor 0.3.5.8|Bauruine ;torcontact aatt tuxli.ch; - 1CVkdZfRGWXETqVu8ctEKKMPC8Xj2Xnqcp
+212.83.154.33|bauruine204|8443|8080|FGHRSDV|4835785|Tor 0.3.5.8|Bauruine ;torcontact aatt tuxli.ch; - 1CVkdZfRGWXETqVu8ctEKKMPC8Xj2Xnqcp
+212.83.155.215|tebe|9001|9030|FGHRSDV|4622773|Tor 0.3.5.8|t0rexitnode[at]pm[dot]me
+213.167.242.183|TitounNet|9001|0|FRSDV|258364|Tor 0.3.5.8|anonymous
+213.246.39.160|obsd4atorrelay|9001|9030|FGHRSDV|1962119|Tor 0.3.4.11|obsd4aadmins ;tor@obsd4a.net;
+213.246.56.79|FRWooodokaRU|9001|9005|FGHRSDV|9381436|Tor 0.2.6.10|inbox@wooodoka.ru
+213.32.71.116|middlesharprelay|9001|9030|FRDV|453785|Tor 0.3.5.8|Middlesharp
+213.32.90.15|Enimal|9001|9030|FGHRSDV|5440711|Tor 0.3.5.8|
+217.128.112.187|snap269|45527|0|FHRSDV|912911|Tor 0.3.4.10|
+217.182.51.248|Cosworth02|443|80|FGRSDV|64|Tor 0.3.5.8|tor@fni.pl
+217.182.95.221|Unnamed|9001|9030|FHRSDV|4611671|Tor 0.3.5.8|
+37.187.1.29|Aragorn|9001|9030|FHRSDV|6717658|Tor 0.3.5.7|
+37.187.101.237|Unnamed|44359|0|FRSV|7378222|Tor 0.2.9.16|
+37.187.102.108|EvilMoe|443|80|FGHRSDV|4543360|Tor 0.3.5.8|evilmoe at bossmail dot de
+37.187.102.186|txtfileTorNode65536|9001|9030|FRDV|712875|Tor 0.4.0.4-rc|0x590865E8 Matthias Fritzsche ;txt dot file AT txtfile dot eu;
+37.187.102.5|fredTorrefactor|9001|9030|FGHRSDV|317042|Tor 0.3.2.10|rhfred@disroot.org
+37.187.103.156|NoSpyOrg|8088|8089|FGHRSDV|2451694|Tor 0.3.5.7|aftermath3184@no-spy.org
+37.187.103.213|ratni|9001|9030|FGHRSDV|11437332|Tor 0.3.3.7|Pierre ;pierre+tor at ratni dot v4v dot be;
+37.187.103.54|ABCVG|443|0|FGHRSDV|19677671|Tor 0.2.9.16|lostmc1@mail.ru
+37.187.103.81|jetsm3ub|5432|0|RDV|53|Tor 0.3.5.8|Random Person ;nobody AT example dot com;
+37.187.104.111|AkashaShrooms|9001|9030|FHRSDV|5518836|Tor 0.3.5.8|0x1ADD5499 Brozkeff ;brozkeff AT gmail dot com;
+37.187.104.178|LeRechenscheiber|9001|9030|FGHRSDV|2332916|Tor 0.3.5.8|
+37.187.105.104|timcinel|9001|9030|EFGHRSDV|17139645|Tor 0.3.2.10|2048R/EFC737D8 Tim Cinel ;email@timcinel.com;
+37.187.107.91|julianSMN|9001|9030|FGHRSDV|605060|Tor 0.3.4.8|0x68742E2C Finn Herzfeld ;finn@seattlemesh.net; - 152XBPjhbMC6AnRsFE2MJ9VX2HAvSpMsR7
+37.187.113.218|g00dplain|9001|9030|FGHRSDV|3234304|Tor 0.2.9.16|g00dplain@tuta.io
+37.187.115.157|Janky328891|9001|9030|FGHRSDV|1036912|Tor 0.3.5.8|Finn ;finn@janky.solutions; - 1JankypvVB65ntXp6EvYanqHsxDFx4nx8D
+37.187.115.47|bennobaksteen|9001|9030|FGHRSDV|15271321|Tor 0.3.4.8|
+37.187.118.34|niepokorny|9001|9030|FGHRSDV|1976404|Tor 0.3.5.7|
+37.187.120.37|digijihad|9001|9030|FGHRSDV|13377678|Tor 0.3.4.9|maintainer ;nobody AT tartaneagle dot ORG ;dot; uk;
+37.187.122.101|Unnamed|9001|9030|FGHRSDV|2073782|Tor 0.3.5.8|
+37.187.122.8|malechick|9001|9030|FGHRSDV|9070114|Tor 0.2.9.16|eyeman@posteo.ae
+37.187.16.175|riuriu|8090|8091|FGHRSDV|9806470|Tor 0.3.4.9|
+37.187.16.43|Torpille|9001|0|RSDV|4158097|Tor 0.3.3.7|Philippe ALEXANDRE alexandre.philippe+torrelay@gmail.com
+37.187.17.67|nova|9001|9030|FGHRSDV|4590093|Tor 0.3.5.8|2jvi79pev6sygv0 Random Person ;nobody AT example dot com;
+37.187.177.2|SgrAstar|9001|9030|FGHRSDV|1547431|Tor 0.3.4.9|
+37.187.180.112|casalserugo|9001|0|FRSV|1523694|Tor 0.3.4.9|Anonima Casalserugo ;anonima.casalserugo@gmail.com;
+37.187.180.18|whatconfig|9001|9030|EFGHRSDV|2876407|Tor 0.3.5.7|0x4F8ACED4 Marcel Menzel ;mail@typhoon31.de;
+37.187.2.230|trustytohr|9001|9030|FHRSDV|5533526|Tor 0.3.5.8|AnonimusBadBoy ;anonimusbadboy@gmail.com;
+37.187.20.161|Origan|9001|80|FGHRSDV|9946898|Tor 0.3.4.9|freenetwork AT protonmail DOT com
+37.187.20.59|torpidsFRovh|443|80|FGHRSDV|1295968|Tor 0.4.0.3-alpha|torpids AT yahoo dot com - 1JYHfzVFVD7n2Sezz3DEHDFgGYjQWpDjqF
+37.187.20.79|poildortie|9001|0|FHRSDV|871215|Tor 0.3.4.9|Poildortie ;poildortie AT gmail dot com;
+37.187.21.153|shallotandredwine|9001|0|FHRSDV|5536814|Tor 0.3.5.8|Shallot and Red Wine ;shallotandredwine@soyellow.net;
+37.187.21.157|Unnamed|443|9030|FGHRSDV|3528423|Tor 0.3.4.9|
+37.187.21.28|DoingMyBest|5523|5524|RSDV|23335798|Tor 0.3.3.9|
+37.187.22.131|kingqueen|9001|9030|FGRSDV|259237|Tor 0.3.5.8|;ROT13 xvatdhrravgf@tznvy.pbz;
+37.187.22.87|kimsufi321|9001|9030|FGHRSDV|1097065|Tor 0.2.9.16|rufo ;tor AT rufoa DOT com;
+37.187.23.232|Islay|80|0|FGHRSDV|1740256|Tor 0.2.9.16|
+37.187.239.8|wirelesspt|9001|9030|FGHRSDVX|4144092|Tor 0.3.5.8|suporte@wirelesspt.net
+37.187.3.106|555nase|443|80|FGHRSDV|2678478|Tor 0.3.5.8|;548af91b673e7d80d6c9; 9i2c2ranzbol13aif568 at x.o-w-o.info
+37.187.30.2|loli|1517|31579|FHRSDV|22247209|Tor 0.2.7.6|
+37.187.31.86|tor381|6192|0|FRSDV|0|Tor 0.3.5.8|
+37.187.4.8|Zwiebelschale4|21|8080|FGHRSDV|1101682|Tor 0.3.5.8|tor-abuse AT netz1984 DOT de
+37.187.4.8|Zwiebelschale3|50501|50502|FGHRSDV|1101681|Tor 0.3.5.7|tor-abuse AT netz1984 DOT de
+37.187.4.81|Y32C4RDM42T3R|9001|9030|RSDV|12079976|Tor 0.3.4.9|
+37.187.42.161|ObiGeek|9001|0|FGHRSDV|6911813|Tor 0.3.3.9|;tor AT geekariom dot com;
+37.187.59.143|AgentBolek|9001|0|RSV|2743401|Tor 0.2.4.27|
+37.187.75.165|sobriquet|9001|9030|FGHRSDV|3510302|Tor 0.3.5.8|Felix Gehrmann ;protorealitygames AT gmail dot com;
+37.187.96.183|0xdeadbeef|9001|9030|FGHRSDV|4892476|Tor 0.3.5.8|;admin AT my-mail dot rocks;
+37.187.96.84|jJbzwynG|80|0|FGHRSDV|3567044|Tor 0.2.9.16|tor@base32.eu
+37.187.97.31|KS0120141125|9001|9030|RSDV|23587649|Tor 0.2.9.15|
+37.187.98.185|aergia|22|49030|FGHRSDV|453632|Tor 0.3.5.7|lidel ;lidel AT lidel dot org;
+37.187.98.35|Zwiebl0r|9001|9030|FGHRSDV|3200556|Tor 0.3.5.8|Henrik ;tor AT donotuse dot de;
+37.59.108.97|servbr4|443|80|FGHRSDV|9033083|Tor 0.3.3.7|Servbr Admin ;servbr [AT] mail [DOT] md;
+37.59.118.7|houseofcards|443|80|FGHRSDV|4264406|Tor 0.2.9.16|warauthor AT gmail.com
+37.59.37.59|Unnamed|9001|0|FHRSDV|7981379|Tor 0.3.5.7|
+37.59.40.193|bleckbox|9001|0|FHRSDV|12434408|Tor 0.3.4.9|Mynameis Nobody ;bleckbox ät ouvaton dodt org;
+37.59.50.81|DockerTorBox|9001|9030|RSDV|3868051|Tor 0.2.5.12|
+37.59.51.217|mhgngq5364v9ny85y|9001|0|FRSV|453784|Tor 0.4.0.4-rc|
+37.59.61.35|D4M|9031|9030|FGHRSDV|10954819|Tor 0.3.4.9|Dam
+45.77.60.16|chrysanthemum|9801|443|FRDV|2332945|Tor 0.2.9.16|sinux_gg AT gmail DOT com
+46.105.227.109|forTheLoveOfHotDogs|443|80|FGHRSDV|388950|Tor 0.3.5.7|OscarMayer@contractor.net
+46.105.55.153|wishosting|53608|53609|FGHRSDV|4341938|Tor 0.3.4.9|
+46.105.58.168|svnet|9091|0|RSV|79874|Tor 0.2.5.16|svnet@weblib.re
+5.135.115.34|antoniou|443|80|FGHRSDV|2059293|Tor 0.3.5.8|
+5.135.145.195|Pistis|5061|8008|FGHRSDV|2866030|Tor 0.4.1.0-alpha-dev|IRC: 'SoakedNoodle@irc.oftc.net' (OTR: 379B9206 6DC9C05E 24F5FA64 263E7D7C 36AE9A9D)
+5.135.152.66|AugusteFriedOnion|4443|0|FGHRSDV|4251779|Tor 0.3.5.8|Auguste ;auguste@corl3ss.com;
+5.135.153.22|boby|9001|0|FGHRSDV|18878541|Tor 0.3.4.8|laborde.joris@gmail.com
+5.135.156.12|jakfrancjamoze|4899|9997|FHRSDV|388986|Tor 0.4.0.4-rc|
+5.135.158.101|Cloud|443|80|EFGHRSDV|5313953|Tor 0.3.5.8|TNinja ;abuse-team _at_ tor _dot_ ninja;
+5.135.158.162|CheenaTorRelay3|9001|9030|FGHRSDV|1159220|Tor 0.3.5.8|Cheena ;cheena @ cheena . net;
+5.135.162.49|AnotherTorRelay|9001|9030|FGHRSDV|5490080|Tor 0.3.5.8|
+5.135.176.38|InglebardRelay|9001|9030|FGRSDV|259574|Tor 0.3.4.11|Inglebard dav87legrand@hotmail.fr
+5.135.177.107|spaghetti|9060|0|FGRSDV|147728|Tor 0.3.5.8|
+5.135.178.184|Unnamed|9001|9030|FGHRSDV|3006807|Tor 0.3.5.8|
+5.135.181.213|lemontime|9222|9030|FGHRSDV|17816442|Tor 0.3.4.8|;douke AT vfemail dot net;
+5.135.183.210|supr4s|9001|9030|FHRSDV|12016406|Tor 0.3.4.9|supr4s@protonmail.com
+5.135.184.24|Chefkoch|59182|0|FRV|259300|Tor 0.3.2.10|
+5.135.186.73|Metis|9001|0|FGHRSDV|9252291|Tor 0.3.4.9|0xBE6B3636 walafc0 ;tor AT walafc0 dot orgy minus the y;
+5.135.187.5|mirabbit|62342|0|FRSV|3072311|Tor 0.2.9.16|
+5.135.199.13|taster|443|80|FGHRSDV|493260|Tor 0.3.5.8|secretcontact@protonmail[dot]com
+5.135.65.145|vautier|443|80|FGHRSDVX|5198442|Tor 0.3.4.11|
+5.196.1.129|TorThdNinja|443|80|EFGHRSDV|13780627|Tor 0.3.3.9|0x65714c2b6f3b74cb Thijs Houtenbos ;info@thijshoutenbos.nl;
+5.196.211.58|monstor392|9001|9030|FHRSDV|3263735|Tor 0.2.9.16|Herman Emmert herman.emmert@protonmail.com
+5.196.213.56|niftycastoroides|21001|11001|FGHRSDV|1828800|Tor 0.3.5.7|abuse@to-surf-and-protect.net
+5.196.213.56|niftyhornedgopher|21002|11002|FGHRSDV|1828800|Tor 0.3.5.7|abuse@to-surf-and-protect.net
+5.196.23.64|Aerodynamik01|9001|9030|FGHRSDV|1880056|Tor 0.3.5.8|Anders Burmeister ;anders.burmeister AT protonmail dot ch;
+5.196.58.96|pldtor|9001|9030|FGRSDV|324183|Tor 0.3.5.7|tor at dourneau dot me
+5.196.66.162|Wix|443|80|EFGHRSDV|5317560|Tor 0.3.5.8|TNinja ;abuse-team _at_ tor _dot_ ninja;
+5.196.66.241|kvail|8080|0|FRSV|24710064|Tor 0.2.4.27|
+5.196.73.184|roubaix|9001|0|FHRSDV|23677024|Tor 0.2.9.16|0x08C3BA5802497EB1 Leon Handreke ;leonh@ndreke.de;
+5.196.88.122|ATo|9001|9030|FGHRSDV|2847615|Tor 0.3.5.8|keybase.io/ato 4E106DD31EB03683
+5.39.33.176|TotorBE1|9001|9030|FGRSDV|194522|Tor 0.3.5.7|TotorBE AT gmail DOT com
+5.39.33.178|TotorBE2|9001|9030|FGRSDV|194583|Tor 0.3.5.7|TotorBE AT gmail DOT com
+5.39.60.243|angeltest2|443|9030|FGHRSDV|5459099|Tor 0.3.5.8|torrpi1405@gmail.com
+5.39.69.166|Unnamed|9001|9030|FGHRSDV|993613|Tor 0.3.5.8|
+5.39.78.40|VeilsOfTheOnion|443|80|FGHRSDV|2138472|Tor 0.3.5.7|Tor Admin ;toradmin AT veilsoftheonion DOT eu;
+5.39.80.135|Unnamed|443|80|FGHRSDV|1544542|Tor 0.3.5.8|
+5.39.80.135|Unnamed|9001|9030|FGHRSDV|1490840|Tor 0.3.5.8|
+5.39.81.102|p1onX01|9001|0|FHRSDV|5990980|Tor 0.2.9.16|
+5.39.88.54|barsoom|9001|0|FHRSDV|5450448|Tor 0.3.5.8|
+5.51.106.108|yaudepoele|9001|9030|FHRSDV|4298439|Tor 0.2.9.16|
+5.51.58.213|totoaubistro|9001|9030|FHRSDV|1063159|Tor 0.2.5.16|
+5.51.69.166|T0rAnon|9001|9030|FHRSDV|4981003|Tor 0.2.9.15|
+50.7.117.115|wheel|443|80|FGHRSDV|10519272|Tor 0.3.4.9|
+50.7.151.127|masen|443|80|FGHRSDVX|1965653|Tor 0.3.5.8|
+50.7.151.32|cheyne|443|80|FGHRSDV|324078|Tor 0.3.5.8|
+50.7.151.47|wintermaerchen|443|80|FGHRSDV|388873|Tor 0.3.5.8|
+51.15.105.214|slalix|443|80|FGHRSDV|453678|Tor 0.3.5.8|slalix@hotmail.com
+51.15.105.214|slalix|8443|8080|FGHRSDV|453728|Tor 0.3.5.8|slalix@hotmail.com
+51.15.106.67|i2p3|443|0|EFGHRSDV|712819|Tor 0.4.0.4-rc|;zwiebeln at online de; please donate BTC 1K38x9xqK3YDzjehYFAEPzsESEC4ScH5wJ
+51.15.109.202|Tor4oojeegai|9001|9030|FGHRSDV|15357684|Tor 0.3.2.10|
+51.15.109.221|Fussy|26173|5029|FGHRSDV|3304912|Tor 0.3.5.8|
+51.15.110.87|AlanTuring|443|80|FGHRSDV|5540494|Tor 0.3.5.8|tor-abuse;at;mailbox;dot;org
+51.15.112.209|Unnamed|9001|9030|EFGHRSDV|15556678|Tor 0.3.2.9-dev|
+51.15.113.200|EdSnowdenIsAHero|9001|9030|FHRSDV|436566|Tor 0.2.9.16|Scott Maxwell tor-contact-2018 (at) scottmaxwell (dot) org
+51.15.113.25|RelayTheFuckOutOfIt|9001|9030|FHRSDV|2174475|Tor 0.3.5.7|Michael Garson ;tor_relay_against_censorship@tutanota.com;
+51.15.113.84|Hydra6|9001|9030|FGHRSDV|2239235|Tor 0.3.5.8|abuse-node49 AT posteo DOT de
+51.15.113.85|t4cc0reTor4|9001|9030|FGHRSDV|1944112|Tor 0.3.5.8|;tor-contactREMOVEME AT t4cc0.re; GPG: 64C6C3D
+51.15.114.134|computecyplonet|9001|9030|FGHRSDV|3632964|Tor 0.2.9.16|;tor@cyplo.net;
+51.15.117.50|torturing|443|80|EFGRSDV|64866|Tor 0.3.5.8|tor-abuse;at;mailbox;dot;org
+51.15.120.162|Unnamed|9001|0|FHRSDV|1750571|Tor 0.3.5.8|
+51.15.122.103|NeyamRelay|443|0|FGHRSDV|1517838|Tor 0.2.9.16|neyam@pm.me
+51.15.123.230|amstrl|9010|0|EFHRSDV|5068858|Tor 0.3.5.8|
+51.15.124.1|Hydra4|9001|9030|FGHRSDV|2250040|Tor 0.3.5.8|abuse-node49 AT posteo DOT de
+51.15.125.181|torByTheoAndreou|9001|0|EFGHRSDV|12394891|Tor 0.3.4.9|tor@theo-andreou.org
+51.15.125.34|zapfmeister|9001|9030|FGHRSDV|5522616|Tor 0.3.5.8|zapfmeister(at)gmail(dot)com
+51.15.126.70|nl1xtracodews|9001|9030|FGHRSDV|1641668|Tor 0.3.5.8|tor(at)xtracode(dot)ws
+51.15.128.186|TrypticNode6|9001|9030|FGHRSDV|9007314|Tor 0.3.5.7|tor@tryptic.co
+51.15.128.2|hacktheplanet|9001|0|FGHRSDV|10195308|Tor 0.2.9.10|${CONTACT_GPG_FINGERPRINT} ${CONTACT_NAME} ${CONTACT_EMAIL}
+51.15.128.3|Thalassa|9001|9030|EFGHRSDV|5176866|Tor 0.3.5.8|abuse [AT] torworld.org - BTC 34yFiqwbcUA5MYSvUcpjqARvhoTwMFjmPs
+51.15.131.29|TheEpTicScal1S|443|80|FGHRSDV|2728853|Tor 0.3.5.8|TheEpTic ;torrelay@eptic.me; - BTC: 18HoXqpoVicNs5wLuPkWJNCLxchYsYKP43
+51.15.133.16|ForEdSnowden|9001|0|FHRSDV|875924|Tor 0.2.9.16|Scott Maxwell tor-contact-2017-beratna (at) scottmaxwell (dot) org
+51.15.138.251|TheEpTicScal3S|443|80|FGHRSDV|2794345|Tor 0.3.5.8|TheEpTic ;torrelay@eptic.me; - BTC: 18HoXqpoVicNs5wLuPkWJNCLxchYsYKP43
+51.15.141.150|tOr|443|0|FGHRSDV|4172756|Tor 0.3.5.8|0xFFFFFFFF Random Person ;nobody AT example dot com;
+51.15.166.221|powerghost|9001|9030|FGHRSDV|389102|Tor 0.3.5.8|
+51.15.174.186|idfTor1N2|53|110|FHRSDV|1101783|Tor 0.4.0.1-alpha|;no@email.com; - BTC: 1A15vzBrwim7kvLjb2kXWuC1sxm5x275yY
+51.15.174.186|idfTor1N1|443|80|FHRSDV|1047665|Tor 0.4.0.1-alpha|;no@email.com; - BTC: 1A15vzBrwim7kvLjb2kXWuC1sxm5x275yY
+51.15.177.148|gorgothzilla|9001|9030|FHRSDV|1241414|Tor 0.2.9.16|Gorgothzilla tor@gorgothzilla.net
+51.15.179.153|Casper04|995|110|FGHRSDV|1310424|Tor 0.3.5.8|0x83288189 Casper ;fantom AT fedoraproject dot org;
+51.15.185.201|PoochySloochy|443|80|FGHRSDV|4624152|Tor 0.3.5.7|
+51.15.187.236|Unnamed|443|80|FGHRSDV|7581778|Tor 0.2.9.16|
+51.15.189.209|aboucorp|9001|0|FHRSDV|7041677|Tor 0.2.9.16|Remi Plantade remi.plantade.pro@gmail.com
+51.15.192.77|isprjr0|443|80|FGHRSDV|453732|Tor 0.3.5.8|
+51.15.198.202|iscandar|9001|9030|FRSDV|324084|Tor 0.3.5.8|tor(at)tbrindus(dot)ca
+51.15.203.26|BestKorea|9001|0|FGHRSDV|3344324|Tor 0.2.9.16|
+51.15.208.167|whiteRabbit|6666|0|FGHRSDV|7358578|Tor 0.3.4.8|switch@0xswitch.fr
+51.15.209.128|droideka|443|80|EFGHRSDV|24116716|Tor 0.3.3.9|Damien Desfontaines ;spam.tor-droideka@desfontain.es; (@TedOnPrivacy)
+51.15.219.22|torelka|9111|0|FGHRSDV|7783241|Tor 0.3.5.7|
+51.15.224.0|parisnovgnet|9001|80|EFGHRSDV|4824221|Tor 0.3.5.8|Igor Novgorodov ;igor AT novg DOT net;
+51.15.226.118|martyr|9090|9030|FGHRSDV|2041257|Tor 0.3.5.8|
+51.15.227.124|NovaKwok|9001|9030|FGHRSDV|13427037|Tor 0.2.9.14|Nova Kwok ;tor AT nova dot moe;
+51.15.228.222|Kladuin|443|80|FGHRSDV|3715426|Tor 0.3.5.8|kladuin at protonmail dot com
+51.15.230.222|Unnamed|9001|9030|FGHRSDV|388986|Tor 0.2.9.14|
+51.15.230.39|outbreak|443|80|FGHRSDV|15009836|Tor 0.2.9.16|Alexander ;stolknovenie@gmail.com;
+51.15.231.6|Unnamed|9001|0|FHRSDV|1750571|Tor 0.3.5.8|
+51.15.232.19|Layer13|21|0|FGHRSDV|5464891|Tor 0.3.5.8|tor(a)pikami(o)org 1HAck9cCgeVhW5XfX9KriM8L9cRdBJAToG
+51.15.233.253|paratownUA|443|80|EFGRSDV|194482|Tor 0.3.5.8|0x76F87491 OxEAX ;0xEAX AT protonmail dot com;
+51.15.235.211|tor4thepeople2|9101|9030|EFGHRSDV|2689356|Tor 0.4.0.3-alpha|Tor4ThePeople2 email:eran+tor2[]sandler.co.il gpg:2DBEC67427AD6FD9209F0C1D240318B590D14A2F keybase:erans
+51.15.240.100|Hydra5|9001|9030|FGHRSDV|2232280|Tor 0.3.5.8|abuse-node49 AT posteo DOT de
+51.15.240.157|StarlightGlimmer|9001|9030|FGHRSDV|1479690|Tor 0.3.5.8|0x7F99ABEC 17LjGK1W9dNBVrTqCFwdKd9ybrGeVgXGMa
+51.15.243.22|BabyOnion|443|80|FGHRSDV|3909718|Tor 0.3.5.8|toroperator1776@protonmail.com
+51.15.246.170|yume|443|80|FGHRSDV|5329744|Tor 0.3.5.8|BM-NC1tprv7dowcPG7swdLR1ZY5YCKZeBjq; 1LAD57ofZsVUJf4ZCXEu33PYDxatQ1tSH3
+51.15.247.113|iridium|9001|0|FGHRSDV|5428853|Tor 0.3.5.7|tor(at)quantum2 DOT xyz
+51.15.249.161|Unnamed|9001|9030|FGHRSDV|6537699|Tor 0.3.2.10|
+51.15.249.81|UenoStation54|443|80|FGHRSDV|4172934|Tor 0.3.5.8|tor@ueno.red
+51.15.251.89|ivrelay1|443|0|FGHRSDV|756035|Tor 0.3.5.8|
+51.15.252.1|Nyx|9001|9030|EFGHRSDV|5194868|Tor 0.3.5.8|abuse [AT] torworld.org - BTC 34yFiqwbcUA5MYSvUcpjqARvhoTwMFjmPs
+51.15.253.226|hsftor2|443|0|FHRSDV|13411186|Tor 0.2.9.14|
+51.15.64.194|TORRelay02|443|80|FGHRSDV|3152721|Tor 0.2.9.16|
+51.15.65.243|fleischgewehr|443|444|FGHRSDV|22144058|Tor 0.3.3.9|none
+51.15.68.66|i2p|443|0|EFGHRSDV|1625857|Tor 0.2.9.14|;zwiebeln at online de; please donate BTC 1K38x9xqK3YDzjehYFAEPzsESEC4ScH5wJ
+51.15.72.156|cloudcuckooland|444|0|FGHRSDV|4129025|Tor 0.2.9.16|Florian Buchberger ;tor AT overflowerror dot com;
+51.15.72.159|RightToBearARMs|443|80|FRSDV|388878|Tor 0.3.5.8|
+51.15.72.209|ididnteditheconfig2|443|9030|FGHRSDV|3625392|Tor 0.3.5.8|Random Person ;nobody AT example dot com;
+51.15.72.253|FreeSpeechForAll|9001|0|FHRSDV|4115070|Tor 0.3.5.8|
+51.15.72.30|TheEpTicScal2S|443|80|FGHRSDV|2939925|Tor 0.3.5.8|TheEpTic ;torrelay@eptic.me; - BTC: 18HoXqpoVicNs5wLuPkWJNCLxchYsYKP43
+51.15.73.133|Cyberman|9001|9030|FGRSDV|194489|Tor 0.3.2.10|Torchwood ;contact [at] pakitow [dot] eu;
+51.15.73.97|fury|9001|0|FHRSDV|777670|Tor 0.3.2.9|
+51.15.74.130|21b|9001|9030|FGHRSDV|4388432|Tor 0.3.5.8|
+51.15.75.133|node7|9001|80|EFGHRSDV|3929302|Tor 0.3.5.8|abuse(at)torsrv(dot)de
+51.15.76.184|Arrakis|443|9030|FGRSDV|194466|Tor 0.3.5.7|0xE360782B Ludovic ;Ludovic@hirlimann.net;
+51.15.76.56|pulsetor|443|9030|FGHRSDV|2865710|Tor 0.3.5.8|tor terjan net
+51.15.77.244|laeviculus|443|0|FGHRSDV|2149252|Tor 0.3.4.11|no
+51.15.78.0|rofltor07|9001|9030|FGRSDV|194465|Tor 0.3.5.8|tor[a]rofl.cat - 17bD7EWsSXrqrqk2ibbprPxhegMqecsaCy
+51.15.80.14|torproxy01|443|0|EFGHRSDV|4485804|Tor 0.3.5.8|torproxy ;torproxy AT protonmail dot com;
+51.15.80.59|Locke|9001|9030|FGHRSDV|1618351|Tor 0.2.9.16|Rhys RE ;me [at sign] rhysre [dot] net; - GPG: 242E 424D 4C2E 2D33 9513 7897 F6BD 7316 10BA C135
+51.15.80.7|dc6jgk9barm64|443|9030|FGHRSDV|1600528|Tor 0.3.5.7|see https://www.artikel5ev.de/torcontact/
+51.15.81.148|t4cc0reTor5|9001|9030|FGHRSDV|1944120|Tor 0.3.5.8|;tor-contactREMOVEME AT t4cc0.re; GPG: 64C6C3D
+51.15.81.45|TheEpTicScal4S|443|80|FGHRSDV|4219784|Tor 0.3.5.8|TheEpTic ;torrelay@eptic.me; - BTC: 18HoXqpoVicNs5wLuPkWJNCLxchYsYKP43
+51.15.84.8|tOr|443|0|FGRSDV|64862|Tor 0.3.5.8|0xFFFFFFFF Random Person ;nobody AT example dot com;
+51.15.88.21|cantstopthesignal2|443|80|FGHRSDV|1278067|Tor 0.3.5.8|relay@sigil.red
+51.15.89.190|xXBOOMXxxXBOOMXx|80|9030|FGHRSDV|5594446|Tor 0.3.5.7|Anon ;xxboomxx_torrelay %A% tuta %dot% io; | Donate! BCH:qpy3gfudmc3g89d3c5l6s0z59c95ppjwuyjch6nkph
+51.15.89.20|ahoyhoy|9001|9030|FHRSDV|1576706|Tor 0.3.5.7|
+51.15.89.218|dc6jgk7b|443|9030|FGHRSDV|4453344|Tor 0.3.5.8|see https://www.artikel5ev.de/torcontact/
+51.15.89.36|drazisil|9000|9001|FGHRSDV|580752|Tor 0.3.4.9|jwbecher@drazisil.com
+51.15.89.36|drazisil|9100|9101|FGHRSDV|580869|Tor 0.3.4.9|jwbecher@drazisil.com
+51.15.91.118|KagamineLenReAct|80|0|FGRSDV|0|Tor 0.3.5.7|This relay named after: https://vimeo.com/260960513 // Donate @ 14WmhzjssUfdFBzKGsh3KMiCgr3mw3S4y2
+51.15.91.118|KagamineLenNorua|443|0|FGRSDV|0|Tor 0.3.5.7|This relay named after: https://youtu.be/eNiDOE3Nf0g and https://youtu.be/-saSqcgJd-U // Donate @
+51.15.91.217|vienttorrelay|9001|0|FGHRSDV|1663246|Tor 0.3.5.8|tor@vient.re
+51.15.91.7|t4cc0reTor6|9001|9030|FGHRSDV|1944168|Tor 0.3.5.8|;tor-contactREMOVEME AT t4cc0.re; GPG: 64C6C3D
+51.15.91.78|MyCoolNick|9001|9030|FGHRSDV|1483033|Tor 0.2.9.15|ury.tor.abuse@yandex.ru
+51.15.92.208|tOr|443|0|FGHRSDV|5540457|Tor 0.3.5.8|0xFFFFFFFF Random Person ;nobody AT example dot com;
+51.15.95.234|DamkaAmsterdamka|9001|9030|EFRDV|388810|Tor 0.3.5.8|
+51.15.97.42|toxic|9010|0|FGHRSDV|453623|Tor 0.3.5.8|
+51.15.98.40|Amstertor01|9001|9030|FHRSDV|4755783|Tor 0.3.5.8|tor_)0(1(at)p)o(ste(0)(dot)de [tor-relay.co]
+51.158.123.89|jippii|443|0|FGHRSDV|648248|Tor 0.3.5.8|anonymous@email.com
+51.158.160.229|hamster|9090|9030|FRDV|179547|Tor 0.3.5.8|
+51.158.173.137|tor01|443|80|FGHRSDV|531196|Tor 0.3.2.10|William Gauthier ;tor AT wjg dot dk;
+51.158.184.22|superNik|443|0|FRSDV|431643|Tor 0.2.9.14|tor-operator@your-emailaddress-domain
+51.158.23.170|MartinRouterKing|9001|0|FGHRSDV|918184|Tor 0.3.5.7|mntbr@protonmail.com
+51.158.70.1|siotor1|443|80|FGHRSDV|9302479|Tor 0.3.5.7|0xE2809F96 Chris Spiegl ;tor AT spiegl DOT co;
+51.158.76.119|unili83682|20020|0|FHRSDV|13050093|Tor 0.3.4.8|unili83682 at gmail.com
+51.158.76.192|TuanTuComputer|9001|9030|FGHRSDV|1361413|Tor 0.3.5.8|Truong Anh Tuan - truonganhtuan1993@gmail.com
+51.158.79.206|Torstrasse|9001|9030|FGHRSDV|2091780|Tor 0.3.2.10|Ivanushka Durachok ;torstrasse dot leak at spamgourmet dot com;
+51.159.24.162|KagamineLenForYou|80|0|FRDV|572436|Tor 0.3.5.7|This relay named after: https://youtu.be/t8Sv2TIBOxY // Donate @ 14WmhzjssUfdFBzKGsh3KMiCgr3mw3S4y2
+51.159.24.162|KagamineLenMoonlit|443|0|FRDV|617061|Tor 0.3.5.7|This relay named after: https://youtu.be/KqGdjAkeXlA // Donate @ 14WmhzjssUfdFBzKGsh3KMiCgr3mw3S4y2
+51.159.26.16|KagamineLenStardust|80|0|FRDV|0|Tor 0.3.5.7|This relay named after: https://vimeo.com/216984574 // Donate @ 14WmhzjssUfdFBzKGsh3KMiCgr3mw3S4y2
+51.159.26.16|KagamineLenReboot|443|0|FRDV|612976|Tor 0.3.5.7|This relay named after: https://youtu.be/uvqDi5SInSM // Donate @ 14WmhzjssUfdFBzKGsh3KMiCgr3mw3S4y2
+51.254.113.172|madtrixz00|9001|9030|FRSDV|2333054|Tor 0.2.9.16|0xFFFFFFFF Random Person ;nobody AT example dot com;
+51.254.114.134|Knowhere|9001|9030|FGHRSDV|21861667|Tor 0.2.9.16|
+51.254.125.86|mdarder|9001|0|RSDV|13433486|Tor 0.2.9.14|bengamra.raouf7@gmail.com
+51.254.136.195|torproxy02|443|80|FGHRSDV|5425841|Tor 0.3.5.8|torproxy ;torproxy AT protonmail dot com;
+51.254.147.57|Cosworth01|443|80|FGRSDV|60|Tor 0.3.5.8|tor@fni.pl
+51.254.147.61|Cosworth03|443|80|FGRSDV|60|Tor 0.3.5.8|tor@fni.pl
+51.254.200.106|sophia68|9500|9030|FHRSDV|8049869|Tor 0.3.5.7|mrmilk ;mrmilk@xs4all.nl;
+51.254.208.245|Ograoum|9001|0|EFHRSDV|43067154|Tor 0.3.1.9|tor@eb4.be
+51.254.218.247|Clankus|443|80|FGHRSDV|1167069|Tor 0.3.5.8|clankustor@web.de - Donations: 0xb9c75058B5cD9927E2F45164DedFf5fB77b9e627
+51.254.220.21|sexwarriorHQ|6969|7734|FGHRSDV|1677684|Tor 0.4.0.3-alpha|SexWarrior ;tor@omgomg.eu;
+51.254.35.151|Unnamed|9000|9001|FGHRSDV|5559171|Tor 0.3.5.8|torATrcptDOTat
+51.254.38.147|gufoe|9001|0|FHRSDV|22638347|Tor 0.2.9.15|Giacomo Rizzi ;gcmrzz@gmail.com;
+51.254.39.39|TorRelay268|9001|0|FRV|2|Tor 0.3.5.7|Random Person ;torrelay268 [AT] gmail [dot] com;
+51.254.45.43|CryoBBNx|9001|0|FGHRSDV|7708151|Tor 0.3.2.10|
+51.254.84.5|MCOfficerMe2|9001|0|FHRSDV|453875|Tor 0.3.5.8|MCOfficer ;mcofficer(at)gmx.de; | mcofficer.me | If you want to help, you may donate on my website
+51.254.96.208|rofltor01|9001|9030|FGRSDV|259383|Tor 0.3.5.8|tor[a]rofl.cat - 17bD7EWsSXrqrqk2ibbprPxhegMqecsaCy
+51.255.203.235|servbr5|443|80|FGHRSDV|13813693|Tor 0.3.3.7|Servbr Admin ;servbr [AT] mail [DOT] md;
+51.255.206.74|vortor03|443|80|FGHRSDV|3383601|Tor 0.2.9.16|;tornoc AT vorlons DOT info;
+51.255.211.235|Unnamed|9001|9030|FHRSDV|1426262|Tor 0.3.5.7|
+51.255.26.152|Fission3|443|80|FGHRSDV|6377569|Tor 0.3.4.9|Kevin Hicks ;admin@fissionrelays.net;
+51.255.26.153|Fission4|443|80|FGHRSDV|6364997|Tor 0.3.4.9|Kevin Hicks ;admin@fissionrelays.net;
+51.255.26.154|Fission5|443|80|FGHRSDV|6364977|Tor 0.3.4.9|Kevin Hicks ;admin@fissionrelays.net;
+51.255.26.155|Fission6|443|80|FGHRSDV|6364947|Tor 0.3.4.9|Kevin Hicks ;admin@fissionrelays.net;
+51.255.39.110|Unnamed|9001|0|FGHRSDV|1605615|Tor 0.3.5.8|
+51.255.41.65|PrisnCellRelayFR1|9001|9030|FGHRSDV|2196912|Tor 0.3.3.7|PrisnCell ;PrisnCellTor AT tutamail dot com;
+51.255.48.78|DarkOVH2|8888|9030|FGHRSDV|3795012|Tor 0.3.5.8|'julles dot reneau at post dot com'
+51.38.140.87|labyrinth05|9001|0|FGHRSDV|1547420|Tor 0.3.5.8|zahiir at protonmail dot ch
+51.38.154.10|Nabla|443|80|FGRSDV|60|Tor 0.3.5.7|mozzy@tutanota.com
+51.38.162.232|druid|9100|0|EFGHRSDV|5174362|Tor 0.3.3.3-alpha-dev|blackdruid@mail.ee
+51.38.164.157|niftycongogerbil|20000|10000|FGHRSDV|972246|Tor 0.3.5.7|abuse@to-surf-and-protect.net
+51.38.164.157|niftylinkrat|20001|10001|FGHRSDV|972304|Tor 0.3.5.7|abuse@to-surf-and-protect.net
+51.38.180.155|shiitake|9001|9030|FGHRSDV|9136902|Tor 0.3.4.9|
+51.38.185.201|blockchainsociety|443|0|FGHRSDV|1641441|Tor 0.3.5.8|contact@blockchainsociety.ch
+51.38.238.137|sauvonslaplanete|9001|0|FGHRSDV|4909949|Tor 0.2.9.16|jjackard@laposte.net
+51.38.47.230|Peuc|9001|9030|FGHRSDV|11750506|Tor 0.2.9.16|not-wanted [at] unknown [dot] com
+51.38.54.48|stalkr|9001|9030|FHRSDV|5482661|Tor 0.3.5.8|0xAFCE54F8 StalkR ;tor@stalkr.net;
+51.68.106.162|heyieditedconfig|9001|0|FRSV|4132957|Tor 0.2.9.15|;0x61455 delthis a%t protonmail dotcom;
+51.68.12.129|baguette|9001|9030|EFRSDV|1339255|Tor 0.2.4.27|
+51.68.170.74|Killer|443|0|FGHRSDV|8838728|Tor 0.3.4.8|
+51.68.220.173|nelson|9001|9030|FHRSDV|4487816|Tor 0.2.9.16|
+51.68.220.250|wilkoRelay|9001|0|FGHRSDV|1482646|Tor 0.3.5.8|nope@nope.com
+51.68.5.248|AbderrazakBoughanmi|5555|0|FRSV|6020788|Tor 0.2.9.14|AB17 EA5F 3EF0 3EC9 549F 68D0 CE0D 42B9 15D6 0760 Abderrazak Boughanmi Abderrazak.Boughanmi@honorable.estate
+51.75.125.241|vps603203|9001|0|FHRSDV|9344631|Tor 0.2.9.16|
+51.75.141.111|JNode|9001|9030|FGHRSDV|1654268|Tor 0.2.9.16|
+51.75.143.145|Unnamed|9001|9030|FGHRSDV|6401419|Tor 0.3.5.7|
+51.75.143.146|Unnamed|9001|9030|FGHRSDV|6400913|Tor 0.3.5.7|
+51.75.143.150|Unnamed|9001|9030|FGHRSDV|6167414|Tor 0.3.5.7|
+51.75.143.241|nostradamus|443|0|FGHRSDV|7045301|Tor 0.3.4.9|
+51.75.254.12|ServbrMadrid|443|80|FGHRSDV|9680547|Tor 0.3.4.9|
+51.75.254.22|RedHorseSlayer|9001|9030|FGHRSDV|1101715|Tor 0.3.5.8|zapkiel on gee mail [tor-relay.co]
+51.75.254.63|phenix|443|0|FGHRSDV|7962608|Tor 0.2.9.16|phenix
+51.75.32.173|ChestnutTree|9001|9030|FGHRSDV|14624245|Tor 0.3.4.9|
+51.77.136.241|americium1997|9001|0|FGHRSDV|8571317|Tor 0.2.9.16|
+51.77.146.93|madtrixz01|9001|9030|FGHRSDV|2332995|Tor 0.2.9.16|0xFFFFFFFF Random Person ;nobody AT example dot com;
+51.77.177.194|iriseden|443|80|EFRSDV|267|Tor 0.2.9.16|
+51.77.193.218|fsioverlord|9001|8059|EFGHRSDV|10035305|Tor 0.2.9.17|lolwut(dot)topkek(at)gmail(dot)com [tor-relay.co]
+51.77.201.37|NathansExitNode|443|80|EFGHRSDV|9896589|Tor 0.2.9.16|Nathan ;me AT nathan dot sx;
+51.77.223.220|noCoiner|443|80|EFGHRSDV|1296096|Tor 0.3.2.10|
+51.77.62.52|beringer|443|80|EFGHRSDV|471694|Tor 0.3.5.7|
+51.83.43.118|Dumbletor|9001|9030|FGHRSDV|3741273|Tor 0.3.5.8|dumbletor[at]protonmail DOT com [tor-relay.co]
+51.83.47.110|easyrider|9001|0|FGHRSDV|3657715|Tor 0.3.4.9|
+51.89.133.250|niftyleithia|21001|11001|FGHRSDV|3520801|Tor 0.3.5.8|abuse@to-surf-and-protect.net
+51.89.133.250|niftyneochoerus|22002|11002|FGHRSDV|3520801|Tor 0.3.5.8|abuse@to-surf-and-protect.net
+51.89.143.144|UenoStation59|443|80|FGHRSDV|1037024|Tor 0.3.5.8|tor@ueno.red
+52.143.157.92|AnonFrance00|4094|0|FGHRSDV|775329|Tor 0.3.5.8|4096R/67D1A1AD
+52.47.111.91|InTheNoise|9001|0|RSV|28037128|Tor 0.3.3.6|
+52.47.141.25|abc111|9001|0|RSV|20673248|Tor 0.3.3.9|
+54.36.103.223|Unnamed|9001|9030|FHRSDV|4565221|Tor 0.3.5.8|
+54.36.103.231|Unnamed|9001|9030|FHRSDV|5630889|Tor 0.3.5.7|
+54.36.120.156|Kimchi|443|80|FGHRSDV|4957359|Tor 0.3.5.8|
+54.36.121.7|Unnamed|27432|15084|FHRSDV|14967892|Tor 0.2.9.17|
+54.36.137.106|kenkersnel|443|9030|FGHRSDV|2959705|Tor 0.3.5.8|lisa.dff@protonmail.com
+54.36.183.48|Unnamed|9001|9030|FHRSDV|5641513|Tor 0.3.5.7|
+54.36.189.105|lef42|9001|9030|EFGRSDV|194582|Tor 0.3.5.8|abuse _ lef42 AT protonmail com
+54.36.205.38|Chenjesu|9001|0|FGHRSDV|5548204|Tor 0.3.5.7|
+54.36.222.37|KappaPrideGoldfish|443|9030|EFGRSDV|1|Tor 0.3.4.9|jxtctor@gmail.com
+54.36.227.247|TheEpTicZeus|443|80|FGHRSDV|4269806|Tor 0.3.5.8|TheEpTic ;torrelay@eptic.me; - BTC: 18HoXqpoVicNs5wLuPkWJNCLxchYsYKP43
+54.37.229.22|Robotor3200|9001|9030|FRSDV|215996|Tor 0.3.5.8|0x59bbe454 ;meATnakhanDOTnet;
+54.37.69.249|ServbrAthens|443|80|FGHRSDV|13457224|Tor 0.3.4.9|
+54.38.145.211|niftydiatomys|21001|11001|FGRSDV|158400|Tor 0.3.5.7|abuse@to-surf-and-protect.net
+54.38.145.211|niftyalloeumyarion|21002|11002|FGRSDV|158400|Tor 0.3.5.7|abuse@to-surf-and-protect.net
+54.38.36.44|Challenger|443|80|FGHRSDV|6547991|Tor 0.2.9.16|TorRelayChallenger ;tor _at_ dnet DOt ovh;
+54.38.73.16|niftyredrockrat|80|443|FGHRSDV|5609016|Tor 0.3.5.7|abuse@to-surf-and-protect.net
+54.38.73.16|niftymastomys|81|8080|FGHRSDV|5609017|Tor 0.3.5.7|abuse@to-surf-and-protect.net
+54.38.73.17|niftyspinymouse|20000|10000|FGHRSDV|5630621|Tor 0.3.5.7|abuse@to-surf-and-protect.net
+54.38.73.17|niftytelicomys|20001|10001|FGHRSDV|5598001|Tor 0.3.5.7|abuse@to-surf-and-protect.net
+54.38.92.43|Unnamed|9001|9030|FGHRSDV|5891181|Tor 0.3.5.7|
+62.210.105.86|Spilman|9001|0|EFRSV|1102266|Tor 0.4.0.4-rc|Hugh Brown ;aardvark at saintaardvarkthecarpeted dot com
+62.210.108.137|Gihkal|443|80|FGHRSDV|1490497|Tor 0.3.5.8|sysop[at]openinternet.io BTC: 1LZCkCZRqJ3fXnVqCBrq8tc4G1WUnD2MVH
+62.210.109.48|derdave|9001|9030|FRSDV|59|Tor 0.2.9.16|Random Person ;derdave@inbox.ru;
+62.210.116.201|argenla|443|80|EFGHRSDV|3006109|Tor 0.3.5.8|watchme ;mydisco .AT. s y s t e m l i DOT o r g;
+62.210.125.130|bradburn|443|80|FGHRSDV|1350030|Tor 0.3.5.8|freeasinbeer@techie.com
+62.210.157.133|ThorZeroPoney|443|80|FGHRSDV|2205663|Tor 0.3.5.8|ThorZero ;thorzero AT gmail dot com;
+62.210.169.178|Bitcoin|9030|0|FGRSDV|194413|Tor 0.3.5.8|-
+62.210.172.241|dontdisturb|9001|9030|FHRSDV|3261820|Tor 0.3.5.7|dontdisturb@posteo.de
+62.210.177.181|DipulseIT2|8080|8081|FHRSDV|1922684|Tor 0.4.0.3-alpha|
+62.210.177.181|DipulseIT1|8443|8008|FHRSDV|1922554|Tor 0.4.0.3-alpha|
+62.210.180.40|Pleiv|9001|9030|FGHRSDV|3294518|Tor 0.3.5.7|toratweill-duflos.fr
+62.210.181.119|hellebuz|443|80|FGHRSDV|777908|Tor 0.3.5.8|
+62.210.189.34|Totonicapanp2|9001|0|FGHRSDV|389101|Tor 0.2.9.16|EF201A39 ;nat@makarevitch.org;
+62.210.206.53|aaatortest|21|9030|RSDV|1528476|Tor 0.2.4.23|aaatortest at yopmail dot com
+62.210.208.224|nsuchy|9001|9030|EFGHRSDV|2213553|Tor 0.3.5.8|Nathaniel Suchy 2048R/D36D0175 2019-03-21 ;me@lunorian.is;
+62.210.213.17|DunphysTorRelay|9001|9030|FGHRSDV|8128883|Tor 0.3.3.9|Tor Relay Admin ;tor-admin AT meurisse DOT fr;
+62.210.217.207|ididnteditheconfig|9001|0|FGHRSDV|4244528|Tor 0.3.5.8|0xFFFFFFFF Random Person ;nobody AT example dot com;
+62.210.244.146|regar42|9001|9030|FGHRSDV|3921287|Tor 0.3.5.8|0x59205995C95D108C Sylvain Rager ;sylvain [at] regar42 [dot] fr; - 1Ck1cSe9myDSTFtCMK4zcC6t1Y1LnXrcpN
+62.210.254.132|turingmachine|443|80|FGHRSDV|3452511|Tor 0.3.5.8|contact-tor-turing [AT] g0b [DOT] eu
+62.210.36.16|derpyrelay|9001|9030|FGHRSDV|8911515|Tor 0.2.9.16|
+62.210.36.177|MCOfficerMe1|9001|9030|FGHRSDV|7395128|Tor 0.3.5.7|MCOfficer ;mcofficer(at)gmx.de; | mcofficer.me | If you want to help, you may donate on my website
+62.210.37.82|Unnamed|443|80|EFGHRSDV|1465611|Tor 0.3.5.8|
+62.210.5.178|virtualkitchen|443|80|FGHRSDV|4280437|Tor 0.3.5.7|0x4C0BD342 Virtualkitchen.org ;relay AT virtualkitchen dot org;
+62.210.83.207|sarahmanning|8008|8081|FGHRSDV|1792968|Tor 0.4.0.3-alpha|
+62.210.83.207|angelinajolie|8080|8443|FGHRSDV|1771243|Tor 0.4.0.3-alpha|
+62.210.85.178|Unnamed|9001|0|FGHRSDV|7531307|Tor 0.3.5.7|
+62.210.93.142|locksat|6916|9030|FGHRSDV|36082962|Tor 0.3.2.10|Boris Nagaev 19pZzECKDDMbSpaWEy8vGvELEfXM8GrkHS ;bnagaev@gmail.com;
+62.210.97.58|Unnamed|443|13095|FGHRSDV|12430835|Tor 0.3.4.9|
+62.4.15.84|marvin|443|80|FGHRSDV|712880|Tor 0.3.5.8|julian@0x4a42.net - GPG: ADC52C2BFEA6DA4459045D7022DC613E9021D06D - Bitcoin: 17H871eDbDKh6wyqY4NBNaJHD1bmHizk7d
+77.131.125.41|snap270|35578|0|RDV|712874|Tor 0.3.4.10|
+77.140.204.233|ninostor|9001|9030|FRSDV|129665|Tor 0.4.1.0-alpha-dev|Nino ;ninostor@ya.ru;
+77.141.175.36|charlycoptor|978|979|FHRSDV|941597|Tor 0.2.5.16|
+77.152.165.154|default|443|9030|RSDV|194459|Tor 0.2.4.20|
+77.203.13.57|TheEvilInTheDetails|9001|0|FHRSDV|4449793|Tor 0.3.3.7|TheEvilInTheDetails AT yahoo dot com
+77.203.175.172|snap269|44557|0|FRDV|61|Tor 0.3.4.10|
+78.116.42.189|snap269|37781|0|RDV|9718|Tor 0.3.4.10|
+78.123.69.150|Zebulon|9001|0|FHRSDV|388865|Tor 0.3.5.8|
+78.192.118.230|arkadia|9001|0|RSDV|6973527|Tor 0.3.5.7|
+78.193.140.4|Vibescu|443|80|FGHRSDV|1036902|Tor 0.3.5.8|m.vibescu@yahoo.fr
+78.194.158.141|xmtx|9001|9030|FGHRSDV|2416757|Tor 0.3.5.8|358npyhXKrv834iyqtjHthudXRc5NjQcvm xmtx_tor
+78.194.2.61|TeutatesTOR|450|9030|FGHRSDV|1455933|Tor 0.2.9.16|0xFFFFFFFF Article TAP ;tap AT abyssproject dot net;
+78.194.37.29|Zion|9001|0|FHRSDV|2257213|Tor 0.3.5.8|vincent@degat.bzh
+78.200.16.139|snap270|38963|0|RSDV|2030910|Tor 0.3.4.10|
+78.210.254.127|mytorboxrelay|443|8080|FHRSDV|564369|Tor 0.2.9.16|ibarz.jean@gmail.com
+79.137.33.131|servbr6|443|80|FGHRSDV|13824314|Tor 0.3.3.7|Servbr Admin ;servbr [AT] mail [DOT] md;
+79.137.33.24|tor|9001|9030|FGHRSDV|66722474|Tor 0.2.9.10|
+79.137.39.39|Antigona|9001|9030|FGHRSDV|13409022|Tor 0.2.9.14|Admin ;tor AT poza dot si;
+79.137.75.5|Potatoes|9001|9030|FGHRSDV|2955428|Tor 0.2.9.16|potatoesnode(at)protonmail(dot)com
+79.80.212.154|snap269|45485|0|FRDV|4|Tor 0.3.4.10|
+79.87.20.65|snap269|41913|0|RDV|64861|Tor 0.3.4.10|
+80.14.180.74|snap269|46255|0|RDV|65|Tor 0.3.4.10|
+80.67.167.81|Pegase|9001|9030|FGHRSDV|1789241|Tor 0.3.5.8|tor{at}milkywan(dot)fr
+80.67.167.82|Ceres|9001|9030|FGHRSDV|1789265|Tor 0.3.5.8|tor{at}milkywan(dot)fr
+80.67.172.162|AlGrothendieck|443|80|EFGHRSDV|2092930|Tor 0.3.5.8|0x9F29C15D42A8B6F3 Nos oignons ;adminsys@nos-oignons.net; - 17WLwtW63FrHeMAEVkALnwhfmizBxGXDW1
+80.67.190.200|gozdata|9001|0|FHRSDV|1879383|Tor 0.3.5.8|gozdata ;tor@gozmail.bzh;
+81.56.66.213|losangetor|9001|0|RSDV|6847350|Tor 0.3.4.9|Losange Tor ;losangetor@losange.org;
+81.57.144.205|snap269|38617|0|RDV|9|Tor 0.3.4.10|
+81.67.109.95|Annihilation|443|80|FGHRSDV|2930641|Tor 0.3.5.8|tor@smagnin.org
+82.124.207.41|TheK|9001|0|FHRSDV|907475|Tor 0.3.5.7|
+82.225.92.178|snap269|33479|0|RDV|194463|Tor 0.3.4.10|
+82.228.252.20|t7|9001|0|ERSV|7764223|Tor 0.2.4.24|Bert Bos ;bert@phonk.net;
+82.229.26.235|Singman|9001|0|RSDV|1|Tor 0.3.3.9|singman@free.fr
+82.230.161.89|snap269|32867|0|RSDV|1166479|Tor 0.3.4.10|
+82.231.33.11|snap269|34677|0|FGHRSDV|1288978|Tor 0.3.4.10|
+82.231.92.250|snap269|35861|0|RDV|7801|Tor 0.3.4.10|
+82.243.79.103|Ajorcel|9001|0|RSDV|2563164|Tor 0.3.5.8|Ajorcel ;ajorcel @T gm@il dot com;
+82.251.109.9|FreeBogatov|9001|9030|FHRSDV|720030|Tor 0.3.5.8|
+82.251.167.192|FreeAssange|8001|8002|FRDV|493206|Tor 0.4.0.4-rc|;hvi at safe dash mail dot net;
+82.251.221.101|snap269|37289|0|FRDV|1|Tor 0.3.4.10|
+82.251.250.6|ParisTOR|9001|0|FGHRSDV|4052255|Tor 0.3.4.9|postmaster@bougeret.fr
+82.251.33.136|b42|9001|0|FHRSDV|3823275|Tor 0.2.9.16|benoit AT friry DOT net
+82.251.76.152|snap269|41691|0|FRDV|194522|Tor 0.3.4.10|
+82.253.194.252|houmgabot|9001|9030|FHRSDV|1195305|Tor 0.2.9.16|houmgabot ;houmgabot AT protonmail dot com;
+82.64.103.4|Iletaitunefois|9001|9030|RSDV|2|Tor 0.2.9.16|
+82.64.20.171|MicheleTorr|64901|0|FRSV|259322|Tor 0.3.5.7|ali DOT gatorr AT free.fr
+82.64.44.2|Cryptxyz|9001|9030|FRSDV|129669|Tor 0.2.9.16|cryptrymz [at] secmail [dot] pro Btc: 1BYBCeJpck36zoP2bcKLXC7xee8RX8G3C GPG: C547E6F4
+82.64.53.65|Unnamed|9001|0|FHRSDV|2766638|Tor 0.2.9.16|
+82.64.74.84|darkIsDude|9001|0|RDV|129663|Tor 0.2.9.16|edouard.comtet@gmail.com
+82.64.78.170|PaulG|9001|9030|FGRSDV|194522|Tor 0.3.5.8|0x33774DA3 Paul Grandperrin ;paul DOT grandperrin AT protonmail DOT com;
+82.64.82.111|grezer2|9001|9031|FGHRSDV|2322214|Tor 0.3.5.8|
+82.64.94.30|Nerrand1|9001|9030|FHRSDV|846378|Tor 0.2.9.16|tor1@nerrand.fr
+82.66.140.131|Unnamed|8090|0|RSDVX|8573489|Tor 0.2.9.16|
+83.156.32.102|snap269|43937|0|FRDV|57389|Tor 0.3.4.10|
+83.199.186.157|N0nam3|30556|30555|FGHRSDV|1555870|Tor 0.3.5.8|[ofofo2000-tor] at [yahoo] fr
+83.205.184.241|victoring|9101|0|FHRSDV|659111|Tor 0.2.9.16|VicTOR ;victoring AT riseup dot net;
+84.98.214.168|gsrv|9001|0|RSV|1474967|Tor 0.2.7.6|
+85.170.141.132|TorPowaFr|9001|9030|RSDV|105781|Tor 0.2.9.16|
+86.105.212.130|firstor2|443|9030|FGHRSDV|2858750|Tor 0.3.5.8|tor terjan net
+86.105.212.87|Unnamed|8443|8080|FHRSDV|993428|Tor 0.4.0.4-rc|Random Person ;tor AT dillydally dot fr;
+86.202.126.142|Unnamed|9001|8030|FHRSDV|426724|Tor 0.2.9.16|
+86.213.118.11|snap269|37767|0|FHRSDV|972370|Tor 0.3.4.10|
+86.215.191.248|faispasser|9001|0|FRSV|5703564|Tor 0.2.5.16|
+86.217.243.147|koubtor|9001|9030|FRDV|1056213|Tor 0.3.5.8|
+86.225.160.250|GeekInfo|9090|9030|FGRSDV|223205|Tor 0.3.5.8|tor@geekinfo.fr
+86.248.120.250|Theoxyd|9001|9030|FRSDV|127687|Tor 0.2.5.16|contact At tupinier DOT CoM
+86.250.177.78|ididnteditheconfig|9001|9030|FHRSDV|781421|Tor 0.2.9.16|
+86.253.53.126|cachemoi|9001|9030|RSDV|2566038|Tor 0.2.9.16|cachemoi@protonmail.ch
+87.231.120.85|snap269|40723|0|FRDV|259340|Tor 0.3.4.10|
+87.231.163.189|snap269|39117|0|FRSDV|129661|Tor 0.3.4.10|
+87.231.99.141|humptydumpty|9001|0|FGHRSDV|552543|Tor 0.3.5.7|;arispalla AT yahoo dot com;
+87.98.185.5|SNAFU|443|80|FGHRSDV|2329068|Tor 0.3.5.8|4096R/EAEA0E7E69E2469972EC4FCFA2DA426CEC957CB6 torinthiel .at \1 .pl
+88.126.175.13|lagarennePIrelay|443|0|FHRSDV|324151|Tor 0.3.5.8|yomboul@hotmail.com
+88.136.167.213|snap269|34357|0|RDV|335759|Tor 0.3.4.10|
+88.163.244.124|lemnet|6881|0|RSDV|5025773|Tor 0.2.9.16|contact@lemnet.fr
+88.178.86.202|Bergerie|9001|9030|RDV|741204|Tor 0.3.5.8|1024D/4F03A6BC Vincent Stehle ;vincent stehle at laposte net;
+88.180.173.63|Sybillia|9001|9030|FHRSDV|1384469|Tor 0.2.9.16|
+88.181.250.114|snap269|44457|0|RDV|478|Tor 0.3.4.10|
+88.181.85.151|madonafromberlin|9001|0|RSDV|2671297|Tor 0.3.5.8|Philippe LAPEYRIE ;philippe AT lapeyrie dot fr;
+88.187.120.90|Unnamed|443|9030|RSDV|129703|Tor 0.2.4.22|
+88.188.17.198|Nacimus|9001|9030|RSDV|5093327|Tor 0.2.5.16|
+88.191.212.33|torquera|9001|9030|FRSDV|194464|Tor 0.2.9.16|tom at jorquera dot net
+88.191.32.238|fiberRelay|9001|0|FRDV|66483|Tor 0.3.5.8|
+88.86.247.175|L1ttl3Fr33d0mii|9001|9030|RSDV|64859|Tor 0.2.9.14|J0hn D03 ;n0b0dy AT 3x4mpl3 d0t c0m;
+89.234.157.254|marylou1|443|80|EFGHRSDV|5469192|Tor 0.3.5.8|0x9F29C15D42A8B6F3 Nos oignons ;adminsys@nos-oignons.net; - 17WLwtW63FrHeMAEVkALnwhfmizBxGXDW1
+89.234.157.254|marylou2|9001|9030|EFGHRSDV|5468723|Tor 0.3.5.8|0x9F29C15D42A8B6F3 Nos oignons ;adminsys@nos-oignons.net; - 17WLwtW63FrHeMAEVkALnwhfmizBxGXDW1
+89.234.186.116|gopherFTW01|9001|9030|FGHRSDV|2186821|Tor 0.3.5.8|so ;contact AT perso dot pw;
+89.3.162.12|snap269|42417|0|FRDV|14401|Tor 0.3.4.10|
+90.105.184.63|Manureva|9001|9030|FGHRSDV|1476086|Tor 0.4.0.3-alpha|fr33tux ;tor AT fr33tux dot org;
+90.109.190.162|snap269|42817|0|RDV|3|Tor 0.3.4.10|
+90.110.173.207|torricelli|9001|0|RDVX|39818|Tor 0.2.9.17|0x4C3B4C46
+90.114.25.206|LouTor|9001|9030|RSDV|453728|Tor 0.2.9.16|
+90.125.78.2|snap269|43423|0|FRDV|129662|Tor 0.3.4.10|
+90.127.27.174|ThorZeroRelay|9001|9030|FHRSDV|2228972|Tor 0.2.9.14|ThorZero ;thorzero AT gmail dot com;
+90.20.164.194|Patrichko|9001|9030|RDV|484|Tor 0.2.9.16|
+90.3.85.99|didejinique|9001|0|FRSV|4953993|Tor 0.2.4.29|
+90.30.210.235|snap269|35069|0|FRDV|3|Tor 0.3.4.10|
+90.35.205.209|snap270|41208|0|RDV|64861|Tor 0.3.4.10|
+90.44.96.176|Lovegiver|9001|0|RV|1625|Tor 0.3.5.8|
+90.6.184.49|snap269|39131|0|RDV|324726|Tor 0.3.4.10|
+90.65.144.220|celerity|9001|9002|FGHRSDV|2735602|Tor 0.2.9.16|soseksy@gmail.com
+90.65.32.9|Petibonum|443|8080|FHRSDV|5702361|Tor 0.2.9.16|casimir AT tutanota dot de
+90.65.32.9|Babaorum|9001|880|FHRSDV|5702448|Tor 0.2.9.16|casimir AT tutanota dot de - 1Hi83w7AdDHRrepREzHtBJf5BY2B771p1f
+90.66.137.2|prrlvrRelay|443|0|FRSDV|2310063|Tor 0.3.5.8|acid0basique@protonmail.com
+90.79.9.91|eastern1|9001|9030|FHRSDV|2805867|Tor 0.2.9.14|Garb age dot collector.2020 @at G mail
+90.9.23.39|snap269|44035|0|RDV|259264|Tor 0.3.4.10|
+91.121.103.117|GoingNowhere|9001|0|FRSV|2203285|Tor 0.2.9.16|;elixx at drastical dot net;
+91.121.116.34|pansomatik|9001|9030|FHRSDV|378011|Tor 0.3.5.8|
+91.121.147.65|LaTlayuda|9001|0|FRV|3934|Tor 0.2.9.16|0x57F0D893 oz ;oz AT cyprio dot net;
+91.121.148.210|tor98|13780|0|FGRSDV|0|Tor 0.3.5.8|
+91.121.154.109|darmok|20443|29030|FHRSDV|12166001|Tor 0.3.4.9|relay-tor@posteo.de
+91.121.160.6|affectiosocietatis|9001|0|FHRSDV|39009731|Tor 0.3.2.9|Guerric Chupin ;guerric.chupin AT gmail dot com;
+91.121.192.154|BidiBulle|9001|0|RSDVX|4082478|Tor 0.3.5.8|0x45FD40E5 Admin ;admin[at]lexuor[dot]net;
+91.121.195.169|Hoffnung|80|0|FGHRSDV|1774937|Tor 0.2.9.16|
+91.121.2.157|tkContrex|9092|0|FGHRSDV|884822|Tor 0.2.9.16|tom@knep.me
+91.121.50.14|Unnamed|51605|0|RSDV|4013497|Tor 0.2.9.14|
+91.121.67.146|Tor4eghaineebe|9001|0|FRSDV|258979|Tor 0.2.9.10|
+91.121.75.85|KagamineLenTwilight|993|0|FGRSDV|0|Tor 0.2.9.16|This relay named after: https://youtu.be/hW8X-VL7fSQ // Donate @ 14WmhzjssUfdFBzKGsh3KMiCgr3mw3S4y2
+91.121.75.85|KagamineLenPromise|995|0|FGRSDV|0|Tor 0.2.9.16|This relay named after: https://youtu.be/kIEjejLsRtE // Donate @ 14WmhzjssUfdFBzKGsh3KMiCgr3mw3S4y2
+91.121.76.207|nikomo|9001|9030|FGHRSDV|5511687|Tor 0.3.5.8|0x3FFB0198 nikomo ;nikomo AT nikomo dot fi;
+91.121.78.119|kwail|8080|0|FRSV|24468991|Tor 0.2.7.6|
+91.121.79.188|cghislaiA|9001|9030|FHRSDV|4957269|Tor 0.3.5.8|C2F491B7569FF5D7DF5CAB44A2B53AAD7D0DD06F charly tor@charlyghislain.com
+91.121.82.132|Hack2G2|9001|9030|FGHRSDV|1976959|Tor 0.3.5.8|contact;at;hack2g2;dot;fr
+91.121.82.25|Unnamed|443|80|FGHRSDV|1491073|Tor 0.3.5.8|
+91.121.83.108|hiboo|55567|0|FGHRSDV|2275818|Tor 0.3.5.8|Jean Bonbeurre ;tor-hiboo AT 0x010c DOT fr;
+91.121.85.130|jceaovh2|47168|0|FGHRSDV|3106878|Tor 0.3.5.8|4096R/1567BC0F Jesus Cea ;jcea@jcea.es;
+91.121.86.59|KagamineLenRokka|993|0|FGHRSDV|1767682|Tor 0.3.5.7|This relay named after: https://youtu.be/Im5w0GT343Y and https://youtu.be/SRMs8c1IHQ8 // Donate @
+91.134.137.99|KaarliVPS|9001|9030|FGHRSDV|5152131|Tor 0.3.5.8|Kaarli Tor ;tor AT bertho dot fr;
+91.134.140.21|servbr8|443|80|FGHRSDV|13824139|Tor 0.3.3.7|Servbr Admin ;servbr [AT] mail [DOT] md;
+91.161.46.187|DKN|443|80|FGHRSDV|8766561|Tor 0.3.5.7|Random Person ;tor dot dkn AT outlook dot com;
+91.165.22.173|snap269|40427|0|RDV|5|Tor 0.3.4.10|
+91.229.20.27|gordonkeybag|9001|9030|FGHRSDV|14778018|Tor 0.3.4.9|admin ;tor {at] rault [POINT) me;
+91.68.112.240|default|443|9030|RDV|9211|Tor 0.2.4.23|
+92.141.45.154|snap269|36275|0|FRDV|1621|Tor 0.3.4.10|
+92.152.20.22|snap269|41823|0|FRDV|5|Tor 0.3.4.10|
+92.169.40.224|nanopitor|443|0|FGRSDV|195841|Tor 0.3.5.7|quentin.lecalvez@live.fr
+92.171.122.221|JackPANDORERelay|1001|0|FGHRSDV|1342457|Tor 0.3.1.9|jack.pandore@net-c.ca
+92.222.115.28|Tornode|9001|9030|FGHRSDVX|2567156|Tor 0.3.1.9|
+92.222.127.232|BESTIOMONDE|443|80|EFGHRSDV|907338|Tor 0.3.5.8|
+92.222.180.10|GoodfellowTorRelay|9001|9030|FGHRSDVX|1165749|Tor 0.3.5.7|echo gbe@tbbqsryybj.vg | rot13
+92.222.22.113|FRNode1EddaiSu|443|80|FGHRSDVX|2551058|Tor 0.3.5.8|lux_aeterna ;root AT eddai dot su; 16JSb5QoZ2LUACxFsd9xUqoZ5e4x826djV
+92.222.22.37|bummer|443|80|FGHRSDV|388726|Tor 0.3.5.8|
+92.222.22.91|Unnamed|9001|0|FGHRSDV|18706176|Tor 0.3.2.10|agata-relay AT jawnosc dot com
+92.222.22.99|FreakyEmma|9001|9030|FGHRSDV|3348094|Tor 0.2.9.16|Emma Freaky ;freaky dot emma AT gmx dot net;
+92.222.36.196|ididso|9001|0|RSDV|4273265|Tor 0.3.5.7|Ypfe ;marian.marshall AT pidmail dot com;
+92.222.38.67|ThorExit|443|80|EFGHRSDV|478159|Tor 0.2.9.16|Thor Exit ;thor.exit AT yandex dot com;
+92.222.83.71|grammari|9009|0|RSDV|194411|Tor 0.3.5.8|
+92.243.0.179|sybaze|9001|9030|FRSDV|6156199|Tor 0.4.0.1-alpha-dev|aze ;aze AT anonsbh dot co;
+92.243.29.88|melinoe|443|80|FHRSDV|15138560|Tor 0.2.9.16|
+92.243.6.46|calu|443|80|FHRSDV|15110594|Tor 0.2.9.16|
+92.89.144.177|topinambour2|8080|13033|FGHRSDV|4926649|Tor 0.3.5.7|toto at farci dot org (replace toto by admin)
+92.94.163.82|snap269|44965|0|FRDV|5|Tor 0.3.4.10|
+93.115.96.15|chopin|9001|9030|FHRSDV|2700095|Tor 0.3.5.7|tor terjan net
+93.115.97.242|firstor|9001|9030|FGHRSDV|2822416|Tor 0.3.5.8|tor terjan net
+93.8.239.208|idideditheconfig|5761|5760|FHRSDV|478573|Tor 0.2.9.15|1234D/FFFFFFFF Random Person ;oliv5 AT caramail dot com;
+94.23.17.58|venser|9001|9030|FGHRSDV|1628368|Tor 0.2.9.15|
+94.23.18.169|theiF9veephuf3ah|9001|0|FRSV|15444240|Tor 0.2.5.16|
+94.23.194.134|minotorus|443|80|FGHRSDV|4550914|Tor 0.3.5.8|
+94.23.247.42|wien|443|80|FGHRSDV|2469770|Tor 0.3.5.8|0xFFFFFFFF Random Person ;nobody AT example dot com;
+94.23.248.158|mef|9001|0|FHRSDV|13930779|Tor 0.2.9.16|2048R/AF1E829C
+94.23.29.204|TORfrance|443|80|FGHRSDV|4676449|Tor 0.3.5.8|
+95.128.43.164|AquaRayTerminus|443|80|EFGHRSDV|677825|Tor 0.3.5.8|Aqua Ray Tor Operators ;tor-operators-fr [at] aquaray [dot] com; 19rUv8F1y1xc2fLdMTAps6ZoagJfR9DzEK
+95.130.10.69|RegularCitizen|8080|9030|EFGHRSDV|453684|Tor 0.3.5.8|145tXZyQEfdmpYhmbFtYe84kjghB5ymPA4 swraysford at gmail
+95.130.12.119|Nuath|443|80|FGHRSDV|5566974|Tor 0.3.5.8|webmeister ;tor4.20.webmeisterATspamgourmet.com;
+95.130.12.33|RapTorJesus|443|0|EFGRSDV|1|Tor 0.3.5.7|0xF5EA8754 @JusticeRage ;justicerage AT manalyzer dot org;
+95.130.9.90|fr3anonAF|8443|0|EFGRSDV|3186069|Tor 0.2.9.16|contact AT anon.af
+95.142.161.63|ekumen|443|80|EFGHRSDV|5469052|Tor 0.3.5.8|0x9F29C15D42A8B6F3 Nos oignons ;adminsys@nos-oignons.net; - 17WLwtW63FrHeMAEVkALnwhfmizBxGXDW1
+95.179.214.37|endif|9001|9030|FHRSDV|982876|Tor 0.3.5.8|endif ;4n0m4ly@protonmail.com;

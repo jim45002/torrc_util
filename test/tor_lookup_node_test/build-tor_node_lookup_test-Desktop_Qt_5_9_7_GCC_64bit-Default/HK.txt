@@ -1,0 +1,24 @@
+103.234.220.195|ASock|443|80|EFHRSDV|4454130|Tor 0.3.4.11|dobby_potter at aol.com or send hedwig
+103.234.220.197|arnspringer|443|80|EFHRSDV|5652351|Tor 0.3.4.10|
+103.73.67.198|cn0akatala|9001|9030|FRSDV|64922|Tor 0.3.5.8|0xFFFFFFFF Alexey ;alexey AT katalevich dot cz;
+113.255.93.79|damies|443|0|FRV|149220|Tor 0.2.9.16|0x3A5E188F
+116.49.239.75|DKRelay|9001|9030|FHRSDV|453693|Tor 0.3.5.8|
+119.237.142.205|KansaiULab2|443|0|EFHRSDV|4651448|Tor 0.3.5.7|T Miyata ;tmiyata@kansai-u.ac.jp;
+119.237.151.237|HKRealDemocracy|443|80|FHRSDV|1410456|Tor 0.3.5.8|;84fi3gg4o9 AT riseup dot net;
+119.247.96.181|YuYuY|9001|9030|FRDV|2403|Tor 0.3.5.8|Random Person ; yx411624 AT gmail dot com;
+137.59.23.42|thisisdimforyou|9090|9030|FRDV|297844|Tor 0.3.5.8|nobody@example.com
+202.131.75.52|tortalltortall|9090|9030|FRDV|194909|Tor 0.3.5.8|tortall@popototor.com
+202.131.75.55|Les2019|9001|0|RSV|2332916|Tor 0.3.2.10|
+203.186.69.98|hellokitty|9001|9030|FHRSDV|3369947|Tor 0.3.5.7|Kevin Lee ;kevin.hy.lee AT cryptolab dot net;
+210.3.102.152|silverio|443|80|FRSDVX|194429|Tor 0.3.5.8|
+210.3.102.154|chanticleer|443|80|FHRSDV|1389580|Tor 0.3.5.8|
+210.3.102.165|vader|443|80|FHRSDV|4698010|Tor 0.3.4.11|
+216.250.97.250|wrongopinion|443|80|FRSDV|192604|Tor 0.3.5.8|
+223.16.81.148|FutureGadgetLab|9001|0|FRSDV|266404|Tor 0.3.5.8|;spam@adrianiainlam.tk; s/spam/tor-relay/
+223.17.160.21|BakedAlaska|9001|0|FRSV|907449|Tor 0.3.5.8|Hermes Thrice Dank ;HermesThriceDank AT airmail dot cc;
+223.26.48.248|haal|443|80|ERSDV|5641554|Tor 0.3.4.10|
+43.251.159.134|MollyLee|443|80|EFRDV|324128|Tor 0.3.5.8|
+45.125.166.58|leysen|443|80|FHRSDV|4532933|Tor 0.3.4.11|
+45.125.65.45|katharina|443|80|EFRSDV|8|Tor 0.3.5.8|
+45.249.61.131|contribuiltion|9001|9030|RSDV|14699548|Tor 0.3.2.10|lizhenbb1741@gmail.com
+58.153.112.2|pft1|9001|9030|EFRSDV|129753|Tor 0.3.5.8|

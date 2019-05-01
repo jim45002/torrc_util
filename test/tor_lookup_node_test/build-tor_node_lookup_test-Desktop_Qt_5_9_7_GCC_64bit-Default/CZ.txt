@@ -1,0 +1,85 @@
+109.239.79.181|torfan|9001|9030|FRSDV|238206|Tor 0.3.5.8|
+130.185.178.187|forsure|9001|0|FRDV|2811192|Tor 0.3.5.8|Random Person ;nobody AT example dot com;
+130.193.15.186|taine|443|80|FGHRSDV|4500261|Tor 0.3.4.11|
+130.193.15.49|Unnamed|443|80|FGHRSDV|712998|Tor 0.3.5.8|
+137.74.189.95|alchimist|443|0|FGHRSDV|7045335|Tor 0.3.4.9|
+151.237.229.131|defiant|9001|0|RSDV|527538|Tor 0.3.5.8|0xB87F8E33 Oleksandr Natalenko ;oleksandr@natalenko.name;
+176.114.248.47|deprofundisclamavi|9001|9030|RSDV|2426456|Tor 0.3.5.8|
+185.224.112.246|Bernard|6666|0|FRV|259387|Tor 0.3.4.9|tor@serafean.cz
+185.32.160.22|Unnamed|9001|0|FRSV|32252964|Tor 0.2.5.12|
+185.47.222.34|karbtor|9001|0|FHRSDV|2359951|Tor 0.2.9.16|
+185.8.236.131|traktorzetor|443|80|FHRSDV|6051919|Tor 0.3.3.9|PGK ;tor at the-goober.net;
+185.8.237.45|VelociRapTor|8080|3128|FGHRSDV|2602902|Tor 0.3.5.8|
+193.104.254.82|Unnamed|9001|9030|RSDV|20697433|Tor 0.3.1.7|
+195.113.199.99|onionVFUcz|9001|9030|FGHRSDV|3895421|Tor 0.3.5.8|Onion VFU TOR ;onionVFUcz AT mailinator DOT com;
+195.123.245.141|angeltest14|443|9030|FGHRSDV|2842717|Tor 0.3.5.8|torrpi1405@gmail.com
+195.123.245.184|relmega|9001|0|FRDVX|805450|Tor 0.3.5.7|realmega@gmail.com
+195.123.245.96|bugbunny|9001|0|FHRSDVX|3391201|Tor 0.3.5.8|RandomPerson ;nobody AT example dot com;
+213.211.43.139|torcz|9001|0|RSDV|225302|Tor 0.2.9.16|
+213.220.220.60|Unnamed|443|0|FGHRSDV|2718040|Tor 0.3.4.11|
+213.220.243.18|snap269|38557|0|FRDV|936368|Tor 0.3.4.10|
+31.31.72.24|trooper|443|80|EFGHRSDV|1908446|Tor 0.3.4.9|
+31.31.73.222|mrshuTor01|9002|9030|FGHRSDV|8064128|Tor 0.3.5.7|Marek Suppa ;andrej at-this-domain xlc-team and-dot-here info;
+31.31.74.131|Unnamed|443|80|EFRSDV|197133|Tor 0.3.5.7|
+31.31.74.177|Geoff4|443|80|FGHRSDV|2222228|Tor 0.2.5.16|tor at cybercyber dot wtf
+31.31.74.47|jannis|443|80|FGHRSDVX|5148115|Tor 0.3.4.11|
+31.31.76.120|HelloMyFriend|9001|0|FGHRSDV|3175267|Tor 0.3.5.7|makemehappy@czin.eu
+31.31.76.123|SPARTACUS|80|443|FGHRSDV|6163532|Tor 0.3.5.7|
+31.31.77.176|propsy|9001|9030|FHRSDV|8605960|Tor 0.3.5.7|Pedro ;pv@propsychology.cz;
+31.31.77.217|Sub2PewDiePie|9001|80|EFGHRSDV|863268|Tor 0.3.5.8|nogsolutionadmin(at)national(dot)shitposting(dot)agency [tor-relay.co]
+31.31.78.49|KrigHaBandolo|443|80|FGHRSDV|1296318|Tor 0.3.5.8|0xF72BB51D Augusto Amaral ;acacs at riseup dot net;
+37.157.195.83|lolita|443|9030|FGHRSDV|3719062|Tor 0.3.5.8|ttallink@googlemail.com
+37.157.195.87|thanatosCZ|443|8030|FGHRSDV|6318079|Tor 0.3.4.9|t o r p r o j e c t () m a i l b o x (dot) o r g
+37.157.196.142|whitehole|9001|9030|FGHRSDV|18687834|Tor 0.3.2.10|
+37.205.8.191|relay0vpsfree0cz|443|0|FGHRSDV|8006683|Tor 0.3.5.7|
+37.205.9.131|TokenLow|9001|0|FRSV|5497282|Tor 0.3.5.8|0xB181A46C9A32C67811871EE65000F2608D62BB1E Ondrej Mikle ;ondrej.mikle+tor@gmail.com;
+46.167.245.51|Unnamed|443|0|FHRSDVX|4104483|Tor 0.2.9.16|
+46.28.109.231|wedostor|9001|9030|FGHRSDV|2808289|Tor 0.3.4.11|tor terjan net
+46.28.110.219|NAIMINA|9001|9030|FHRSDV|4438870|Tor 0.3.4.9|
+46.28.110.244|Nivrim|443|80|FGHRSDV|5562227|Tor 0.3.5.8|webmeister ;tor4.20.webmeisterATspamgourmet.com;
+46.36.37.35|PragueLinuxRelay|443|9030|FRDV|212530|Tor 0.3.2.10|i.a@centrum.cz
+46.36.38.76|lidia18|443|80|FGHRSDV|1681395|Tor 0.3.5.8|dmitri_@bk.ru
+46.36.39.134|livia|443|80|FGHRSDV|1598654|Tor 0.3.5.8|
+46.36.40.193|Unnamed|9001|9030|FHRSDV|1620320|Tor 0.3.5.7|
+46.36.40.21|mrsuppgmvpsrelay|9001|0|FGHRSDV|7758081|Tor 0.3.5.7|Mr. Supp ;gmtor ATTA vulture dot cz;
+46.36.40.69|spinl0ck|443|80|FHRSDV|388926|Tor 0.3.5.8|ricochet:iqc3uwiobufankos
+5.1.56.52|Free|9001|9030|FGHRSDV|2268082|Tor 0.3.5.7|
+5.135.0.26|loiu92|9001|0|FRDV|876372|Tor 0.3.3.12|Loiu92 contact@loiu92.com
+51.68.170.247|Rebel|443|0|FGHRSDV|8838780|Tor 0.3.4.8|
+62.168.3.212|n4lksask972137tor|9999|9998|FHRSDV|2113046|Tor 0.3.5.8|
+78.45.7.29|MonsterX|443|0|FRDV|446704|Tor 0.2.9.16|;valar@keemail.me;
+80.211.192.151|cryptonanus|9001|9030|RSDV|7495247|Tor 0.3.4.9|Ignitus Cryptonanus ;cryptonanus AT protonmail dot com;
+80.211.199.162|FreeRusland|9001|9030|FHRSDV|1735315|Tor 0.3.5.8|Rusland ;return76 AT mail dot ee;
+80.211.211.235|halah|443|0|FRSV|3793254|Tor 0.3.3.9|lidel ;lidel AT lidel dot org;
+80.211.211.72|nuushe|38008|0|FRSV|15818749|Tor 0.3.3.10|nuushe@gmail.com
+80.211.218.201|BlueVenera|2681|0|FRSV|2138608|Tor 0.3.5.8|3F9061452500B8B38AAB6B1816B174717CF1C119DF78CFF48A7C6F5D9BBB6F0E48F1857D3169
+80.250.28.36|peci1tornode|9001|9030|RSDV|936026|Tor 0.3.5.8|Anonymous ;tor AT martin-pecka dot eu;
+80.79.23.7|mrkvotor|443|9030|ERSDV|856990|Tor 0.3.5.8|Random Person ;random@bzzzwa.net;
+81.0.226.3|dthpulse|9001|0|FGHRSDV|1478831|Tor 0.2.9.16|dthpulse ;dthpulse@podciarou.eu;
+81.19.7.75|TierraNorbu|10009|10008|RSDV|9|Tor 0.2.9.16|0x1ADD5499 Brozkeff ;brozkeff AT gmail dot com;
+81.2.197.33|ieditedtehconfig|9001|8080|FGHRSDV|2541736|Tor 0.3.4.10|fondo777@gmail.com
+81.2.240.223|RyhoTor|9001|0|FRV|0|Tor 0.2.5.16|no@contact
+81.200.59.162|reAnimaTOR|9001|0|RSDV|305104|Tor 0.3.0.10|
+82.209.54.74|PERLURGroupCZKO|9001|9030|FGRSDV|664461|Tor 0.3.5.8|Mark Stopka ;mark.stopka@perlur.cloud;
+83.240.20.133|snap269|33433|0|FRDV|235804|Tor 0.3.4.10|
+85.255.1.158|kostirez1|9001|0|FRV|53071|Tor 0.3.5.8|admin@kostirez1.tk
+85.255.15.54|TorForpsi|443|80|FGHRSDV|5475684|Tor 0.3.5.8|Viktor ;vnikolov AT vnikolov dot cz;
+87.236.194.23|khao|443|80|FGHRSDV|384130|Tor 0.3.5.8|
+88.208.121.78|sanchez|9999|0|FHRSDV|4093540|Tor 0.2.9.16|
+88.86.102.163|bullman|443|80|FGHRSDV|2613658|Tor 0.3.4.10|
+89.176.130.3|Willy|9001|9030|FGHRSDV|324065|Tor 0.3.5.8|halda@riseup.net
+89.177.108.13|gratefulHawkRelay|443|0|FRDV|348721|Tor 0.2.9.16|gratefulhawk@protonmail.com | PGP 8550 e149 38d8 b4d8 8a62 6378 b076 8ebb 8c21 362c
+89.187.143.31|charpini|443|80|FGHRSDVX|842654|Tor 0.3.5.8|
+89.187.143.81|flies|443|80|FGHRSDVX|4503689|Tor 0.3.4.11|
+89.221.216.191|TorWedos1|443|80|FGHRSDV|2008831|Tor 0.3.5.8|Viktor ;vnikolov AT vnikolov dot cz;
+91.146.121.3|brmlab|80|0|EFHRSDV|7164366|Tor 0.3.5.7|CD98 5440 4372 0C6D 164D A24D F019 2F8E 6527 282E ;jenda.tor zavinac hrach.eu;
+91.192.33.118|mrsuppgmshrelay|9001|0|FHRSDV|4352516|Tor 0.3.4.8|Mr. Supp ;gmtor ATTA vulture dot cz;
+93.170.77.11|Unnamed|12476|2944|FHRSDV|15089035|Tor 0.2.9.17|
+93.170.77.134|Unnamed|2352|20796|FHRSDV|15054932|Tor 0.2.9.17|
+93.170.77.249|Unnamed|14695|29262|FHRSDV|15109978|Tor 0.2.9.17|
+93.170.77.6|Unnamed|3098|14887|FHRSDV|15067336|Tor 0.2.9.17|
+93.170.77.92|Unnamed|28274|597|FHRSDV|7073542|Tor 0.2.9.17|
+94.23.168.235|Narnia2|9001|0|FRSDV|8661690|Tor 0.3.0.9|
+94.23.173.93|theboss|443|0|FGHRSDV|12474210|Tor 0.3.4.9|
+95.168.192.42|ApeLovesCocks|9001|9030|FHRSDV|583683|Tor 0.3.4.9|
+95.168.216.152|OneTwoThree|80|0|FGHRSDV|5344783|Tor 0.2.9.14|

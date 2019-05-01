@@ -1,0 +1,25 @@
+185.10.68.123|MyB1g0lC0ck666|46161|0|FGHRSDVX|3319258|Tor 0.3.5.8|
+185.10.68.126|citizen17|9001|80|EFHRSDV|612043|Tor 0.3.5.8|citizen17(at)tutamail(dot)com
+185.10.68.191|titanic|443|0|FGHRSDV|1058415|Tor 0.2.9.16|tor-operator@your-emailaddress-domain
+185.10.68.225|wiphala|9001|0|EFRSV|2274679|Tor 0.3.5.8|seacucumber@protonmail.ch
+185.10.68.30|citizen17|9001|80|EFHRSDV|608444|Tor 0.3.5.8|citizen17(at)tutamail(dot)com
+185.10.68.52|citizen17|9001|80|EFHRSDV|653539|Tor 0.3.5.8|citizen17(at)tutamail(dot)com
+185.10.68.76|monstermail0|9001|0|ERSDV|6012090|Tor 0.3.2.10|
+185.10.68.85|JJsAfricanTorRelay|9001|9030|FGHRSDV|1360154|Tor 0.3.5.8|Joel Jennings ;Joel@JoelSJennings.com;
+185.165.168.168|Hydra1|9001|9030|EFGHRSDV|2041459|Tor 0.3.5.8|abuse-node49 AT posteo DOT de
+185.165.168.229|MrTerence|443|0|EFGHRSDV|388868|Tor 0.3.5.8|marco.lomberti88+tor@gmail.com
+185.165.168.77|rittervgexit|443|80|EFHRSDV|4629644|Tor 0.3.5.8|Tom Ritter ;tom@ritter.vg;
+185.165.169.138|DeepGreenResistance|9001|9030|FHRSDV|6109393|Tor 0.3.5.7|1187 EF45 9760 66ED 5AB5 5D50 9755 3391 D0BF 49BA Norris Thomlinson ;norris@aktivix.org;
+185.165.169.160|Unnamed|443|80|EFGHRSDV|2548830|Tor 0.3.5.7|
+185.165.169.165|myNiceRelay|443|0|EFGHRSDV|5266888|Tor 0.3.5.8|tor-operator@your-emailaddress-domain
+185.165.169.173|vargexit1|9001|0|EFRV|345243|Tor 0.2.9.16|
+185.165.169.222|duckgo|443|80|RSDV|2808041|Tor 0.3.5.7|
+185.165.169.23|Wasis|9001|9030|FGHRSDV|1998146|Tor 0.3.5.8|Random Person ;nobody AT example dot com;
+185.165.169.71|newton|9001|9030|EFGHRSDV|5436204|Tor 0.3.5.8|0xd3956a77 Your pure Manifestation of Peace
+37.228.129.2|chydenius|443|80|EFGHRSDV|4100507|Tor 0.3.5.8|;abuse at flokinet dot is;
+37.228.129.27|RiseAgainst|9001|0|FRSV|2840925|Tor 0.3.5.8|
+37.228.129.5|sartre|9001|0|FRSV|1188133|Tor 0.3.5.8|0x4A74E1B84035C1C989D0EA8C4209E0AFB4D47D88 Schroedingers_Cat ;schroedingers_cat atriseupdotnet;
+37.228.129.53|FIrelay|443|0|FGHRSDV|5303226|Tor 0.3.5.8|Random Person ;kossunster AT gmail dot com;
+37.228.129.56|eytws|6962|10792|FHRSDV|23620152|Tor 0.2.7.6|
+93.174.93.133|hedden|443|80|EFRSDV|64473|Tor 0.3.5.8|
+94.102.49.152|Ubermensch|9001|9030|EFHRSDV|3233608|Tor 0.3.5.8|torproject AT ubermen DOT net

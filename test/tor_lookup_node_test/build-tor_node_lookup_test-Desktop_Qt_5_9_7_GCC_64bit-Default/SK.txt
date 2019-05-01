@@ -1,0 +1,14 @@
+147.175.187.143|eL5gMmiPbfmp|9001|0|FGRSDV|194404|Tor 0.3.5.7|
+147.175.187.180|epsilon|9001|0|FHRSDV|302387|Tor 0.2.9.11|
+185.29.156.231|Heady|9030|9051|FHRSDV|775161|Tor 0.3.5.8|dj dot heady at gmail dot com
+185.66.200.10|CountDown321|9001|0|EFRV|223840|Tor 0.2.7.6|
+188.167.69.225|zeitgeistor1|9001|9030|FHRSDV|1036881|Tor 0.3.5.8|Report Abuse: relayabuse[AT]mail2tor[DOT]com
+194.160.170.212|tutor|9001|0|FGHRSDV|2174495|Tor 0.3.5.7|
+212.89.225.242|tamanegi|443|80|FGHRSDV|1296846|Tor 0.3.5.7|;tamanegi AT rainside dot sk;
+46.229.238.172|Cicolina|9001|9030|FGHRSDV|1101708|Tor 0.3.4.9|root@cicolina.org
+62.197.207.182|astarseran|9443|9080|FHRSDV|777973|Tor 0.3.5.8|;8uk54nt0 AT gmail DOT com;
+78.99.205.237|HomersRelay|9001|9030|FGHRSDV|326226|Tor 0.3.5.8|Admin ;verejnyzaujem AT protonmail dot com;
+82.119.233.36|Pathfinder|9001|9030|RSDV|5454182|Tor 0.3.4.9|
+85.248.227.163|ori|9001|443|EFGHRSDV|4521605|Tor 0.3.5.8|0x02225522 Frenn vun der Enn (FVDE) ;info AT enn DOT lu;
+85.248.227.164|tollana|9002|444|EFGHRSDV|4521609|Tor 0.3.5.8|0x02225522 Frenn vun der Enn (FVDE) ;info AT enn DOT lu;
+85.248.227.165|kree|9003|445|EFGHRSDV|4518280|Tor 0.3.5.8|0x02225522 Frenn vun der Enn (FVDE) ;info AT enn DOT lu;

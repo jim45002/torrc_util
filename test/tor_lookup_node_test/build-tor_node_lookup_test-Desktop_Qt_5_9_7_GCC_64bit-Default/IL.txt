@@ -1,0 +1,8 @@
+176.231.139.84|hacktheplanet|443|80|FGRSDV|324484|Tor 0.2.9.16|itay [@t] huri [d0t] biz
+185.191.204.254|DuckYou|443|80|FGHRSDVX|975611|Tor 0.3.5.7|DuckSounds31@aol.com
+193.182.144.53|Dragons|443|8080|FHRSDV|842533|Tor 0.3.5.7|georger.r.martin@writeme.com
+199.203.164.66|ididnteditheconfig|9001|0|FRSV|5357274|Tor 0.2.7.6|Random Person ;nobody AT example dot com;
+213.184.126.242|zlp|4089|26824|FHRSDV|32445324|Tor 0.2.7.6|
+62.219.3.47|Unnamed|9001|0|EFGHRSDV|1058527|Tor 0.2.9.11|
+62.219.3.48|Unnamed|9001|0|EFGHRSDV|1058409|Tor 0.2.9.11|
+84.109.36.139|snap269|41945|0|FRDV|129660|Tor 0.3.4.10|

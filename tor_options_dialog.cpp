@@ -69,35 +69,50 @@ TorOptionsDialog::~TorOptionsDialog()
 
 void TorOptionsDialog::country_list_widget_double_click(QListWidgetItem* l)
 {
+  ui->table_widget_title_label->setText(QString("Nodes: ") + l->text());
+
   QString abbrv = countries_map[l->text().trimmed()];
   qDebug() << "country map has " << abbrv;
-  emit request_node_list(abbrv,QStringList());
+  emit request_node_list(abbrv,QStringList(),
+                         ui->build_country_files_checkBox->isChecked());
   ui->progressBar->show();
 
 }
 
 void TorOptionsDialog::recv_node_list(QString c,QStringList nodes)
 {
-  // qDebug() << "node list is " << c << " : " << nodes;
-  node_records_map.clear();
-  ui->nodelistWidget->clear();
-  for(int dex=0; dex<nodes.count();++dex)
-  {
-      QStringList fields = nodes[dex].split("|");
-      node_records_map[fields[0]] = nodes[dex];
-      ui->nodelistWidget->insertItem(dex,fields[0]);
-      auto item = ui->nodelistWidget->item(dex);
-      QString tool_tip;
-      tool_tip += c + "\n";
-      for(auto f : fields)
-      {
-          tool_tip += f + "\n";
-      }
-      item->setToolTip(tool_tip);
-
-      qDebug() << "added " << fields[0];
-  }
-  ui->progressBar->hide();
+    // qDebug() << "node list is " << c << " : " << nodes;
+    node_records_map.clear();
+    ui->node_list_table_widget->clear();
+    ui->node_list_table_widget->setRowCount(nodes.count());
+    ui->node_list_table_widget->
+            setColumnCount(nodes[0].split("|").count());
+    QStringList hlabels;
+    // 132.167.123.136|JoeBy|443|21|FGRSDVX|59|Tor 0.2.9.16|
+    //anon@simply-setup.script.by.Hello
+    hlabels << "IP Address" << "Node" << "Port" << " ? " << "Flags" << " ? "
+            << "Version" << "E-Mail";
+    ui->node_list_table_widget->setHorizontalHeaderLabels(hlabels);
+    for(int dex=0; dex<nodes.count();++dex)
+    {
+        QStringList fields = nodes[dex].split("|");
+        node_records_map[fields[0]] = nodes[dex];
+        for(int col=0;col<fields.count();++col)
+        {
+            auto w = new QTableWidgetItem(fields[col]);
+            ui->node_list_table_widget->setItem(dex,col,w);
+//            auto item = ui->node_list_table_widget->item(dex,col);
+//            QString tool_tip;
+//            tool_tip += c + "\n";
+//            for(auto f : fields)
+//            {
+//                tool_tip += f + "\n";
+//            }
+//            item->setToolTip(tool_tip);
+        }
+        qDebug() << "added " << fields[0];
+    }
+    ui->progressBar->hide();
 }
 
 void TorOptionsDialog::completed_save_to_configfile(bool)

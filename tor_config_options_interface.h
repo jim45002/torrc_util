@@ -35,7 +35,7 @@ signals:
 
 public slots:
     virtual void recv_progress(float) = 0;
-    virtual void ui_request_nodelist(QString,QStringList) = 0;
+    virtual void ui_request_nodelist(QString,QStringList,bool) = 0;
     virtual void recv_nodelist(QString,QStringList) = 0;
     virtual void recv_node_download_result(bool) = 0;
     virtual void save_to_configfile() = 0;

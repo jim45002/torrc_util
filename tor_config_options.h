@@ -24,7 +24,7 @@ public:
 
 public slots:
     virtual void recv_progress(float);
-    virtual void ui_request_nodelist(QString,QStringList);
+    virtual void ui_request_nodelist(QString,QStringList,bool);
     virtual void recv_nodelist(QString,QStringList);
     virtual void recv_node_download_result(bool);
     virtual void save_to_configfile();

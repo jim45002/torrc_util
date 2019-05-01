@@ -20,7 +20,7 @@ public:
     virtual void setup_options_dialog() = 0;
 
 signals: 
-    void request_node_list(QString,QStringList);
+    void request_node_list(QString,QStringList,bool);
     void save_to_configfile();
     void read_config_settings(QString config_option);
     void get_countries_map();

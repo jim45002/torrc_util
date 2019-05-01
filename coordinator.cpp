@@ -82,8 +82,8 @@ make_connections(TorOptionsDialogInterface* tod,
    connect(tco,SIGNAL(send_syned_use_gaurds_with_torrc(bool) ),
            tod,SLOT( received_syned_use_gaurds_with_torrc(bool)));
 
-   connect(tod,SIGNAL(request_node_list(QString,QStringList)),
-           tco,SLOT(ui_request_nodelist(QString,QStringList)));
+   connect(tod,SIGNAL(request_node_list(QString,QStringList,bool)),
+           tco,SLOT(ui_request_nodelist(QString,QStringList,bool)));
 
    connect(tco,SIGNAL(ui_send_nodelist(QString,QStringList)),
            tod,SLOT(recv_node_list(QString,QStringList)));

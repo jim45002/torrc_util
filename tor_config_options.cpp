@@ -331,9 +331,9 @@ void tor_config_options::recv_progress(float p)
    emit send_progress(p);
 }
 
-void tor_config_options::ui_request_nodelist(QString c, QStringList)
+void tor_config_options::ui_request_nodelist(QString c, QStringList, bool b)
 {
-   emit req_node_list(c,true);
+   emit req_node_list(c,b);
 }
 
 void tor_config_options::recv_nodelist(QString c, QStringList nl)

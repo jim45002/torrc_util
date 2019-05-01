@@ -1,5 +1,5 @@
 # Torrc Utility
-Torrc Utility is a simple Qt GUI for managing some options in the Tor's configuration file. This application was tested with default torrc config files that are included with tor-browser bundle. Torrc Utility is also used for graphically viewing Tor node locations on a map.
+Torrc Utility is a simple Qt GUI for managing some options in Tor's configuration file. This application was only tested with the default torrc file included with the Tor-Browser bundle. Before any changes are made to the torrc file, a copy is stored in the current directory. Torrc Utility is also used for graphically viewing the list of active Tor nodes. You can click a node record on the list to view its location on the GUI's map. 
 
 
 

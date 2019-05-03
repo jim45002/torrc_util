@@ -265,7 +265,8 @@ void TorOptionsDialog::received_populated_country_list(
     }
 }
 
-void TorOptionsDialog::received_synced_enforce_distinct_subnets_with_torrc(bool b)
+void TorOptionsDialog::
+received_synced_enforce_distinct_subnets_with_torrc(bool b)
 {
    ui->checkBox_enforce_subnets->setChecked(b);
 }
@@ -314,13 +315,41 @@ void TorOptionsDialog::on_button_movefrom_excludes_clicked(bool)
 /////////////////////
 void TorOptionsDialog::on_button_moveto_exits_clicked(bool)
 {
+    if(ui->node_list_table_widget->selectedItems().count())
+    {
+        auto selected = ui->node_list_table_widget->selectedItems();
+        for(auto i : selected)
+        {
+            auto item = ui->node_list_table_widget->item(i->row(),0);
+
+            if(ui->exit_nodes->findItems(item->text().trimmed(),
+                                         Qt::MatchExactly).count() == 0)
+            {
+                ui->exit_nodes->addItem(item->text());
+                selected.clear();
+            }
+
+            //ui->exit_nodes->sortItems();
+            //delete i;
+        }
+
+        QString str = ui->table_widget_title_label->text();
+        str = str.remove(QString("Nodes:"));
+        auto items = ui->countrylistWidget->findItems(str.trimmed(),
+                                                      Qt::MatchExactly);
+        if(items.count())
+            items[0]->setSelected(false);
+
+    }
+
     auto selected = ui->countrylistWidget->selectedItems();
     for(auto i : selected)
     {
-      ui->exit_nodes->addItem(i->text());
-      ui->exit_nodes->sortItems();
-      delete i;
+        ui->exit_nodes->addItem(i->text());
+        ui->exit_nodes->sortItems();
+        delete i;
     }
+
 }
 
 
@@ -330,8 +359,15 @@ void TorOptionsDialog::on_button_movefrom_exits_clicked(bool)
     auto selected = ui->exit_nodes->selectedItems();
     for(auto i : selected)
     {
-        ui->countrylistWidget->addItem(i->text());
-        ui->countrylistWidget->sortItems();
+        if(i->text().indexOf('.') > -1)
+        {
+
+        }
+        else
+        {
+            ui->countrylistWidget->addItem(i->text());
+            ui->countrylistWidget->sortItems();
+        }
         delete i;
     }
 }
@@ -363,7 +399,8 @@ void TorOptionsDialog::on_button_movefrom_entry_clicked(bool)
 }
 
 
-void TorOptionsDialog::ListWidgetStrings2QStringsList(QListWidget* l, QStringList& s)
+void TorOptionsDialog::
+ListWidgetStrings2QStringsList(QListWidget* l, QStringList& s)
 {
    l->selectedItems();
    for(int i=0; i<l->count();++i)

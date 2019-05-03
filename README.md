@@ -10,15 +10,15 @@ Torrc Utility is a simple Qt GUI for managing some options in Tor's configuratio
 Torrc options supported are:
 
 <ul>
-  <li>ExcludeNodes: List of identity fingerprints, country codes, and address patterns of nodes to avoid when building a circuit</li>
-  <li>ExitNodes: List of identity fingerprints, country codes, and address patterns of nodes to use as exits</li>
-  <li>EntryNodes: list of identity fingerprints, country codes, and address patterns of nodes to use for the first hop  </li>
+  <li><b>ExcludeNodes</b>: List of identity fingerprints, country codes, and address patterns of nodes to avoid when building a circuit</li>
+  <li><b>ExitNodes</b>: List of identity fingerprints, country codes, and address patterns of nodes to use as exits</li>
+  <li><b>EntryNodes</b>: list of identity fingerprints, country codes, and address patterns of nodes to use for the first hop  </li>
  
- <li>EnforceDistinctSubnets: If 1, Tor will not put two servers whose IP addresses are "too close" on the same circuit</li>
+ <li><b>EnforceDistinctSubnets</b>: If 1, Tor will not put two servers whose IP addresses are "too close" on the same circuit</li>
 
- <li>UseEntryGuards: If this option is set to 1, we pick a few long-term entry servers, and try to stick with them</li>
+ <li><b>UseEntryGuards</b>: If this option is set to 1, we pick a few long-term entry servers, and try to stick with them</li>
 
- <li>NumEntryGuards: If UseEntryGuards is set to 1, we will try to pick a total of NUM routers as long-term entries for our circuits</li>
+ <li><b>NumEntryGuards</b>: If UseEntryGuards is set to 1, we will try to pick a total of NUM routers as long-term entries for our circuits</li>
 
 </ul>
 

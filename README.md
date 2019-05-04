@@ -23,7 +23,7 @@ Torrc options supported are:
 </ul>
 
 
-Only 2-letter country abbreviations are supported for ExcludeNodes, ExitNodes, and EntryNodes. See https://2019.www.torproject.org/docs/tor-manual.html.en for complete descritpion of these options.
+Only 2-letter country abbreviations and IPv4 node addresses are supported for ExcludeNodes, ExitNodes, and EntryNodes. See https://2019.www.torproject.org/docs/tor-manual.html.en for complete descritpion of these options.
 
 
 

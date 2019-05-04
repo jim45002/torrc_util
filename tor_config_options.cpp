@@ -231,7 +231,8 @@ void tor_config_options::populate_country_list(QString config_setting,
                     excludelistwidget.append(country.trimmed());
                     excludelistwidget.sort();
 
-                    for(int index=0; index<countrylistwidget.count(); ++index)
+                    for(int index=0;
+                        index<countrylistwidget.count(); ++index)
                     {
                         auto item = countrylistwidget.at(index);
 
@@ -354,11 +355,7 @@ void tor_config_options::recv_node_download_result(bool)
 
 }
 
-//////////////////////////////////////
-//
-//
-//
-//
+
 //////////////////////////////////////
 void tor_config_options::update_EnforceDistinctSubnets(QString val)
 {
@@ -380,7 +377,6 @@ void tor_config_options::update_EnforceDistinctSubnets(QString val)
          configfile_lines.append(QString(bytes));
      }
 }
-
 
 
 //////////////////////////////////////

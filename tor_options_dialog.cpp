@@ -195,12 +195,7 @@ void TorOptionsDialog::received_config_settings(QString config_option, QByteArra
 
 void TorOptionsDialog::received_countries_map(QMap<QString, QString> m)
 {
-   // static int i;
-
     countries_map = m;
-    //qDebug() << "Called " << ++i << "times " <<
-    //            " set country_map to " << countries_map;
-
     for(auto item = countries_map.keyBegin();
         item != countries_map.keyEnd(); ++item)
     {
@@ -289,13 +284,34 @@ void TorOptionsDialog::received_syned_use_gaurds_with_torrc(bool b)
 ///////////////////
 void TorOptionsDialog::on_button_moveto_excludes_clicked(bool)
 {
-  auto selected = ui->countrylistWidget->selectedItems();
-  for(auto i : selected)
-  {
-    ui->excluded_nodes->addItem(i->text());
-    ui->excluded_nodes->sortItems();
-    delete i;
-  }
+    if(ui->node_list_table_widget->selectedItems().count())
+    {
+        auto selected = ui->node_list_table_widget->selectedItems();
+        for(auto i : selected)
+        {
+            auto item = ui->node_list_table_widget->item(i->row(),0);
+
+            if(ui->excluded_nodes->findItems(item->text().trimmed(),
+                                             Qt::MatchExactly).count() == 0)
+            {
+                ui->excluded_nodes->addItem(item->text());
+                selected.clear();
+            }
+        }
+        QString str = ui->table_widget_title_label->text();
+        str = str.remove(QString("Nodes:"));
+        auto items = ui->countrylistWidget->findItems(str.trimmed(),
+                                                      Qt::MatchExactly);
+        if(items.count())
+            items[0]->setSelected(false);
+    }
+    auto selected = ui->countrylistWidget->selectedItems();
+    for(auto i : selected)
+    {
+        ui->excluded_nodes->addItem(i->text());
+        ui->excluded_nodes->sortItems();
+        delete i;
+    }
 }
 
 
@@ -305,9 +321,16 @@ void TorOptionsDialog::on_button_movefrom_excludes_clicked(bool)
     auto selected = ui->excluded_nodes->selectedItems();
     for(auto i : selected)
     {
-      ui->countrylistWidget->addItem(i->text());
-      ui->countrylistWidget->sortItems();
-      delete i;
+        if(i->text().indexOf('.') > -1)
+        {
+
+        }
+        else
+        {
+            ui->countrylistWidget->addItem(i->text());
+            ui->countrylistWidget->sortItems();
+        }
+        delete i;
     }
 }
 
@@ -328,9 +351,6 @@ void TorOptionsDialog::on_button_moveto_exits_clicked(bool)
                 ui->exit_nodes->addItem(item->text());
                 selected.clear();
             }
-
-            //ui->exit_nodes->sortItems();
-            //delete i;
         }
 
         QString str = ui->table_widget_title_label->text();
@@ -376,6 +396,29 @@ void TorOptionsDialog::on_button_movefrom_exits_clicked(bool)
 //////////////////////
 void TorOptionsDialog::on_button_moveto_entry_clicked(bool)
 {
+    if(ui->node_list_table_widget->selectedItems().count())
+    {
+        auto selected = ui->node_list_table_widget->selectedItems();
+        for(auto i : selected)
+        {
+            auto item = ui->node_list_table_widget->item(i->row(),0);
+
+            if(ui->entry_nodes->findItems(item->text().trimmed(),
+                                         Qt::MatchExactly).count() == 0)
+            {
+                ui->entry_nodes->addItem(item->text());
+                selected.clear();
+            }
+        }
+
+        QString str = ui->table_widget_title_label->text();
+        str = str.remove(QString("Nodes:"));
+        auto items = ui->countrylistWidget->findItems(str.trimmed(),
+                                                      Qt::MatchExactly);
+        if(items.count())
+            items[0]->setSelected(false);
+    }
+
     auto selected = ui->countrylistWidget->selectedItems();
     for(auto i : selected)
     {
@@ -392,8 +435,15 @@ void TorOptionsDialog::on_button_movefrom_entry_clicked(bool)
     auto selected = ui->entry_nodes->selectedItems();
     for(auto i : selected)
     {
-        ui->countrylistWidget->addItem(i->text());
-        ui->countrylistWidget->sortItems();
+        if(i->text().indexOf('.') > -1)
+        {
+
+        }
+        else
+        {
+            ui->countrylistWidget->addItem(i->text());
+            ui->countrylistWidget->sortItems();
+        }
         delete i;
     }
 }

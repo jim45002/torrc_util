@@ -21,8 +21,8 @@ void node_lookup::download_nodelist()
     QFileInfo check_access_file(QString("./TOR Node List.tmp"));
     bool r = false;
     if((check_access_file.exists() == false) ||
-            (check_access_file.lastModified() >
-             check_access_file.lastModified().addMSecs(60*45)))
+            (check_access_file.lastModified().addSecs(60*45) <
+             QDateTime::currentDateTime()))
     {
         QString program = "curl";
         QStringList arguments;

@@ -167,6 +167,13 @@
           </widget>
          </item>
          <item>
+          <widget class="QPushButton" name="table_widget_undo_pushButton">
+           <property name="text">
+            <string>Undo Selection</string>
+           </property>
+          </widget>
+         </item>
+         <item>
           <widget class="QTableWidget" name="node_list_table_widget">
            <property name="showGrid">
             <bool>false</bool>

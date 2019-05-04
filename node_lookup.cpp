@@ -25,24 +25,28 @@ void node_lookup::download_nodelist()
     qprocess_ptr->waitForFinished();
     qprocess_ptr->waitForReadyRead();
 
-    QByteArray b = qprocess_ptr->readAllStandardOutput();
     bool r = false;
-    if(b.indexOf(QString("Umm... You can only fetch the data every"
-                         " 30 minutes - sorry.")) < 0)
+
+    QByteArray b = qprocess_ptr->readAllStandardOutput();
+    if(b.indexOf(QByteArray("<!-- __BEGIN_TOR_NODE_LIST__ //-->")) > -1)
     {
-        QFile f(QString("./TOR Node List.tmp"));
-        bool opened = f.open(QIODevice::WriteOnly);
-        if(!opened)
+        if(b.indexOf(QByteArray("Umm... You can only fetch the data every"
+                             " 30 minutes - sorry.")) < 0)
         {
-            qDebug() << "unable to open " << f.fileName();
-        }
-        else
-        {
-            bool ioresult = f.write(b);
-            if(f.size()>1024 && ioresult)
+            QFile f(QString("./TOR Node List.tmp"));
+            bool opened = f.open(QIODevice::WriteOnly);
+            if(!opened)
             {
-                f.copy(QString("./TOR Node List.html"));
-                r=true;
+                qDebug() << "unable to open " << f.fileName();
+            }
+            else
+            {
+                long long ioresult = f.write(b);
+                if(ioresult > 32)
+                {
+                    f.copy(QString("./TOR Node List.html"));
+                    r=true;
+                }
             }
         }
     }
@@ -54,8 +58,6 @@ void node_lookup::download_nodelist()
 void node_lookup::get_node_list(QString country_abbrv,
                                 bool make_country_file)
 {
-    qDebug() << "get node list" ;
-
     QStringList nodes;
     QFile nodelistfile(QString("./")+country_abbrv+".txt");
     if(nodelistfile.exists() && !make_country_file)
@@ -134,6 +136,7 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
    if(make_country_file)
    {
       remove_nodelist_files();
+      download_nodelist();
    }
 
 

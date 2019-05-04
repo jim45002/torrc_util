@@ -1,5 +1,5 @@
 # Torrc Utility
-Torrc Utility is a simple Qt GUI for managing some options in Tor's configuration file. This application was only tested with the default torrc file included with the Tor-Browser bundle. Before any changes are made to the torrc file, a copy is stored in the current directory. Torrc Utility is also used for graphically viewing the list of active Tor nodes. You can double-click a name on the countries list to view its active nodes and location on the GUI's map. 
+Torrc Utility is a simple Qt GUI for managing some options in Tor's configuration file. This application was only tested on Ubuntu 16.04 LTS distro with the default torrc file included with the Tor-Browser bundle. Before any changes are made to the torrc file, a copy is stored in the current directory. Torrc Utility is also used for graphically viewing the list of active Tor nodes. You can double-click a name in the countries list to view its active nodes and location on the GUI's map. 
 
 
 

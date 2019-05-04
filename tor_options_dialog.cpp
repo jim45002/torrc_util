@@ -103,9 +103,11 @@ QStringList TorOptionsDialog::get_country_lat_lon(QString country_abbrv)
 
 void TorOptionsDialog::country_list_widget_double_click(QListWidgetItem* l)
 {
-  ui->table_widget_title_label->setText(QString("Nodes: ") + l->text());
+  QString tmp;
+  int len = (tmp = (QString("Nodes: ") + l->text())).length();
+  QString text = tmp + QString(len<32?64-len:0,' ');
+  ui->table_widget_title_label->setText(text);
   ui->table_widget_title_label->setToolTip(l->text());
-
   ui->node_list_table_widget->clear();
   QString abbrv = countries_map[l->text().trimmed()];
   QStringList latlon_rec = get_country_lat_lon(abbrv);

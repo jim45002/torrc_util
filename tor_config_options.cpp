@@ -201,12 +201,6 @@ void tor_config_options::sync_strictnodes_with_torrc()
 }
 
 
-
-//////////////////////////////////////
-///
-///
-///
-///
 //////////////////////////////////////
 void tor_config_options::populate_country_list(QString config_setting,
                                                QStringList excludelistwidget,
@@ -237,7 +231,8 @@ void tor_config_options::populate_country_list(QString config_setting,
                     excludelistwidget.append(country.trimmed());
                     excludelistwidget.sort();
 
-                    for(int index=0; index<countrylistwidget.count(); ++index)
+                    for(int index=0;
+                        index<countrylistwidget.count(); ++index)
                     {
                         auto item = countrylistwidget.at(index);
 
@@ -253,16 +248,28 @@ void tor_config_options::populate_country_list(QString config_setting,
             }
             abbrv.clear();
         }
+        else
+        {
+            QString ip_address;
+            if(it->isNumber())
+            {
+                while(*it != ',' && *it != '\n')
+                {
+                    ip_address += *it;
+                    ++it;
+                }
+                excludelistwidget.append(ip_address.trimmed());
+            }
+            qDebug() << "ip_address == " << ip_address;
+
+        }
     }
     emit send_populated_country_list(
                 config_setting,excludelistwidget,countrylistwidget
                 );
 }
 
-//////////////////////////////////////
-//
-//
-//
+
 //////////////////////////////////////
 void tor_config_options::read_config_settings(QString config_option)
 {
@@ -296,7 +303,9 @@ void tor_config_options::read_config_settings(QString config_option)
 }
 
 
-void tor_config_options::read_config_settings(QString config_option, QString& s)
+void tor_config_options::read_config_settings(
+        QString config_option, QString& s
+        )
 {
     QString setting;
     for(int i=0; i<configfile_lines.count(); ++i)
@@ -346,11 +355,7 @@ void tor_config_options::recv_node_download_result(bool)
 
 }
 
-//////////////////////////////////////
-//
-//
-//
-//
+
 //////////////////////////////////////
 void tor_config_options::update_EnforceDistinctSubnets(QString val)
 {
@@ -375,11 +380,6 @@ void tor_config_options::update_EnforceDistinctSubnets(QString val)
 
 
 //////////////////////////////////////
-//
-//
-//
-//
-//////////////////////////////////////
 void tor_config_options::update_entrynodes(QStringList entry_nodes)
 {
     decltype (entry_nodes) entrynodesList;
@@ -394,12 +394,29 @@ void tor_config_options::update_entrynodes(QStringList entry_nodes)
     {
         if((i+1) < cnt)
         {
-            strList += (QString("{" + countries_map[entrynodesList[i]].trimmed()
-                        + "},"));
+            if(entrynodesList[i].trimmed().indexOf('.') > -1)
+            {
+                strList += (QString(entrynodesList[i].
+                            trimmed()+","));
+            }
+            else
+            {
+                strList += (QString("{" + countries_map[entrynodesList[i]].
+                            trimmed() + "},"));
+            }
         }
         else
         {
-            strList += (QString("{" + countries_map[entrynodesList[i]].trimmed() + "}"));
+            if(entrynodesList[i].trimmed().indexOf('.') > -1)
+            {
+                strList += (QString(entrynodesList[i].
+                            trimmed()));
+            }
+            else
+            {
+                strList += (QString("{" + countries_map[entrynodesList[i]].
+                            trimmed() + "}"));
+            }
         }
     }
 
@@ -476,11 +493,30 @@ void tor_config_options::update_excludenodes(QStringList excluded_nodes)
     {
         if((i+1) < cnt)
         {
-            strList += (QString("{" + countries_map[excludesList[i]].trimmed() + "},"));
+
+            if(excludesList[i].trimmed().indexOf('.') > -1)
+            {
+                strList += (QString(excludesList[i].
+                            trimmed()+","));
+            }
+            else
+            {
+                strList += (QString("{" + countries_map[excludesList[i]].
+                            trimmed() + "},"));
+            }
         }
         else
         {
-          strList += (QString("{" + countries_map[excludesList[i]].trimmed() + "}"));
+            if(excludesList[i].trimmed().indexOf('.') > -1)
+            {
+                strList += (QString(excludesList[i].
+                            trimmed()));
+            }
+            else
+            {
+                strList += (QString("{" + countries_map[excludesList[i]].
+                            trimmed() + "}"));
+            }
         }
     }
 
@@ -518,10 +554,7 @@ void tor_config_options::update_excludenodes(QStringList excluded_nodes)
     }
 }
 
-//////////////////////////////////////////
-//
-//
-//
+
 //////////////////////////////////////////
 void tor_config_options::update_exitnodes(QStringList exit_nodes)
 {
@@ -538,11 +571,29 @@ void tor_config_options::update_exitnodes(QStringList exit_nodes)
    {
      if((i+1) < exits_cnt)
      {
-       strExitList += (QString("{" + countries_map[exitList[i]].trimmed() + "},"));
+         if(exitList[i].trimmed().indexOf('.') > -1)
+         {
+             strExitList += (QString(exitList[i].
+                             trimmed()+","));
+         }
+         else
+         {
+             strExitList += (QString("{" + countries_map[exitList[i]].
+                             trimmed() + "},"));
+         }
      }
      else
      {
-       strExitList += (QString("{" + countries_map[exitList[i]].trimmed() + "}"));
+         if(exitList[i].trimmed().indexOf('.') > -1)
+         {
+             strExitList += (QString(exitList[i].
+                             trimmed()));
+         }
+         else
+         {
+             strExitList += (QString("{" + countries_map[exitList[i]].
+                             trimmed() + "}"));
+         }
      }
    }
 
@@ -559,7 +610,8 @@ void tor_config_options::update_exitnodes(QStringList exit_nodes)
             configfile_lines[i] += l;
           }
 
-          if(strExitList.count()>i && configfile_lines[i].indexOf(QChar('\n'))<0)
+          if(strExitList.count()>i && configfile_lines[i].
+                  indexOf(QChar('\n'))<0)
           {
              configfile_lines[i]+="\n";
           }

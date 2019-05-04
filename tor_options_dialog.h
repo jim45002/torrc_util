@@ -29,6 +29,7 @@ public:
     void ListWidgetStrings2QStringsList(QListWidget *l, QStringList &s);
     void add_strings_to_listwidget(QListWidget* l, const QStringList &strlist);
     QStringList get_country_lat_lon(QString country_abbrv);
+    void deselect_all_table_items();
 public slots:
     virtual void recv_progress(float);
     virtual void recv_node_list(QString,QStringList);
@@ -50,6 +51,7 @@ public slots:
     virtual void on_button_moveto_entry_clicked(bool);
     virtual void on_button_movefrom_entry_clicked(bool);
     void country_list_widget_double_click(QListWidgetItem *);
+    void tablewidget_undo_selected_pushbutton(bool);
 private:
     Ui::Dialog_tor_options *ui;
     QList <QString> configfile_lines;

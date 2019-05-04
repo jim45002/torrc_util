@@ -111,8 +111,10 @@ void MainWindow::on_open_tor_config_button(bool)
         tor_options_dialog_interface->exec();
 
         ui_work_thread->quit();
-        ui_work_thread->wait(30000);
-        ui_work_thread->terminate();
+        if(!ui_work_thread->wait(30000))
+        {
+            ui_work_thread->terminate();
+        }
         delete ui_work_thread;
         filename.clear();
     }

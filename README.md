@@ -25,7 +25,7 @@ Torrc options supported are:
 Only 2-letter country abbreviations and IPv4 node addresses are supported for ExcludeNodes, ExitNodes, and EntryNodes. See https://2019.www.torproject.org/docs/tor-manual.html.en for complete descritpion of these options.
 
 
-#Build Instructions
+# Build Instructions
 This source code was built using the cmake build tool. Build instructions will be added to this README soon. If you want to build the source and need step-by-step instructions, contact teamplayer21@tutanota.com for help with building and using the application.
 
 

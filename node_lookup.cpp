@@ -5,6 +5,8 @@
 #include <QProcess>
 #include <QByteArray>
 #include <QFile>
+#include <QFileInfo>
+#include <QDateTime>
 
 #include "node_lookup.h"
 
@@ -16,40 +18,55 @@ node_lookup::node_lookup(QObject *parent)
 
 void node_lookup::download_nodelist()
 {
-    QString program = "curl";
-    QStringList arguments;
-    arguments << "https://www.dan.me.uk/tornodes";
-
-    qprocess_ptr = std::make_shared<QProcess>();
-    qprocess_ptr->start(program, arguments);
-    qprocess_ptr->waitForFinished();
-    qprocess_ptr->waitForReadyRead();
-
+    QFileInfo check_access_file(QString("./TOR Node List.tmp"));
+    QDateTime to_time_limit(check_access_file.lastModified());
+    to_time_limit = to_time_limit.addMSecs(60*45);
     bool r = false;
-
-    QByteArray b = qprocess_ptr->readAllStandardOutput();
-    if(b.indexOf(QByteArray("<!-- __BEGIN_TOR_NODE_LIST__ //-->")) > -1)
+    if(check_access_file.lastModified() > to_time_limit)
     {
-        if(b.indexOf(QByteArray("Umm... You can only fetch the data every"
-                             " 30 minutes - sorry.")) < 0)
+        QString program = "curl";
+        QStringList arguments;
+        arguments << "https://www.dan.me.uk/tornodes";
+
+        qprocess_ptr = std::make_shared<QProcess>();
+        qprocess_ptr->start(program, arguments);
+        qprocess_ptr->waitForFinished();
+        qprocess_ptr->waitForReadyRead();
+
+        QByteArray b = qprocess_ptr->readAllStandardOutput();
+        if(b.indexOf(QByteArray("<!-- __BEGIN_TOR_NODE_LIST__ //-->")) > -1)
         {
-            QFile f(QString("./TOR Node List.tmp"));
-            bool opened = f.open(QIODevice::WriteOnly);
-            if(!opened)
+            if(b.indexOf(QByteArray("Umm... You can only fetch the data every"
+                                    " 30 minutes - sorry.")) < 0)
             {
-                qDebug() << "unable to open " << f.fileName();
+                QFile f(QString("./TOR Node List.tmp"));
+                bool opened = f.open(QIODevice::WriteOnly);
+                if(!opened)
+                {
+                    qDebug() << "unable to open " << f.fileName();
+                }
+                else
+                {
+                    long long ioresult = f.write(b);
+                    if(ioresult > 32)
+                    {
+                        f.copy(QString("./TOR Node List.html"));
+                        r=true;
+                    }
+                }
             }
             else
             {
-                long long ioresult = f.write(b);
-                if(ioresult > 32)
-                {
-                    f.copy(QString("./TOR Node List.html"));
-                    r=true;
-                }
+               qDebug() << "remote server error - unable to download node list";
             }
         }
     }
+    else
+    {
+        qDebug() << "file access time error - unable to download node list";
+    }
+    if(!r)
+        qDebug() << "unable to download node list";
     emit send_download_result(r);
 }
 
@@ -79,6 +96,8 @@ void node_lookup::get_node_list(QString country_abbrv,
     {
         if(make_country_file)
         {
+            download_nodelist();
+
             QByteArray b;
             QFile f(QString("./TOR Node List.html"));
             bool opened = f.open(QIODevice::ReadOnly);
@@ -135,8 +154,7 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
 
    if(make_country_file)
    {
-      remove_nodelist_files();
-      download_nodelist();
+      remove_nodelist_files();     
    }
 
 

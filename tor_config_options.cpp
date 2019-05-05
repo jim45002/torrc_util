@@ -252,7 +252,7 @@ void tor_config_options::populate_country_list(QString config_setting,
         else
         {
             QString ip_address;
-            if(it->isNumber())
+            if(it->isNumber() && !(it+1)->isLetter())
             {
                 while(*it != ',' && *it != '\n')
                 {

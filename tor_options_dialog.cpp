@@ -251,6 +251,14 @@ void TorOptionsDialog::received_countries_map(QMap<QString, QString> m)
                                QStringList(),
                                country_str_list);
 
+    emit populate_country_list(QString("HSLayer2Nodes"),
+                               QStringList(),
+                               country_str_list);
+
+    emit populate_country_list(QString("ExcludeExitNodes"),
+                               QStringList(),
+                               country_str_list);
+
 }
 
 void TorOptionsDialog::received_populated_country_list(
@@ -286,6 +294,24 @@ void TorOptionsDialog::received_populated_country_list(
                 add_strings_to_listwidget(
                             ui->entry_nodes,
                             option_strings);
+            }
+            else
+            {
+                if(config_option == "HSLayer2Nodes")
+                {
+                    add_strings_to_listwidget(
+                                ui->listwidget_middle_layer_nodes,
+                                option_strings);
+                }
+                else
+                {
+                    if(config_option == "ExcludeExitNodes")
+                    {
+                        add_strings_to_listwidget(
+                                    ui->listwidget_excluded_exit_nodes,
+                                    option_strings);
+                    }
+                }
             }
         }
     }

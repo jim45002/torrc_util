@@ -1,8 +1,0 @@
-/home/developer/github/torrc_utility/torrc_utility/torrc_utility/map_widget_factory/build/CMakeFiles/install.dir
-/home/developer/github/torrc_utility/torrc_utility/torrc_utility/map_widget_factory/build/CMakeFiles/list_install_components.dir
-/home/developer/github/torrc_utility/torrc_utility/torrc_utility/map_widget_factory/build/CMakeFiles/rebuild_cache.dir
-/home/developer/github/torrc_utility/torrc_utility/torrc_utility/map_widget_factory/build/CMakeFiles/install/strip.dir
-/home/developer/github/torrc_utility/torrc_utility/torrc_utility/map_widget_factory/build/CMakeFiles/install/local.dir
-/home/developer/github/torrc_utility/torrc_utility/torrc_utility/map_widget_factory/build/CMakeFiles/map_widget_factory.dir
-/home/developer/github/torrc_utility/torrc_utility/torrc_utility/map_widget_factory/build/CMakeFiles/edit_cache.dir
-/home/developer/github/torrc_utility/torrc_utility/torrc_utility/map_widget_factory/build/CMakeFiles/map_widget_factory_automoc.dir

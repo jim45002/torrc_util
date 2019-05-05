@@ -65,6 +65,26 @@ void TorOptionsDialog::setup_options_dialog()
 
    connect(ui->table_widget_undo_pushButton,SIGNAL(clicked(bool)),
            this,SLOT(tablewidget_undo_selected_pushbutton(bool)));
+
+   connect(ui->pushButton_moveto_exclude_exits,SIGNAL(clicked(bool)),
+            this,SLOT(on_button_moveto_exclude_exits_clicked(bool)));
+
+   connect(ui->pushButton_movefrom_exclude_exits,SIGNAL(clicked(bool)),
+            this,SLOT(on_button_movefrom_exclude_exits_clicked(bool)));
+
+   connect(ui->pushButton_movefrom_middle_layer_nodes,SIGNAL(clicked(bool)),
+            this,SLOT(on_button_movefrom_hs_layer_clicked(bool)));
+
+   connect(ui->pushButton_moveto_middle_layer_nodes,SIGNAL(clicked(bool)),
+            this,SLOT(on_button_moveto_hs_layer_clicked(bool)));
+
+   connect(ui->pushButton_movefrom_hs_layer_3_nodes,SIGNAL(clicked(bool)),
+            this,SLOT(on_button_movefrom_hs_layer_3_clicked(bool)));
+
+   connect(ui->pushButton_moveto_hs_layer_3_nodes,SIGNAL(clicked(bool)),
+            this,SLOT(on_button_moveto_hs_layer_3_clicked(bool)));
+
+
 }
 
 TorOptionsDialog::~TorOptionsDialog()
@@ -164,7 +184,8 @@ void TorOptionsDialog::completed_save_to_configfile(bool)
 
 }
 
-void TorOptionsDialog::add_strings_to_listwidget(QListWidget* l, const QStringList& strlist)
+void TorOptionsDialog::add_strings_to_listwidget(QListWidget* l,
+                                                 const QStringList& strlist)
 {
     l->clear();
     for(auto str : strlist)
@@ -179,7 +200,9 @@ void TorOptionsDialog::recv_progress(float p)
     ui->progressBar->setValue(p);
 }
 
-void TorOptionsDialog::received_config_settings(QString config_option, QByteArray b)
+////////////////////
+void TorOptionsDialog::received_config_settings(QString config_option,
+                                                QByteArray b)
 {
     if(config_option == "ExcludeNodes")
     {
@@ -228,6 +251,18 @@ void TorOptionsDialog::received_countries_map(QMap<QString, QString> m)
                                QStringList(),
                                country_str_list);
 
+    emit populate_country_list(QString("HSLayer2Nodes"),
+                               QStringList(),
+                               country_str_list);
+
+    emit populate_country_list(QString("ExcludeExitNodes"),
+                               QStringList(),
+                               country_str_list);
+
+    emit populate_country_list(QString("HSLayer3Nodes"),
+                               QStringList(),
+                               country_str_list);
+
 }
 
 void TorOptionsDialog::received_populated_country_list(
@@ -263,6 +298,33 @@ void TorOptionsDialog::received_populated_country_list(
                 add_strings_to_listwidget(
                             ui->entry_nodes,
                             option_strings);
+            }
+            else
+            {
+                if(config_option == "HSLayer2Nodes")
+                {
+                    add_strings_to_listwidget(
+                                ui->listwidget_middle_layer_nodes,
+                                option_strings);
+                }
+                else
+                {
+                    if(config_option == "ExcludeExitNodes")
+                    {
+                        add_strings_to_listwidget(
+                                    ui->listwidget_excluded_exit_nodes,
+                                    option_strings);
+                    }
+                    else
+                    {
+                        if(config_option == "HSLayer3Nodes")
+                        {
+                            add_strings_to_listwidget(
+                                        ui->listwidget_hs_layer_3_nodes,
+                                        option_strings);
+                        }
+                    }
+                }
             }
         }
     }
@@ -301,6 +363,171 @@ void TorOptionsDialog::deselect_all_table_items()
 void TorOptionsDialog::tablewidget_undo_selected_pushbutton(bool)
 {
     deselect_all_table_items();
+}
+
+
+///////////////////
+void TorOptionsDialog::on_button_moveto_hs_layer_3_clicked(bool)
+{
+    if(ui->node_list_table_widget->selectedItems().count())
+    {
+        auto selected = ui->node_list_table_widget->selectedItems();
+        for(auto i : selected)
+        {
+            auto item = ui->node_list_table_widget->item(i->row(),0);
+
+            if(ui->listwidget_hs_layer_3_nodes->findItems(item->text().
+                                                             trimmed(),
+                                             Qt::MatchExactly).count() == 0)
+            {
+                ui->listwidget_hs_layer_3_nodes->addItem(item->text());
+                selected.clear();
+            }
+        }
+        QString str = ui->table_widget_title_label->text();
+        str = str.remove(QString("Nodes:"));
+        auto items = ui->countrylistWidget->findItems(str.trimmed(),
+                                                      Qt::MatchExactly);
+        if(items.count())
+            items[0]->setSelected(false);
+    }
+    auto selected = ui->countrylistWidget->selectedItems();
+    for(auto i : selected)
+    {
+        ui->listwidget_hs_layer_3_nodes->addItem(i->text());
+        ui->listwidget_hs_layer_3_nodes->sortItems();
+        delete i;
+    }
+}
+
+
+/////////////////////
+void TorOptionsDialog::on_button_movefrom_hs_layer_3_clicked(bool)
+{
+    auto selected = ui->listwidget_hs_layer_3_nodes->selectedItems();
+    for(auto i : selected)
+    {
+        if(i->text().indexOf('.') > -1)
+        {
+
+        }
+        else
+        {
+            ui->countrylistWidget->addItem(i->text());
+            ui->countrylistWidget->sortItems();
+        }
+        delete i;
+    }
+}
+
+
+///////////////////
+void TorOptionsDialog::on_button_moveto_hs_layer_clicked(bool)
+{
+    if(ui->node_list_table_widget->selectedItems().count())
+    {
+        auto selected = ui->node_list_table_widget->selectedItems();
+        for(auto i : selected)
+        {
+            auto item = ui->node_list_table_widget->item(i->row(),0);
+
+            if(ui->listwidget_middle_layer_nodes->findItems(item->text().
+                                                             trimmed(),
+                                             Qt::MatchExactly).count() == 0)
+            {
+                ui->listwidget_middle_layer_nodes->addItem(item->text());
+                selected.clear();
+            }
+        }
+        QString str = ui->table_widget_title_label->text();
+        str = str.remove(QString("Nodes:"));
+        auto items = ui->countrylistWidget->findItems(str.trimmed(),
+                                                      Qt::MatchExactly);
+        if(items.count())
+            items[0]->setSelected(false);
+    }
+    auto selected = ui->countrylistWidget->selectedItems();
+    for(auto i : selected)
+    {
+        ui->listwidget_middle_layer_nodes->addItem(i->text());
+        ui->listwidget_middle_layer_nodes->sortItems();
+        delete i;
+    }
+}
+
+
+/////////////////////
+void TorOptionsDialog::on_button_movefrom_hs_layer_clicked(bool)
+{
+    auto selected = ui->listwidget_middle_layer_nodes->selectedItems();
+    for(auto i : selected)
+    {
+        if(i->text().indexOf('.') > -1)
+        {
+
+        }
+        else
+        {
+            ui->countrylistWidget->addItem(i->text());
+            ui->countrylistWidget->sortItems();
+        }
+        delete i;
+    }
+}
+
+
+///////////////////
+void TorOptionsDialog::on_button_moveto_exclude_exits_clicked(bool)
+{
+    if(ui->node_list_table_widget->selectedItems().count())
+    {
+        auto selected = ui->node_list_table_widget->selectedItems();
+        for(auto i : selected)
+        {
+            auto item = ui->node_list_table_widget->item(i->row(),0);
+
+            if(ui->listwidget_excluded_exit_nodes->findItems(item->text().
+                                                             trimmed(),
+                                             Qt::MatchExactly).count() == 0)
+            {
+                ui->listwidget_excluded_exit_nodes->addItem(item->text());
+                selected.clear();
+            }
+        }
+        QString str = ui->table_widget_title_label->text();
+        str = str.remove(QString("Nodes:"));
+        auto items = ui->countrylistWidget->findItems(str.trimmed(),
+                                                      Qt::MatchExactly);
+        if(items.count())
+            items[0]->setSelected(false);
+    }
+    auto selected = ui->countrylistWidget->selectedItems();
+    for(auto i : selected)
+    {
+        ui->listwidget_excluded_exit_nodes->addItem(i->text());
+        ui->listwidget_excluded_exit_nodes->sortItems();
+        delete i;
+    }
+}
+
+
+/////////////////////
+void TorOptionsDialog::on_button_movefrom_exclude_exits_clicked(bool)
+{
+    auto selected = ui->listwidget_excluded_exit_nodes->selectedItems();
+    for(auto i : selected)
+    {
+        if(i->text().indexOf('.') > -1)
+        {
+
+        }
+        else
+        {
+            ui->countrylistWidget->addItem(i->text());
+            ui->countrylistWidget->sortItems();
+        }
+        delete i;
+    }
 }
 
 ///////////////////
@@ -507,6 +734,30 @@ void TorOptionsDialog::on_pushbutton_ok_clicked(bool)
          ListWidgetStrings2QStringsList(ui->entry_nodes,
                                         list_items);
          emit update_entrynodes(list_items);
+         list_items.clear();
+     }
+
+     if(ui->listwidget_excluded_exit_nodes->count())
+     {
+         ListWidgetStrings2QStringsList(ui->listwidget_excluded_exit_nodes,
+                                        list_items);
+         emit update_excluded_exit_nodes(list_items);
+         list_items.clear();
+     }
+
+     if(ui->listwidget_middle_layer_nodes->count())
+     {
+         ListWidgetStrings2QStringsList(ui->listwidget_middle_layer_nodes,
+                                        list_items);
+         emit update_hslayer2_nodes(list_items);
+         list_items.clear();
+     }
+
+     if(ui->listwidget_hs_layer_3_nodes->count())
+     {
+         ListWidgetStrings2QStringsList(ui->listwidget_hs_layer_3_nodes,
+                                        list_items);
+         emit update_hslayer3_nodes(list_items);
          list_items.clear();
      }
 

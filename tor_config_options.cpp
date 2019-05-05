@@ -68,6 +68,7 @@ void tor_config_options::get_countries_map()
     emit send_countries_map(countries_map);
 }
 
+
 void tor_config_options::load_list(QString filename)
 {
     QByteArray bytes;
@@ -251,7 +252,7 @@ void tor_config_options::populate_country_list(QString config_setting,
         else
         {
             QString ip_address;
-            if(it->isNumber())
+            if(it->isNumber() && !(it+1)->isLetter())
             {
                 while(*it != ',' && *it != '\n')
                 {
@@ -376,6 +377,224 @@ void tor_config_options::update_EnforceDistinctSubnets(QString val)
          bytes += "EnforceDistinctSubnets " + val + "\n";
          configfile_lines.append(QString(bytes));
      }
+}
+
+
+//////////////////////////////////////
+//////////////////////////////////////
+void tor_config_options::update_hslayer3_nodes(
+        QStringList hslayer3_nodes)
+{
+    decltype (hslayer3_nodes) hs_layer3_nodesList;
+    for(int i=0; i< hslayer3_nodes.count(); ++i)
+    {
+        hs_layer3_nodesList += hslayer3_nodes.at(i);
+    }
+
+    QStringList strList;
+    int cnt = hs_layer3_nodesList.count();
+    for(int i=0; i<cnt; ++i)
+    {
+        if((i+1) < cnt)
+        {
+            if(hs_layer3_nodesList[i].trimmed().indexOf('.') > -1)
+            {
+                strList += (QString(hs_layer3_nodesList[i].
+                            trimmed()+","));
+            }
+            else
+            {
+                strList += (QString("{" + countries_map[hs_layer3_nodesList[i]].
+                            trimmed() + "},"));
+            }
+        }
+        else
+        {
+            if(hs_layer3_nodesList[i].trimmed().indexOf('.') > -1)
+            {
+                strList += (QString(hs_layer3_nodesList[i].
+                            trimmed()));
+            }
+            else
+            {
+                strList += (QString("{" + countries_map[hs_layer3_nodesList[i]].
+                            trimmed() + "}"));
+            }
+        }
+    }
+
+    for(int i=0; i<configfile_lines.count(); ++i)
+    {
+        if(configfile_lines[i].trimmed().indexOf("HSLayer3Nodes") == 0)
+        {
+            QString t("");
+            read_config_settings("HSLayer3Nodes",t);
+            if(strList.count())
+                configfile_lines[i] = "HSLayer3Nodes " ;
+            for(auto l : strList)
+            {
+                configfile_lines[i] += l;
+            }
+            strList.clear();
+            break;
+        }
+    }
+    QByteArray bytes;
+    if(strList.count())
+    {
+        bytes.clear();
+        bytes += "HSLayer3Nodes " ;
+        for(auto l : strList)
+        {
+           bytes += l;
+        }
+        configfile_lines.append(bytes+"\n");
+    }
+}
+
+
+
+//////////////////////////////////////
+void tor_config_options::update_hslayer2_nodes(
+        QStringList hslayer2_nodes)
+{
+    decltype (hslayer2_nodes) hs_layer2_nodesList;
+    for(int i=0; i< hslayer2_nodes.count(); ++i)
+    {
+        hs_layer2_nodesList += hslayer2_nodes.at(i);
+    }
+
+    QStringList strList;
+    int cnt = hs_layer2_nodesList.count();
+    for(int i=0; i<cnt; ++i)
+    {
+        if((i+1) < cnt)
+        {
+            if(hs_layer2_nodesList[i].trimmed().indexOf('.') > -1)
+            {
+                strList += (QString(hs_layer2_nodesList[i].
+                            trimmed()+","));
+            }
+            else
+            {
+                strList += (QString("{" + countries_map[hs_layer2_nodesList[i]].
+                            trimmed() + "},"));
+            }
+        }
+        else
+        {
+            if(hs_layer2_nodesList[i].trimmed().indexOf('.') > -1)
+            {
+                strList += (QString(hs_layer2_nodesList[i].
+                            trimmed()));
+            }
+            else
+            {
+                strList += (QString("{" + countries_map[hs_layer2_nodesList[i]].
+                            trimmed() + "}"));
+            }
+        }
+    }
+
+    for(int i=0; i<configfile_lines.count(); ++i)
+    {
+        if(configfile_lines[i].trimmed().indexOf("HSLayer2Nodes") == 0)
+        {
+            QString t("");
+            read_config_settings("HSLayer2Nodes",t);
+            if(strList.count())
+                configfile_lines[i] = "HSLayer2Nodes " ;
+            for(auto l : strList)
+            {
+                configfile_lines[i] += l;
+            }
+            strList.clear();
+            break;
+        }
+    }
+    QByteArray bytes;
+    if(strList.count())
+    {
+        bytes.clear();
+        bytes += "HSLayer2Nodes " ;
+        for(auto l : strList)
+        {
+           bytes += l;
+        }
+        configfile_lines.append(bytes+"\n");
+    }
+}
+
+
+//////////////////////////////////////
+void tor_config_options::update_exclude_exit_nodes(
+        QStringList excluded_exit_nodes)
+{
+    decltype (excluded_exit_nodes) excluded_exitnodesList;
+    for(int i=0; i< excluded_exit_nodes.count(); ++i)
+    {
+        excluded_exitnodesList += excluded_exit_nodes.at(i);
+    }
+
+    QStringList strList;
+    int cnt = excluded_exitnodesList.count();
+    for(int i=0; i<cnt; ++i)
+    {
+        if((i+1) < cnt)
+        {
+            if(excluded_exitnodesList[i].trimmed().indexOf('.') > -1)
+            {
+                strList += (QString(excluded_exitnodesList[i].
+                            trimmed()+","));
+            }
+            else
+            {
+                strList += (QString("{" + countries_map[excluded_exitnodesList[i]].
+                            trimmed() + "},"));
+            }
+        }
+        else
+        {
+            if(excluded_exitnodesList[i].trimmed().indexOf('.') > -1)
+            {
+                strList += (QString(excluded_exitnodesList[i].
+                            trimmed()));
+            }
+            else
+            {
+                strList += (QString("{" + countries_map[excluded_exitnodesList[i]].
+                            trimmed() + "}"));
+            }
+        }
+    }
+
+    for(int i=0; i<configfile_lines.count(); ++i)
+    {
+        if(configfile_lines[i].trimmed().indexOf("ExcludeExitNodes") == 0)
+        {
+            QString t("");
+            read_config_settings("ExcludeExitNodes",t);
+            if(strList.count())
+                configfile_lines[i] = "ExcludeExitNodes " ;
+            for(auto l : strList)
+            {
+                configfile_lines[i] += l;
+            }
+            strList.clear();
+            break;
+        }
+    }
+    QByteArray bytes;
+    if(strList.count())
+    {
+        bytes.clear();
+        bytes += "ExcludeExitNodes " ;
+        for(auto l : strList)
+        {
+           bytes += l;
+        }
+        configfile_lines.append(bytes+"\n");
+    }
 }
 
 

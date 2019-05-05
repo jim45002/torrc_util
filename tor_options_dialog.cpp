@@ -9,6 +9,7 @@
 #include <QList>
 #include <QLayout>
 #include <QString>
+#include <QMutex>
 
 #include "coordinator.h"
 
@@ -27,6 +28,8 @@ TorOptionsDialog::TorOptionsDialog(QWidget* parent)
    ui->setupUi(this);
 
    ui->progressBar->hide();
+
+   nodelist_mutex = std::make_shared<QMutex>();
 
    mwfi = map_widget_factory::create(this);
    auto l = new QHBoxLayout;
@@ -84,7 +87,6 @@ void TorOptionsDialog::setup_options_dialog()
    connect(ui->pushButton_moveto_hs_layer_3_nodes,SIGNAL(clicked(bool)),
             this,SLOT(on_button_moveto_hs_layer_3_clicked(bool)));
 
-
 }
 
 TorOptionsDialog::~TorOptionsDialog()
@@ -135,10 +137,13 @@ void TorOptionsDialog::country_list_widget_double_click(QListWidgetItem* l)
   {
      mwfi->centerOn(latlon_rec[2].toDouble(),latlon_rec[1].toDouble());
   }
-  emit request_node_list(abbrv,QStringList(),
-                         ui->build_country_files_checkBox->isChecked());
-  ui->progressBar->show();
 
+  if(nodelist_mutex->tryLock())
+  {
+    emit request_node_list(abbrv,QStringList(),
+                         ui->build_country_files_checkBox->isChecked());
+    ui->progressBar->show();
+  }
 }
 
 void TorOptionsDialog::recv_node_list(QString, QStringList nodes)
@@ -177,6 +182,7 @@ void TorOptionsDialog::recv_node_list(QString, QStringList nodes)
         }
     }
     ui->progressBar->hide();
+    nodelist_mutex->unlock();
 }
 
 void TorOptionsDialog::completed_save_to_configfile(bool)

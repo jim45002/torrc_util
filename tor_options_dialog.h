@@ -16,6 +16,7 @@ class QFile;
 class QListWidget;
 class map_widget_interface;
 class tor_config_options_interface;
+class QMutex;
 
 class TorOptionsDialog : public TorOptionsDialogInterface
 {
@@ -68,6 +69,7 @@ private:
     QByteArray exclude_nodes_options;
     QByteArray exit_nodes_options;
     QByteArray entry_nodes_options;
+    std::shared_ptr<QMutex> nodelist_mutex;
     std::shared_ptr<map_widget_interface> mwfi;
 
 };

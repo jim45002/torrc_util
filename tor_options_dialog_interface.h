@@ -26,6 +26,7 @@ signals:
     void get_countries_map();
     void update_useguards(QString, QString);
     void update_exitnodes(QStringList);
+    void update_excluded_exit_nodes(QStringList);
     void update_excludenodes(QStringList);
     void update_strictnodes(QString);
     void update_EnforceDistinctSubnets(QString);

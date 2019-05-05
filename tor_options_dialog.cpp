@@ -698,6 +698,14 @@ void TorOptionsDialog::on_pushbutton_ok_clicked(bool)
          list_items.clear();
      }
 
+     if(ui->listwidget_excluded_exit_nodes->count())
+     {
+         ListWidgetStrings2QStringsList(ui->listwidget_excluded_exit_nodes,
+                                        list_items);
+         emit update_excluded_exit_nodes(list_items);
+         list_items.clear();
+     }
+
      if(ui->checkBox_enforce_subnets->isChecked())
          emit update_EnforceDistinctSubnets(QString("1"));
      else

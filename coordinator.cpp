@@ -50,6 +50,9 @@ make_connections(TorOptionsDialogInterface* tod,
    connect(tod,SIGNAL(update_excludenodes(QStringList)),
            tco,SLOT(update_excludenodes(QStringList)));
 
+   connect(tod,SIGNAL(update_excluded_exit_nodes(QStringList)),
+           tco,SLOT(update_exclude_exit_nodes(QStringList)));
+
    connect(tod,SIGNAL(update_exitnodes(QStringList)),
            tco,SLOT(update_exitnodes(QStringList)));
 

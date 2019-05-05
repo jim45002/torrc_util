@@ -27,6 +27,7 @@ signals:
     void update_useguards(QString, QString);
     void update_exitnodes(QStringList);
     void update_hslayer2_nodes(QStringList);
+    void update_hslayer3_nodes(QStringList);
     void update_excluded_exit_nodes(QStringList);
     void update_excludenodes(QStringList);
     void update_strictnodes(QString);

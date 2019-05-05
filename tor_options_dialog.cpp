@@ -259,6 +259,10 @@ void TorOptionsDialog::received_countries_map(QMap<QString, QString> m)
                                QStringList(),
                                country_str_list);
 
+    emit populate_country_list(QString("HSLayer3Nodes"),
+                               QStringList(),
+                               country_str_list);
+
 }
 
 void TorOptionsDialog::received_populated_country_list(
@@ -310,6 +314,15 @@ void TorOptionsDialog::received_populated_country_list(
                         add_strings_to_listwidget(
                                     ui->listwidget_excluded_exit_nodes,
                                     option_strings);
+                    }
+                    else
+                    {
+                        if(config_option == "HSLayer3Nodes")
+                        {
+                            add_strings_to_listwidget(
+                                        ui->listwidget_hs_layer_3_nodes,
+                                        option_strings);
+                        }
                     }
                 }
             }
@@ -740,6 +753,13 @@ void TorOptionsDialog::on_pushbutton_ok_clicked(bool)
          list_items.clear();
      }
 
+     if(ui->listwidget_hs_layer_3_nodes->count())
+     {
+         ListWidgetStrings2QStringsList(ui->listwidget_hs_layer_3_nodes,
+                                        list_items);
+         emit update_hslayer3_nodes(list_items);
+         list_items.clear();
+     }
 
      if(ui->checkBox_enforce_subnets->isChecked())
          emit update_EnforceDistinctSubnets(QString("1"));

@@ -48,6 +48,7 @@ public slots:
     virtual void update_excludenodes(QStringList) = 0;
     virtual void update_exclude_exit_nodes(QStringList) = 0;
     virtual void update_hslayer2_nodes(QStringList) = 0;
+    virtual void update_hslayer3_nodes(QStringList) = 0;
     virtual void update_strictnodes(QString)  = 0;
     virtual void update_EnforceDistinctSubnets(QString) = 0;
     virtual void populate_country_list(QString,                                     

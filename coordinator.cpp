@@ -58,6 +58,11 @@ make_connections(TorOptionsDialogInterface* tod,
            tco,SLOT(
                update_hslayer2_nodes(QStringList)));
 
+   connect(tod,SIGNAL(
+               update_hslayer3_nodes(QStringList)),
+           tco,SLOT(
+               update_hslayer3_nodes(QStringList)));
+
    connect(tod,SIGNAL(update_exitnodes(QStringList)),
            tco,SLOT(update_exitnodes(QStringList)));
 

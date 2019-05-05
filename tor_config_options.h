@@ -48,6 +48,7 @@ public slots:
     virtual int get_int_option_setting(QString int_option);
     virtual void update_exclude_exit_nodes(QStringList entry_nodes);
     virtual void update_hslayer2_nodes(QStringList hslayer2_nodes);
+    virtual void update_hslayer3_nodes(QStringList hslayer3_nodes);
 private:
     Ui::Dialog_tor_options *ui;
     QList <QString> configfile_lines;

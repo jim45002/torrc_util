@@ -706,6 +706,15 @@ void TorOptionsDialog::on_pushbutton_ok_clicked(bool)
          list_items.clear();
      }
 
+     if(ui->listwidget_middle_layer_nodes->count())
+     {
+         ListWidgetStrings2QStringsList(ui->listwidget_middle_layer_nodes,
+                                        list_items);
+         emit update_hslayer2_nodes(list_items);
+         list_items.clear();
+     }
+
+
      if(ui->checkBox_enforce_subnets->isChecked())
          emit update_EnforceDistinctSubnets(QString("1"));
      else

@@ -381,7 +381,80 @@ void tor_config_options::update_EnforceDistinctSubnets(QString val)
 
 
 //////////////////////////////////////
-void tor_config_options::update_exclude_exit_nodes(QStringList excluded_exit_nodes)
+void tor_config_options::update_hslayer2_nodes(
+        QStringList hslayer2_nodes)
+{
+    decltype (hslayer2_nodes) hs_layer2_nodesList;
+    for(int i=0; i< hslayer2_nodes.count(); ++i)
+    {
+        hs_layer2_nodesList += hslayer2_nodes.at(i);
+    }
+
+    QStringList strList;
+    int cnt = hs_layer2_nodesList.count();
+    for(int i=0; i<cnt; ++i)
+    {
+        if((i+1) < cnt)
+        {
+            if(hs_layer2_nodesList[i].trimmed().indexOf('.') > -1)
+            {
+                strList += (QString(hs_layer2_nodesList[i].
+                            trimmed()+","));
+            }
+            else
+            {
+                strList += (QString("{" + countries_map[hs_layer2_nodesList[i]].
+                            trimmed() + "},"));
+            }
+        }
+        else
+        {
+            if(hs_layer2_nodesList[i].trimmed().indexOf('.') > -1)
+            {
+                strList += (QString(hs_layer2_nodesList[i].
+                            trimmed()));
+            }
+            else
+            {
+                strList += (QString("{" + countries_map[hs_layer2_nodesList[i]].
+                            trimmed() + "}"));
+            }
+        }
+    }
+
+    for(int i=0; i<configfile_lines.count(); ++i)
+    {
+        if(configfile_lines[i].trimmed().indexOf("HSLayer2Nodes") == 0)
+        {
+            QString t("");
+            read_config_settings("HSLayer2Nodes",t);
+            if(strList.count())
+                configfile_lines[i] = "HSLayer2Nodes " ;
+            for(auto l : strList)
+            {
+                configfile_lines[i] += l;
+            }
+            strList.clear();
+            break;
+        }
+    }
+    QByteArray bytes;
+    if(strList.count())
+    {
+        bytes.clear();
+        bytes += "HSLayer2Nodes " ;
+        for(auto l : strList)
+        {
+           bytes += l;
+        }
+        configfile_lines.append(bytes+"\n");
+    }
+}
+
+
+//////////////////////////////////////
+void tor_config_options::update_exclude_exit_nodes(
+        QStringList excluded_exit_nodes)
 {
     decltype (excluded_exit_nodes) excluded_exitnodesList;
     for(int i=0; i< excluded_exit_nodes.count(); ++i)

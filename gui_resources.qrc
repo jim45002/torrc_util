@@ -8,4 +8,7 @@
         <file>geoip.txt</file>
         <file>TOR Node List.html</file>
     </qresource>
+    <qresource prefix="/images/icons">
+        <file>alert.png</file>
+    </qresource>
 </RCC>

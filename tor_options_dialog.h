@@ -52,6 +52,12 @@ public slots:
     virtual void on_button_movefrom_entry_clicked(bool);
     void country_list_widget_double_click(QListWidgetItem *);
     void tablewidget_undo_selected_pushbutton(bool);
+    void on_button_moveto_exclude_exits_clicked(bool);
+    void on_button_movefrom_exclude_exits_clicked(bool);
+    void on_button_moveto_hs_layer_clicked(bool);
+    void on_button_movefrom_hs_layer_clicked(bool);
+    void on_button_moveto_hs_layer_3_clicked(bool);
+    void on_button_movefrom_hs_layer_3_clicked(bool);
 private:
     Ui::Dialog_tor_options *ui;
     QList <QString> configfile_lines;

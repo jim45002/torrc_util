@@ -47,6 +47,7 @@ public slots:
     virtual bool get_boolean_option_setting(QString boolean_option);
     virtual int get_int_option_setting(QString int_option);
 
+    void update_exclude_exit_nodes(QStringList entry_nodes);
 private:
     Ui::Dialog_tor_options *ui;
     QList <QString> configfile_lines;

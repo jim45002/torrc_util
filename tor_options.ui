@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>Dialog_tor_options</class>
  <widget class="QDialog" name="Dialog_tor_options">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -435,6 +438,9 @@
               <property name="selectionMode">
                <enum>QAbstractItemView::MultiSelection</enum>
               </property>
+              <property name="selectionRectVisible">
+               <bool>true</bool>
+              </property>
              </widget>
             </item>
             <item>
@@ -491,7 +497,7 @@
                 <number>1</number>
                </property>
                <item>
-                <widget class="QPushButton" name="pushButton_moveto_excludes_2">
+                <widget class="QPushButton" name="pushButton_moveto_exclude_exits">
                  <property name="maximumSize">
                   <size>
                    <width>50</width>
@@ -504,7 +510,7 @@
                 </widget>
                </item>
                <item>
-                <widget class="QPushButton" name="pushButton_movefrom_excludes_2">
+                <widget class="QPushButton" name="pushButton_movefrom_exclude_exits">
                  <property name="maximumSize">
                   <size>
                    <width>50</width>
@@ -538,7 +544,7 @@
                 <number>1</number>
                </property>
                <item>
-                <widget class="QPushButton" name="pushButton_moveto_exits_2">
+                <widget class="QPushButton" name="pushButton_moveto_middle_layer_nodes">
                  <property name="maximumSize">
                   <size>
                    <width>50</width>
@@ -551,7 +557,7 @@
                 </widget>
                </item>
                <item>
-                <widget class="QPushButton" name="pushButton_movefrom_exits_2">
+                <widget class="QPushButton" name="pushButton_movefrom_middle_layer_nodes">
                  <property name="maximumSize">
                   <size>
                    <width>50</width>
@@ -585,7 +591,7 @@
                 <number>1</number>
                </property>
                <item>
-                <widget class="QPushButton" name="pushButton_moveto_entry_2">
+                <widget class="QPushButton" name="pushButton_moveto_hs_layer_3_nodes">
                  <property name="maximumSize">
                   <size>
                    <width>50</width>
@@ -598,7 +604,7 @@
                 </widget>
                </item>
                <item>
-                <widget class="QPushButton" name="pushButton_movefrom_entry_2">
+                <widget class="QPushButton" name="pushButton_movefrom_hs_layer_3_nodes">
                  <property name="maximumSize">
                   <size>
                    <width>50</width>
@@ -635,42 +641,63 @@
              <number>1</number>
             </property>
             <item>
-             <widget class="QLabel" name="label_8">
+             <widget class="QLabel" name="exclude_exits_label">
               <property name="text">
                <string>Excluded Exits</string>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QListWidget" name="excluded_nodes_3">
+             <widget class="QListWidget" name="listwidget_excluded_exit_nodes">
               <property name="selectionMode">
                <enum>QAbstractItemView::MultiSelection</enum>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="label_9">
+             <widget class="QLabel" name="hs_layer_2_nodes_label">
               <property name="text">
-               <string>Hidden Layers</string>
+               <string>HS Layer 2</string>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QListWidget" name="exit_nodes_3">
+             <widget class="QListWidget" name="listwidget_middle_layer_nodes">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="font">
+               <font>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="autoFillBackground">
+               <bool>false</bool>
+              </property>
               <property name="selectionMode">
                <enum>QAbstractItemView::MultiSelection</enum>
               </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLabel" name="label_10">
-              <property name="text">
-               <string>Others</string>
+              <property name="flow">
+               <enum>QListView::TopToBottom</enum>
+              </property>
+              <property name="viewMode">
+               <enum>QListView::ListMode</enum>
+              </property>
+              <property name="selectionRectVisible">
+               <bool>false</bool>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QListWidget" name="entry_nodes_3">
+             <widget class="QLabel" name="hs_layer_3_nodes_label">
+              <property name="text">
+               <string>HS Layer 3</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QListWidget" name="listwidget_hs_layer_3_nodes">
               <property name="selectionMode">
                <enum>QAbstractItemView::MultiSelection</enum>
               </property>

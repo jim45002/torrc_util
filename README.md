@@ -34,7 +34,7 @@ Only 2-letter country abbreviations and IPv4 node addresses are supported for no
 
 
 # Build Instructions
-This source code was built using the cmake build tool. Build instructions will be added to this README soon. If you want to build the source and need step-by-step instructions, contact teamplayer21@tutanota.com for help with building and using the application.
+This source code was built using the cmake build tool. Build instructions will be added to this README soon.
 
 
 

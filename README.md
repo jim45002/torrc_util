@@ -34,7 +34,9 @@ Only 2-letter country abbreviations and IPv4 node addresses are supported for no
 
 
 # Build Instructions
-This source code was built using the cmake build tool. Build instructions will be added to this README soon.
+This source code was built using the cmake build tool. How to build and usage instructions will be added to this repository soon.
+
+
 
 
 

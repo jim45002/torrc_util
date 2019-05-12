@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1095</width>
+    <width>1111</width>
     <height>484</height>
    </rect>
   </property>
@@ -147,25 +147,10 @@
       <item>
        <widget class="QWidget" name="widget_11" native="true">
         <layout class="QVBoxLayout" name="verticalLayout_7">
-         <property name="spacing">
-          <number>1</number>
-         </property>
-         <property name="leftMargin">
-          <number>1</number>
-         </property>
-         <property name="topMargin">
-          <number>1</number>
-         </property>
-         <property name="rightMargin">
-          <number>1</number>
-         </property>
-         <property name="bottomMargin">
-          <number>1</number>
-         </property>
          <item>
           <widget class="QGroupBox" name="node_flags_groupBox">
            <property name="title">
-            <string>Nodes Flags</string>
+            <string>Node Flags</string>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_8">
             <property name="spacing">

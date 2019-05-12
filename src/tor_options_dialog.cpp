@@ -151,7 +151,7 @@ void TorOptionsDialog::recv_node_list(QString, QStringList nodes)
 
     auto selected_node_flag = [this] () -> QChar
     {
-            //FGRSDVX
+////            //FGRSDVX
             QChar result = 'z';
             if(ui->f_radioButton->isChecked())
             {
@@ -192,6 +192,13 @@ void TorOptionsDialog::recv_node_list(QString, QStringList nodes)
             {
               result = 'x';
             }
+            else
+            if(ui->e_radioButton->isChecked())
+            {
+              result = 'e';
+            }
+
+
             return result;
     };
 
@@ -215,7 +222,7 @@ void TorOptionsDialog::recv_node_list(QString, QStringList nodes)
 
             if(!ui->all_radioButton->isChecked())
             {
-               if(fields[4].indexOf(flag) < 0)
+               if(fields[4].indexOf(flag.toUpper()) < 0)
                {
                    continue;
                }
@@ -236,7 +243,7 @@ void TorOptionsDialog::recv_node_list(QString, QStringList nodes)
                 //            }
                 //            item->setToolTip(tool_tip);
             }
-            qDebug() << "added " << fields[0];
+           // qDebug() << "added " << fields[0];
         }
     }
     ui->progressBar->hide();
@@ -260,7 +267,7 @@ void TorOptionsDialog::add_strings_to_listwidget(QListWidget* l,
 
 void TorOptionsDialog::recv_progress(float p)
 {
-    qDebug() << "progress value : " << p;
+  //  qDebug() << "progress value : " << p;
     ui->progressBar->setValue(p);
 }
 

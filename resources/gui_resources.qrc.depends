@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/buttonImages">
+        <file>darknet.png</file>
+    </qresource>
+    <qresource prefix="/data/geo">
+        <file>countryAbbrv.txt</file>
+        <file>countries_gps_data.txt</file>
+        <file>geoip.txt</file>
+        <file>TOR Node List.html</file>
+    </qresource>
+    <qresource prefix="/images/icons">
+        <file>alert.png</file>
+    </qresource>
+</RCC>

@@ -1,3 +1,7 @@
+.cmake
+CMakeFiles*
 *.user
 build-*
 build
+.autosave
+.cbp

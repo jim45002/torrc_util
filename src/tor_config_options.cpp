@@ -261,7 +261,6 @@ void tor_config_options::populate_country_list(QString config_setting,
                 }
                 excludelistwidget.append(ip_address.trimmed());
             }
-            qDebug() << "ip_address == " << ip_address;
 
         }
     }

@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.6)
-project(torrc_utility)
+project(torrc_util)
 
 # Find includes in corresponding build directories
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -54,5 +54,5 @@ set(torrc_utility_SOURCES "./src/main.cpp"
                           "./src/tor_options.ui"
                           ${RES_SOURCES})
 
-add_executable(torrc_utility ${torrc_utility_SOURCES})
-target_link_libraries(torrc_utility Qt5::Core Qt5::Gui Qt5::Widgets map_widget_factory)
+add_executable(torrc_util ${torrc_utility_SOURCES})
+target_link_libraries(torrc_util Qt5::Core Qt5::Gui Qt5::Widgets map_widget_factory)

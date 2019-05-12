@@ -148,6 +148,53 @@ void TorOptionsDialog::country_list_widget_double_click(QListWidgetItem* l)
 
 void TorOptionsDialog::recv_node_list(QString, QStringList nodes)
 {
+
+    auto selected_node_flag = [this] () -> QChar
+    {
+            //FGRSDVX
+            QChar result = 'z';
+            if(ui->f_radioButton->isChecked())
+            {
+               result = 'f';
+            }
+            else
+            if(ui->g_radioButton->isChecked())
+            {
+                 result = 'g';
+            }
+            else
+            if(ui->r_radioButton->isChecked())
+            {
+              result = 'r';
+            }
+            else
+            if(ui->s_radioButton->isChecked())
+            {
+              result = 's';
+            }
+            else
+            if(ui->d_radioButton->isChecked())
+            {
+              result = 'd';
+            }
+            else
+            if(ui->d_radioButton->isChecked())
+            {
+              result = 'd';
+            }
+            else
+            if(ui->v_radioButton->isChecked())
+            {
+              result = 'v';
+            }
+            else
+            if(ui->x_radioButton->isChecked())
+            {
+              result = 'x';
+            }
+            return result;
+    };
+
     if(nodes.count())
     {
         node_records_map.clear();
@@ -161,15 +208,26 @@ void TorOptionsDialog::recv_node_list(QString, QStringList nodes)
         hlabels << "IP Address" << "Node" << "Port" << " ? " << "Flags" << " ? "
                 << "Version" << "E-Mail";
         ui->node_list_table_widget->setHorizontalHeaderLabels(hlabels);
+        QChar flag = selected_node_flag();
         for(int dex=0; dex<nodes.count();++dex)
         {
             QStringList fields = nodes[dex].split("|");
+
+            if(!ui->all_radioButton->isChecked())
+            {
+               if(fields[4].indexOf(flag) < 0)
+               {
+                   continue;
+               }
+            }
+
             node_records_map[fields[0]] = nodes[dex];
             for(int col=0;col<fields.count();++col)
-            {
+            {                                
                 auto w = new QTableWidgetItem(fields[col]);
                 ui->node_list_table_widget->setItem(dex,col,w);
-                //            auto item = ui->node_list_table_widget->item(dex,col);
+                //            auto item = ui->node_list_table_widget->
+                //                            item(dex,col);
                 //            QString tool_tip;
                 //            tool_tip += c + "\n";
                 //            for(auto f : fields)
@@ -375,6 +433,8 @@ void TorOptionsDialog::tablewidget_undo_selected_pushbutton(bool)
 ///////////////////
 void TorOptionsDialog::on_button_moveto_hs_layer_3_clicked(bool)
 {
+    QString tooltip = (ui->table_widget_title_label->text().remove("Nodes: ")).
+                       trimmed();
     if(ui->node_list_table_widget->selectedItems().count())
     {
         auto selected = ui->node_list_table_widget->selectedItems();
@@ -386,6 +446,7 @@ void TorOptionsDialog::on_button_moveto_hs_layer_3_clicked(bool)
                                                              trimmed(),
                                              Qt::MatchExactly).count() == 0)
             {
+                item->setToolTip(tooltip);
                 ui->listwidget_hs_layer_3_nodes->addItem(item->text());
                 selected.clear();
             }
@@ -430,6 +491,8 @@ void TorOptionsDialog::on_button_movefrom_hs_layer_3_clicked(bool)
 ///////////////////
 void TorOptionsDialog::on_button_moveto_hs_layer_clicked(bool)
 {
+    QString tooltip = (ui->table_widget_title_label->text().remove("Nodes: ")).
+                       trimmed();
     if(ui->node_list_table_widget->selectedItems().count())
     {
         auto selected = ui->node_list_table_widget->selectedItems();
@@ -441,6 +504,7 @@ void TorOptionsDialog::on_button_moveto_hs_layer_clicked(bool)
                                                              trimmed(),
                                              Qt::MatchExactly).count() == 0)
             {
+                item->setToolTip(tooltip);
                 ui->listwidget_middle_layer_nodes->addItem(item->text());
                 selected.clear();
             }
@@ -485,6 +549,8 @@ void TorOptionsDialog::on_button_movefrom_hs_layer_clicked(bool)
 ///////////////////
 void TorOptionsDialog::on_button_moveto_exclude_exits_clicked(bool)
 {
+    QString tooltip = (ui->table_widget_title_label->text().remove("Nodes: ")).
+                       trimmed();
     if(ui->node_list_table_widget->selectedItems().count())
     {
         auto selected = ui->node_list_table_widget->selectedItems();
@@ -496,6 +562,7 @@ void TorOptionsDialog::on_button_moveto_exclude_exits_clicked(bool)
                                                              trimmed(),
                                              Qt::MatchExactly).count() == 0)
             {
+                item->setToolTip(tooltip);
                 ui->listwidget_excluded_exit_nodes->addItem(item->text());
                 selected.clear();
             }
@@ -539,6 +606,8 @@ void TorOptionsDialog::on_button_movefrom_exclude_exits_clicked(bool)
 ///////////////////
 void TorOptionsDialog::on_button_moveto_excludes_clicked(bool)
 {
+    QString tooltip = (ui->table_widget_title_label->text().remove("Nodes: ")).
+                       trimmed();
     if(ui->node_list_table_widget->selectedItems().count())
     {
         auto selected = ui->node_list_table_widget->selectedItems();
@@ -549,6 +618,7 @@ void TorOptionsDialog::on_button_moveto_excludes_clicked(bool)
             if(ui->excluded_nodes->findItems(item->text().trimmed(),
                                              Qt::MatchExactly).count() == 0)
             {
+                item->setToolTip(tooltip);
                 ui->excluded_nodes->addItem(item->text());
                 selected.clear();
             }
@@ -593,6 +663,8 @@ void TorOptionsDialog::on_button_movefrom_excludes_clicked(bool)
 /////////////////////
 void TorOptionsDialog::on_button_moveto_exits_clicked(bool)
 {
+    QString tooltip = (ui->table_widget_title_label->text().remove("Nodes: ")).
+                       trimmed();
     if(ui->node_list_table_widget->selectedItems().count())
     {
         auto selected = ui->node_list_table_widget->selectedItems();
@@ -603,6 +675,7 @@ void TorOptionsDialog::on_button_moveto_exits_clicked(bool)
             if(ui->exit_nodes->findItems(item->text().trimmed(),
                                          Qt::MatchExactly).count() == 0)
             {
+                item->setToolTip(tooltip);
                 ui->exit_nodes->addItem(item->text());
                 selected.clear();
             }
@@ -651,6 +724,8 @@ void TorOptionsDialog::on_button_movefrom_exits_clicked(bool)
 //////////////////////
 void TorOptionsDialog::on_button_moveto_entry_clicked(bool)
 {
+    QString tooltip = (ui->table_widget_title_label->text().remove("Nodes: ")).
+                       trimmed();
     if(ui->node_list_table_widget->selectedItems().count())
     {
         auto selected = ui->node_list_table_widget->selectedItems();
@@ -661,6 +736,7 @@ void TorOptionsDialog::on_button_moveto_entry_clicked(bool)
             if(ui->entry_nodes->findItems(item->text().trimmed(),
                                          Qt::MatchExactly).count() == 0)
             {
+                item->setToolTip(tooltip);
                 ui->entry_nodes->addItem(item->text());
                 selected.clear();
             }

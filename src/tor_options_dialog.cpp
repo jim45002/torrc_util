@@ -481,7 +481,7 @@ void TorOptionsDialog::on_button_movefrom_hs_layer_3_clicked(bool)
     auto selected = ui->listwidget_hs_layer_3_nodes->selectedItems();
     for(auto i : selected)
     {
-        if(i->text().indexOf('.') > -1)
+        if(i->text().indexOf('.') > -1 || i->text().indexOf(':') > -1 )
         {
 
         }
@@ -539,7 +539,7 @@ void TorOptionsDialog::on_button_movefrom_hs_layer_clicked(bool)
     auto selected = ui->listwidget_middle_layer_nodes->selectedItems();
     for(auto i : selected)
     {
-        if(i->text().indexOf('.') > -1)
+       if(i->text().indexOf('.') > -1 || i->text().indexOf(':') > -1 )
         {
 
         }
@@ -597,7 +597,7 @@ void TorOptionsDialog::on_button_movefrom_exclude_exits_clicked(bool)
     auto selected = ui->listwidget_excluded_exit_nodes->selectedItems();
     for(auto i : selected)
     {
-        if(i->text().indexOf('.') > -1)
+        if(i->text().indexOf('.') > -1 || i->text().indexOf(':') > -1 )
         {
 
         }
@@ -653,7 +653,7 @@ void TorOptionsDialog::on_button_movefrom_excludes_clicked(bool)
     auto selected = ui->excluded_nodes->selectedItems();
     for(auto i : selected)
     {
-        if(i->text().indexOf('.') > -1)
+        if(i->text().indexOf('.') > -1 || i->text().indexOf(':') > -1 )
         {
 
         }
@@ -714,14 +714,22 @@ void TorOptionsDialog::on_button_movefrom_exits_clicked(bool)
     auto selected = ui->exit_nodes->selectedItems();
     for(auto i : selected)
     {
-        if(i->text().indexOf('.') > -1)
+        if(i->text().indexOf('.') > -1 || i->text().indexOf(':') > -1 )
         {
 
         }
         else
         {
+          int colon_offset = i->text().indexOf(QString(":"));
+          if(colon_offset < 0)
+          {
             ui->countrylistWidget->addItem(i->text());
             ui->countrylistWidget->sortItems();
+          }
+          else
+          {
+
+          }
         }
         delete i;
     }
@@ -773,7 +781,7 @@ void TorOptionsDialog::on_button_movefrom_entry_clicked(bool)
     auto selected = ui->entry_nodes->selectedItems();
     for(auto i : selected)
     {
-        if(i->text().indexOf('.') > -1)
+        if(i->text().indexOf('.') > -1 || i->text().indexOf(':') > -1 )
         {
 
         }

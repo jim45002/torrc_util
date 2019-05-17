@@ -808,7 +808,6 @@ void TorOptionsDialog::on_button_movefrom_entry_clicked(bool)
 void TorOptionsDialog::
 ListWidgetStrings2QStringsList(QListWidget* l, QStringList& s)
 {
-   l->selectedItems();
    for(int i=0; i<l->count();++i)
    {
        s.append(l->item(i)->text());
@@ -827,6 +826,10 @@ void TorOptionsDialog::on_pushbutton_ok_clicked(bool)
          emit update_excludenodes(list_items);
          list_items.clear();
      }
+     else
+     {
+         emit update_excludenodes(list_items);
+     }
 
      if(ui->exit_nodes->count())
      {
@@ -834,6 +837,10 @@ void TorOptionsDialog::on_pushbutton_ok_clicked(bool)
                     ui->exit_nodes,list_items);
         emit update_exitnodes(list_items);
         list_items.clear();
+     }
+     else
+     {
+        emit update_exitnodes(list_items);
      }
 
      if(ui->entry_nodes->count())
@@ -843,6 +850,10 @@ void TorOptionsDialog::on_pushbutton_ok_clicked(bool)
          emit update_entrynodes(list_items);
          list_items.clear();
      }
+     else
+     {
+         emit update_entrynodes(list_items);
+     }
 
      if(ui->listwidget_excluded_exit_nodes->count())
      {
@@ -850,6 +861,10 @@ void TorOptionsDialog::on_pushbutton_ok_clicked(bool)
                                         list_items);
          emit update_excluded_exit_nodes(list_items);
          list_items.clear();
+     }
+     else
+     {
+         emit update_excluded_exit_nodes(list_items);
      }
 
      if(ui->listwidget_middle_layer_nodes->count())
@@ -859,6 +874,10 @@ void TorOptionsDialog::on_pushbutton_ok_clicked(bool)
          emit update_hslayer2_nodes(list_items);
          list_items.clear();
      }
+     else
+     {
+         emit update_hslayer2_nodes(list_items);
+     }
 
      if(ui->listwidget_hs_layer_3_nodes->count())
      {
@@ -866,6 +885,10 @@ void TorOptionsDialog::on_pushbutton_ok_clicked(bool)
                                         list_items);
          emit update_hslayer3_nodes(list_items);
          list_items.clear();
+     }
+     else
+     {
+         emit update_hslayer3_nodes(list_items);
      }
 
      if(ui->checkBox_enforce_subnets->isChecked())

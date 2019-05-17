@@ -53,7 +53,6 @@ void node_lookup::download_nodelist()
                     {
                         f.copy(QString("./TOR Node List.html"));
                         r=true;
-                        remove_nodelist_files();
                     }
                 }
             }
@@ -109,6 +108,7 @@ void node_lookup::get_node_list(QString country_abbrv,
             }
             else
             {
+                remove_nodelist_files();
                 b = f.readAll();
                 parseNodeList(b,nodes,country_abbrv,make_country_file);
             }
@@ -283,6 +283,7 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
              if(iter != ipv6_address_map.end())
              {
                 r=true;
+                nodeStrList[i] += "\n";
                 if(make_country_file)
                 {
                     QFile country_node_file(QString("./")+

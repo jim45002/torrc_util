@@ -34,7 +34,6 @@ tor_config_options::~tor_config_options()
 
 void tor_config_options::save_to_configfile()
 {
-    qDebug() << "configfile_lines == " << configfile_lines;
     bool result = false;
     QByteArray bytes;
     std::shared_ptr<QFile> loadFile = std::make_shared<QFile>(filename);
@@ -840,7 +839,6 @@ void tor_config_options::update_exitnodes(QStringList exit_nodes)
 
    QStringList strExitList;
    int exits_cnt = exitList.count();
-   qDebug() << "exit list has " << exits_cnt << " items";
    for(int i=0; i<exits_cnt; ++i)
    {
      if((i+1) < exits_cnt)
@@ -937,7 +935,6 @@ void tor_config_options::update_useguards(QString val, QString num)
         bytes += "UseEntryGuards " + val;
         configfile_lines.append(bytes+"\n");
     }
-    qDebug() << "line added " << bytes;
 
     /////////////////////////////////
     //
@@ -962,7 +959,6 @@ void tor_config_options::update_useguards(QString val, QString num)
         bytes += "NumEntryGuards " + num;
         configfile_lines.append(bytes+"\n");
     }
-    qDebug() << "line added " << bytes;
 }
 
 ///////////////

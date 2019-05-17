@@ -34,7 +34,7 @@ Only 2-letter country abbreviations, IPv4 and IPv6 node addresses are supported 
 
 
 # Build Instructions
-This source code was built using the cmake build tool. The instrutions below may also work on Debian. As with any software application, there will be bugs in the source code. Please send any issues you find with the application, or any questions you have, to the Bitmessage address BM-2cWzE6TNpMDuaA9ZcLubBfxderyTsnKQ8n or email hotmethods@protonmail.com with any questions. If you have problems with the build instruction please send the details to the previous mentioned email addresses.
+This source code was built on Ubuntu 16 LTS, using the cmake build tool. The instrutions below may also work on Debian. As with any software application, there will be bugs in the source code. Please send any issues you find with the application, or any questions you have, to the Bitmessage address BM-2cWzE6TNpMDuaA9ZcLubBfxderyTsnKQ8n or email hotmethods@protonmail.com with any questions. If you have problems with the build instruction please send the details to the previous mentioned email addresses.
 
 To build torrc_util on Ubuntu Linux install you'll need Qt5 library, MarbleWigdet library, and Curl commmand-line utility:
 

@@ -65,6 +65,7 @@ private:
     QMap<QString,QString> countries_map;
     QMap<QString,QString> node_records_map;
     QString filename;
+    QString last_country_item_clicked;
     QStringList country_str_list;
     QByteArray exclude_nodes_options;
     QByteArray exit_nodes_options;

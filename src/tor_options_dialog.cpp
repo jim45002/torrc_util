@@ -140,6 +140,7 @@ void TorOptionsDialog::country_list_widget_double_click(QListWidgetItem* l)
 
   if(nodelist_mutex->tryLock())
   {
+    last_country_item_clicked = l->text().trimmed();
     emit request_node_list(abbrv,QStringList(),
                          ui->build_country_files_checkBox->isChecked());
     ui->progressBar->show();
@@ -148,6 +149,14 @@ void TorOptionsDialog::country_list_widget_double_click(QListWidgetItem* l)
 
 void TorOptionsDialog::recv_node_list(QString, QStringList nodes)
 {
+    QString tmp;
+    tmp = QString("Nodes: ") + last_country_item_clicked;
+    int len = tmp.length();
+    QString text = tmp + QString(len<32?64-len:0,' ');
+    ui->table_widget_title_label->setText(text);
+    ui->table_widget_title_label->setToolTip(last_country_item_clicked);
+
+    ui->build_country_files_checkBox->setChecked(false);
 
     auto selected_node_flag = [this] () -> QChar
     {

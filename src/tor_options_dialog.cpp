@@ -32,6 +32,7 @@ TorOptionsDialog::TorOptionsDialog(QWidget* parent)
    nodelist_mutex = std::make_shared<QMutex>();
 
    mwfi = map_widget_factory::create(this);
+   mwfi->map_enable_scibble(false);
    auto l = new QHBoxLayout;
    ui->map_widget->setLayout(l);
    l->addWidget(mwfi->map_dispaly_widget());

@@ -38,14 +38,16 @@ This source code was built using the cmake build tool. The instrutions below may
 
 To build torrc_util on Ubuntu Linux install you'll need Qt5, MarbleWigdet, and Curl:
 
-<b>Qt5</b>: To install Qt5 go to https://www.qt.io/download and follow the download instructions
+<b>Qt5</b>: To install Qt5 go to https://www.qt.io/download and follow the download instructions. Extract the zipped file and make sure cmake points to it's cmake libs,  usually (Qt5.x.x/5.x.x/gcc_64/lib/cmake/the-qt-library) in the extracted download.
 
 <b>MarbleWidget</b>: Marble can be downloaded at https://github.com/KDE/marble (note: Marble depends on Qt5, make sure the Marble CMakeLists.txt points to your downloaded Qt5) Cmake will give an error if it's not able to find the Qt5 libs. You'll probably need to specify the location in your CMake file. The easiest way to do this is by using cmake-gui tool. Cmake-gui can be installed on Ubuntu at the command line using 'sudo apt install cmake-gui', use cmake-gui just as cmake is used.  
 
 <b>Curl</b>: Curl comes with the default Ubuntu installation. It can be installed at the command line using 'sudo apt install curl'
 
 
-<b>torrc_util</b>: Torrc_util uses the cmake build tool. The easist way to build it is by using the cmake-gui tool mentioed above. If Marble widget or Qt5 isn't picked up in your system paths, cmake-gui will allow you to set these paths in the gui. Curl should already be in the system path, you can verfy this by typing '/usr/bin/curl --version' at the command line and pressing enter.
+<b>torrc_util</b>: Torrc_util uses the cmake build tool. The easist way to build it is by using the cmake-gui tool mentioned above. If Marble widget or Qt5 isn't picked up in your system paths, cmake-gui will allow you to set these paths in the gui. Curl should already be in the system path, you can verfy this by typing '/usr/bin/curl --version' at the command line and pressing enter.
+
+<b>map_widget_factory</b> Map_widget_fatory is a library that under the torrc_util project directory. Map_widget_factory is under the libs directory, it depends on MarbleWidget. Use the cmake, or cmake-gui tool to build. After building the library go to the the build directory and do 'sudo make install' to install the library into your path where torrc_util can find it.  
 
 
 If you find that these instruction are incomplete please feel free to contact the email or bitmessage address above.

@@ -30,11 +30,28 @@ Torrc options supported are:
 </ul>
 
 
-Only 2-letter country abbreviations and IPv4 node addresses are supported for node identities. See https://2019.www.torproject.org/docs/tor-manual.html.en for complete descritpion of these options.
+Only 2-letter country abbreviations, IPv4 and IPv6 node addresses are supported for node identities. See https://2019.www.torproject.org/docs/tor-manual.html.en for complete descritpion of these options.
 
 
 # Build Instructions
-This source code was built using the cmake build tool. How to build and usage instructions will be added to this repository soon. If you would like to build and run the application and have questions contact the Bitmessage address BM-2cWzE6TNpMDuaA9ZcLubBfxderyTsnKQ8n or email hotmethods@protonmail.com with any questions. This is a new repository so, please be patient.
+This source code was built using the cmake build tool. The instrutions below may also work on Debian. If you have questions contact the Bitmessage address BM-2cWzE6TNpMDuaA9ZcLubBfxderyTsnKQ8n or email hotmethods@protonmail.com with any questions. 
+
+To build torrc_util on Ubuntu Linux install you'll need Qt5, MarbleWigdet, and Curl:
+
+<b>Qt5</b>: To install Qt5 go to https://www.qt.io/download and follow the download instructions
+
+<b>MarbleWidget</b>: Marble can be downloaded at https://github.com/KDE/marble (note: Marble depends on Qt5, make sure the Marble CMakeLists.txt points to your downloaded Qt5) Cmake will give an error if it's not able to find the Qt5 libs. You'll probably need to specify the location in your CMake file. The easiest way to do this is by using cmake-gui tool. Cmake-gui can be installed on Ubuntu at the command line using 'sudo apt install cmake-gui', use cmake-gui just as cmake is used.  
+
+<b>Curl</b>: Curl comes with the default Ubuntu installation. It can be installed at the command line using 'sudo apt install curl'
+
+
+<b>torrc_util</b>: Torrc_util uses the cmake build tool. The easist way to build it is by using the cmake-gui tool mentioed above. If Marble widget or Qt5 isn't picked up in your system paths, cmake-gui will allow you to set these paths in the gui. Curl should already be in the system path, you can verfy this by typing '/usr/bin/curl --version' at the command line and pressing enter.
+
+
+If you find that these instruction are incomplete please feel free to contact the email or bitmessage address above.
+
+
+
 
 
 

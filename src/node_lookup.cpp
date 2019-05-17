@@ -195,40 +195,40 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
         QStringList fields;
         for(auto rec : geo_ipv6_records)
         {
-           fields = rec.split(',');
-           auto f0 = fields[0].split(':');
+            fields = rec.split(',');
+            auto f0 = fields[0].split(':');
 
-           for(int i=0;i<f0.size();++i)
-           {
-           // qDebug() << "before normalized field is " << f0[i];
+            for(int i=0;i<f0.size();++i)
+            {
+                // qDebug() << "before normalized field is " << f0[i];
 
-             while(f0[i].size()<4)
-             {
-                if(f0[i].size() == 0)
+                while(f0[i].size()<4)
                 {
-                  f0.removeAt(i);
-                  i=0;
-                  break;
+                    if(f0[i].size() == 0)
+                    {
+                        f0.removeAt(i);
+                        i=0;
+                        break;
+                    }
+                    else
+                    {
+                        f0[i].push_front(QString("0"));
+                    }
                 }
-                else
-                {
-                  f0[i].push_front(QString("0"));
-                }
-             }
-            // qDebug() << "normalized field is " << f0[i];
-           }
+                // qDebug() << "normalized field is " << f0[i];
+            }
 
-           QString normal_field = f0.join(':');
-           if(fields.size() == 3)
-           {
-             ipv6_address_map[normal_field.trimmed()] = fields[2].trimmed();
+            QString normal_field = f0.join(':');
+            if(fields.size() == 3)
+            {
+                ipv6_address_map[normal_field.trimmed()] = fields[2].trimmed();
 
 
-//             qDebug() << "ipv6_address_map: added "
-//                    << normal_field
-//                    << " value "
-//                    << fields[2];
-           }
+                //             qDebug() << "ipv6_address_map: added "
+                //                    << normal_field
+                //                    << " value "
+                //                    << fields[2];
+            }
         }
         qDebug() << "map size is " << ipv6_address_map.size();
     }
@@ -285,47 +285,47 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
         //////////////////////////
         auto ipv6_is_in_region = [&] () -> bool
         {
-            const int num_strings = node_record_ip_fields.count();
-            int d_count = 4;
-            bool r=false;
-            for(int index=0;index<num_strings;++index)
+                const int num_strings = node_record_ip_fields.count();
+                int d_count = 4;
+                bool r=false;
+                for(int index=0;index<num_strings;++index)
+        {
+            QString tmp =
+                    add_first_num_strings(node_record_ip_fields,d_count);
+            //              qDebug() << "looking for "
+            //                       << tmp;
+            auto iter=ipv6_address_map.find(tmp);
+            if(iter != ipv6_address_map.end())
             {
-              QString tmp =
-                      add_first_num_strings(node_record_ip_fields,d_count);
-//              qDebug() << "looking for "
-//                       << tmp;
-              auto iter=ipv6_address_map.find(tmp);
-              if(iter != ipv6_address_map.end())
-              {
-                  qDebug() << "found "  << *iter;
-                  r=true;
-                  if(make_country_file)
-                  {
-                      QFile country_node_file(QString("./")+
-                                              iter->trimmed()+".txt");
-                      country_node_file.open(QIODevice::Append);
-                      country_node_file.write(nodeStrList[i].
-                                              toStdString().c_str());
-                      country_node_file.close();
-                  }
-                  else
-                  {
-                      // qDebug() << "not creating country node file";
-                  }
-                  if(iter->trimmed() == country_abbrv.trimmed())
-                      strl += nodeStrList[i];
-                  break;
-              }
-              --d_count;
-              if(d_count<2)
-                  break;
+                qDebug() << "found "  << *iter;
+                r=true;
+                if(make_country_file)
+                {
+                    QFile country_node_file(QString("./")+
+                                            iter->trimmed()+".txt");
+                    country_node_file.open(QIODevice::Append);
+                    country_node_file.write(nodeStrList[i].
+                                            toStdString().c_str());
+                    country_node_file.close();
+                }
+                else
+                {
+                    // qDebug() << "not creating country node file";
+                }
+                if(iter->trimmed() == country_abbrv.trimmed())
+                    strl += nodeStrList[i];
+                break;
             }
-            return r;
-        };
+            --d_count;
+            if(d_count<2)
+                break;
+        }
+        return r;
+    };
 
-         ///////////////////////////////
-         auto do_ipv6_ranges = [&] () -> void
-         {
+    ///////////////////////////////
+    auto do_ipv6_ranges = [&] () -> void
+    {
 
             bool is_in_region = ipv6_is_in_region();
             qDebug() << "is_in_region returned " << is_in_region;
@@ -335,72 +335,72 @@ QStringList node_lookup::parseNodeList(QByteArray& b,
             //qDebug() << " progress == " << progress;
             percent_to_int = progress;
             emit send_progress(percent_to_int);
-        };
+};
 
-         //////////////////////////////
-         auto do_ipv4_ranges = [&] () -> void
-         {
+    //////////////////////////////
+    auto do_ipv4_ranges = [&] () -> void
+    {
             long long intip=iptoint(node_record_ip_fields[0].toInt(),
-                    node_record_ip_fields[1].toInt(),
-                    node_record_ip_fields[2].toInt(),
-                    node_record_ip_fields[3].toInt());
+            node_record_ip_fields[1].toInt(),
+            node_record_ip_fields[2].toInt(),
+            node_record_ip_fields[3].toInt());
 
-            int v4_count=geo_records.count();
-            for(int record_index=0; record_index < v4_count; ++record_index)
+    int v4_count=geo_records.count();
+    for(int record_index=0; record_index < v4_count; ++record_index)
+    {
+        QStringList ipRanges = geo_records[record_index].split(",");
+
+        // qDebug() <<"comparing region : " <<ipRanges;
+
+        if(ipRanges.count() != 3)
+            continue;
+
+        bool is_in_region =
+                (intip >= ipRanges[0].toLongLong() &&
+                intip <= ipRanges[1].toLongLong() &&
+                ipRanges[2].trimmed().length());
+
+        if(is_in_region)
+        {
+            nodeStrList[i] += "\n";
+            if(make_country_file)
             {
-                QStringList ipRanges = geo_records[record_index].split(",");
-
-                // qDebug() <<"comparing region : " <<ipRanges;
-
-               if(ipRanges.count() != 3)
-                    continue;
-
-               bool is_in_region =
-                        (intip >= ipRanges[0].toLongLong() &&
-                        intip <= ipRanges[1].toLongLong() &&
-                        ipRanges[2].trimmed().length());
-
-                if(is_in_region)
-                {
-                    nodeStrList[i] += "\n";
-                    if(make_country_file)
-                    {
-                        QFile country_node_file(QString("./")+
-                                                ipRanges[2].trimmed()+".txt");
-                        country_node_file.open(QIODevice::Append);
-                        country_node_file.write(nodeStrList[i].
-                                                toStdString().c_str());
-                        country_node_file.close();
-                    }
-                    else
-                    {
-                        // qDebug() << "not creating country node file";
-                    }
-                    if(ipRanges[2].trimmed() == country_abbrv.trimmed())
-                        strl += nodeStrList[i];
-
-                    // qDebug() <<"found " << ipRanges[2].trimmed()
-                    //          << " node : " << node_record_str[0];
-                    break;
-                }
+                QFile country_node_file(QString("./")+
+                                        ipRanges[2].trimmed()+".txt");
+                country_node_file.open(QIODevice::Append);
+                country_node_file.write(nodeStrList[i].
+                                        toStdString().c_str());
+                country_node_file.close();
             }
-            progress = float(i)/node_count;
-            progress *= 100;
-            //qDebug() << " progress == " << progress;
-            percent_to_int = progress;
-            emit send_progress(percent_to_int);
-        };
+            else
+            {
+                // qDebug() << "not creating country node file";
+            }
+            if(ipRanges[2].trimmed() == country_abbrv.trimmed())
+                strl += nodeStrList[i];
 
-        if(is_ipv6)
-        {
-           do_ipv6_ranges();
-        }
-        else
-        {
-           do_ipv4_ranges();
+            // qDebug() <<"found " << ipRanges[2].trimmed()
+            //          << " node : " << node_record_str[0];
+            break;
         }
     }
-    return strl;
+    progress = float(i)/node_count;
+    progress *= 100;
+    //qDebug() << " progress == " << progress;
+    percent_to_int = progress;
+    emit send_progress(percent_to_int);
+};
+
+if(is_ipv6)
+{
+    do_ipv6_ranges();
+}
+else
+{
+do_ipv4_ranges();
+}
+}
+return strl;
 }
 
 

@@ -34,13 +34,13 @@ Only 2-letter country abbreviations, IPv4 and IPv6 node addresses are supported 
 
 
 # Build Instructions
-This source code was built using the cmake build tool. The instrutions below may also work on Debian. If you have questions contact the Bitmessage address BM-2cWzE6TNpMDuaA9ZcLubBfxderyTsnKQ8n or email hotmethods@protonmail.com with any questions. 
+This source code was built using the cmake build tool. The instrutions below may also work on Debian. As with any software application, there will be bugs in the source code. Please send any issues you find with the application, or any questions you have, to the Bitmessage address BM-2cWzE6TNpMDuaA9ZcLubBfxderyTsnKQ8n or email hotmethods@protonmail.com with any questions. If you have problems with the build instruction please send the details to the previous mentioned email addresses.
 
-To build torrc_util on Ubuntu Linux install you'll need Qt5, MarbleWigdet, and Curl:
+To build torrc_util on Ubuntu Linux install you'll need Qt5 library, MarbleWigdet library, and Curl commmand-line utility:
 
 <b>Qt5</b>: To install Qt5 go to https://www.qt.io/download and follow the download instructions. Extract the zipped file and make sure cmake points to it's cmake libs,  usually (Qt5.x.x/5.x.x/gcc_64/lib/cmake/the-qt-library) in the extracted download.
 
-<b>MarbleWidget</b>: Marble can be downloaded at https://github.com/KDE/marble (note: Marble depends on Qt5, make sure the Marble CMakeLists.txt points to your downloaded Qt5) Cmake will give an error if it's not able to find the Qt5 libs. You'll probably need to specify the location in your CMake file. The easiest way to do this is by using cmake-gui tool. Cmake-gui can be installed on Ubuntu at the command line using 'sudo apt install cmake-gui', use cmake-gui just as cmake is used.  
+<b>MarbleWidget</b>: Marble can be downloaded at 'https://github.com/KDE/marble', you'll need to build the source code and install it. To build the source, extract the zipped file cd into the directory created by the extracted zipped file, create a directory called build or whatever name you choose, cd into that directory, at the command-line type cmake-gui ../ or cmake ../ if there are any path issues cmake will report the errors. It's best to use cmake-gui to fix the path errors (note: Marble depends on Qt5, make sure the Marble CMakeLists.txt points to your downloaded Qt5), click the items in list to find the library paths that weren't found.  Cmake will give an error if it's not able to find the Qt5 libs. You'll probably need to specify the location in your cmake file. The easiest way to do this is by using cmake-gui tool. Cmake-gui can be installed on Ubuntu at the command line using 'sudo apt install cmake-gui', use cmake-gui just as cmake is used.  
 
 <b>Curl</b>: Curl comes with the default Ubuntu installation. It can be installed at the command line using 'sudo apt install curl'
 

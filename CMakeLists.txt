@@ -56,3 +56,7 @@ set(torrc_utility_SOURCES "./src/main.cpp"
 
 add_executable(torrc_util ${torrc_utility_SOURCES})
 target_link_libraries(torrc_util Qt5::Core Qt5::Gui Qt5::Widgets map_widget_factory)
+
+include(GNUInstallDirs)
+
+INSTALL(TARGETS torrc_util RUNTIME DESTINATION /usr/local/bin)
